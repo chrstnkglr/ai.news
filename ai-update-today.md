@@ -1,61 +1,61 @@
-# AI Update vom 13. Mai 2026
+# AI Update vom 14. Mai 2026
 
 ## tl;dr
 
-Enterprise-KI verschiebt sich weiter von Pilotprojekten in produktionsnahe Workflows: Codex-Einsätze bei AutoScout24 und neue Rechts-, Voice- und Video-KI-Angebote zeigen, dass Fachprozesse stärker automatisiert werden. Gleichzeitig steigt der Governance-Druck, insbesondere bei agentischen Systemen, Software-Lieferketten, sensiblen Gesundheitsdaten und Energieinfrastruktur für KI-Rechenzentren. Für IT Business Relationship Manager sind vor allem drei Muster relevant: KI wird zunehmend in bestehende Prozessketten eingebettet, Anbieter differenzieren sich über spezialisierte Modelle und Plattformen, und Kontrollmechanismen müssen enger an Identitäten, Datenzugriffe und Betriebsrisiken gekoppelt werden.
+Die relevantesten quellenvalidierten Meldungen der letzten 24 Stunden drehen sich um Enterprise-Agenten, Kostenkontrolle und belastbare Governance. Notion positioniert seinen Workspace als Agenten- und Workflow-Hub, was für BRM-Rollen vor allem bei Tool-Konsolidierung und Integrationsarchitektur relevant ist. Neue Microsoft-Forschung zeigt, dass Frontier-Modelle in mehrstufigen Dokument-Workflows Inhalte nicht nur löschen, sondern subtil verfälschen können. Anthropic gewinnt laut Ramp-Daten erstmals mehr zahlende Geschäftskunden als OpenAI, steht aber unter Druck durch Compute-Kosten, Limits und günstigere Alternativen. Im Legal-Segment baut Anthropic Claude mit spezialisierten Konnektoren und Plugins weiter vertikal aus. Microsoft zeigt anhand industrieller Kundenbeispiele, wie AI in Fertigung, Finanzsteuerung und Digital Twins operativ eingesetzt wird. Amazon ersetzt Rufus durch einen stärker personalisierten Alexa-Shopping-Assistenten und verschiebt damit E-Commerce weiter in Richtung agentischer Einkaufsautomatisierung. Hinweis: Die lokale Dublettenprüfung gegen vorhandene Markdown-Dateien konnte wegen einer blockierten Shell-Sandbox nicht durchgeführt werden.
 
-## AutoScout24 scales engineering with AI-powered workflows
+## Notion just turned its workspace into a hub for AI agents (Notion macht seinen Workspace zum Hub für KI-Agenten)
 
-**Autor:** OpenAI  
-**Quelle:** [OpenAI](https://openai.com/index/autoscout24)  
-**Veröffentlichung:** 12. Mai 2026
+Autor: Sarah Perez  
+Quelle: [TechCrunch](https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/)  
+Datum der Veröffentlichung: 13. Mai 2026, 14:45 PDT
 
-OpenAI beschreibt, wie AutoScout24 Codex und ChatGPT in Engineering- und Produktentwicklungsprozesse integriert. Der Bericht nennt rund 2.000 mit KI-Tools ausgestattete Mitarbeitende, etwa 1.000 Builder-Rollen mit Codex-Nutzung und bis zu zehnmal schnellere Entwicklungszyklen. Für Enterprise-IT ist weniger die reine Produktivitätszahl entscheidend als das Betriebsmodell: KI-Assistenz wird als Skalierungshebel für Software Delivery positioniert, nicht nur als individueller Entwickler-Booster. IT BRMs sollten solche Initiativen an messbare Delivery-Kennzahlen, Code-Qualität, Review-Prozesse und klare Verantwortlichkeiten in der Softwareentwicklung koppeln.
+Notion erweitert seine Plattform um eine Developer Platform, Workers für eigenen Code, Datenbank-Synchronisierung aus externen Systemen und eine API für externe Agenten. Unterstützt werden zum Start unter anderem Claude Code, Cursor, Codex und Decagon. Für Enterprise-Organisationen ist das strategisch relevant, weil Notion damit von einer Produktivitäts-App in Richtung Orchestrierungs- und Integrationsschicht für Agentenarbeit rückt. BRMs sollten prüfen, ob dadurch neue Schattenautomatisierung entsteht oder ob sich Notion kontrolliert als Workflow-Schicht in bestehende Governance-, IAM- und Datenarchitektur einbinden lässt.
 
-## Perceptron Mk1 shocks with highly performant video analysis AI model 80-90% cheaper than Anthropic, OpenAI & Google
+## Frontier AI models don't just delete document content — they rewrite it, and the errors are nearly impossible to catch (Frontier-Modelle verändern Dokumentinhalte subtil)
 
-**Autor:** Carl Franzen  
-**Quelle:** [VentureBeat](https://venturebeat.com/technology/perceptron-mk1-shocks-with-highly-performant-video-analysis-ai-model-80-90-cheaper-than-anthropic-openai-and-google)  
-**Veröffentlichung:** 12. Mai 2026
+Autor: Ben Dickson  
+Quelle: [VentureBeat](https://venturebeat.com/orchestration/frontier-ai-models-dont-just-delete-document-content-they-rewrite-it-and-the-errors-are-nearly-impossible-to-catch)  
+Datum der Veröffentlichung: 13. Mai 2026, 13:10 PT
 
-Perceptron hat mit Mk1 ein spezialisiertes Video-Reasoning-Modell vorgestellt, das laut VentureBeat deutlich günstiger als führende proprietäre Modelle positioniert wird. Der Fokus liegt auf zeitlichem Verständnis, räumlicher Analyse und physikalischem Reasoning, etwa für Fertigung, Security, Robotik, Qualitätssicherung oder Sport- und Medienanalyse. Für Unternehmen ist relevant, dass vertikale multimodale Modelle zunehmend eine Alternative zu allgemeinen Frontier-Modellen werden können. Bei Beschaffung und Architektur sollte daher nicht nur Modellqualität, sondern auch Latenz, Kosten pro Nutzungsfall, Edge-Fähigkeit und Integrationsaufwand bewertet werden.
+VentureBeat berichtet über eine Microsoft-Studie zu mehrstufig delegierten Wissensarbeits-Workflows. Der neue Benchmark DELEGATE-52 testet 19 Modelle in 52 professionellen Domänen; selbst führende Modelle korrumpieren nach mehreren Bearbeitungsrunden im Schnitt relevante Dokumentinhalte. Besonders kritisch: Leistungsfähigere Modelle hinterlassen oft plausibel wirkende, aber sachlich verfälschte Inhalte, was manuelle Endkontrollen erschwert. Für Enterprise-BRMs ist die zentrale Konsequenz, agentische Dokument- und Wissensprozesse nicht nur am Endergebnis zu prüfen, sondern mit Zwischenkontrollen, versionssicherer Nachvollziehbarkeit und domänenspezifischen Tools abzusichern.
 
-## The AI legal services industry is heating up — Anthropic is getting in on the action
+## Anthropic finally beat OpenAI in business AI adoption — but 3 big threats could erase its lead (Anthropic überholt OpenAI bei Geschäftskundenadoption)
 
-**Autor:** Lucas Ropek  
-**Quelle:** [TechCrunch](https://techcrunch.com/2026/05/12/the-ai-legal-services-industry-is-heating-up-anthropic-is-getting-in-on-the-action/)  
-**Veröffentlichung:** 12. Mai 2026
+Autor: Michael Nuñez  
+Quelle: [VentureBeat](https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead)  
+Datum der Veröffentlichung: 13. Mai 2026, 14:53 PT
 
-Anthropic erweitert Claude for Legal um Plug-ins und MCP-Connectoren für juristische Arbeitsabläufe wie Dokumentensuche, Review, Drafting, Deposition Prep und Zugriff auf Systeme wie Box, Docusign oder Thomson Reuters Westlaw. Damit rücken LLMs tiefer in regulierte Wissensarbeit vor, in der Quellenqualität, Zugriffskontrolle und Nachvollziehbarkeit besonders kritisch sind. Für IT BRMs in Rechts-, Compliance- oder Governance-Funktionen ist dies ein Signal, Integrations- und Berechtigungsmodelle früh mit Legal Operations, Datenschutz und Records Management abzustimmen.
+Laut Ramp AI Index zahlen erstmals mehr US-Unternehmen für Anthropic als für OpenAI: Anthropic kommt auf 34,4 Prozent, OpenAI auf 32,3 Prozent der teilnehmenden Unternehmen. Der Anstieg wird vor allem mit Claude Code und technisch frühen Nutzergruppen in Software, Finance und Professional Services verbunden. Gleichzeitig beschreibt der Artikel Risiken durch hohe Token-Kosten, Compute-Engpässe, Nutzungslimits und günstigere Open-Source- beziehungsweise Codex-Alternativen. Für BRMs ist das ein Signal, AI-Sourcing nicht als Ein-Anbieter-Strategie zu behandeln, sondern Kostenmodelle, Wechselbarkeit und Workload-Routing aktiv zu steuern.
 
-## AI voice startup Vapi hits $500M valuation after winning Amazon Ring over 40 rivals
+## Anthropic Further Targets Legal With New Connectors (Anthropic zielt mit neuen Konnektoren stärker auf Legal)
 
-**Autor:** Jagmeet Singh  
-**Quelle:** [TechCrunch](https://techcrunch.com/2026/05/12/vapi-hits-500m-valuation-as-amazon-ring-chose-its-ai-platform-over-40-rivals/)  
-**Veröffentlichung:** 12. Mai 2026
+Autor: Esther Shittu  
+Quelle: [AI Business](https://aibusiness.com/generative-ai/anthropic-further-targets-legal-new-connectors)  
+Datum der Veröffentlichung: 13. Mai 2026
 
-Vapi hat laut TechCrunch nach einer Series-B-Finanzierung eine Bewertung von rund 500 Millionen US-Dollar erreicht; Amazon Ring nutzt die Plattform für eingehende Kundensupport-Anrufe. Der Artikel zeigt, dass Voice Agents im Contact-Center-Umfeld von experimentellen Bots zu produktionsrelevanter Infrastruktur werden. Für Enterprise-Entscheider sind Steuerbarkeit, Latenz, Eskalationslogik, Monitoring und Qualitätssicherung wichtiger als reine Sprachmodellleistung. Besonders im Kundenservice sollten BRMs gemeinsam mit Fachbereichen Zielmetriken wie First Contact Resolution, CSAT, Compliance-Risiken und Übergaben an Menschen definieren.
+Anthropic erweitert Claude for Legal um 20 Konnektoren zu Legal- und Dokumentenplattformen wie Thomson Reuters CoCounsel, DocuSign, iManage, Box und Everlaw. Zusätzlich kommen 12 praxisbereichsspezifische Plugins, etwa für NDA- und Vertragsprüfungen. Die Meldung zeigt, dass sich Foundation-Model-Anbieter zunehmend über vertikale Workflows differenzieren, nicht nur über Modellleistung. Für Enterprise-Unternehmen bedeutet das: Fachbereichsnutzen steigt, aber Datenschutz, Mandantentrennung, Halluzinationskontrolle und Freigabeprozesse müssen vor produktiver Nutzung besonders sauber geregelt sein.
 
-## OpenAI Launches Daybreak, a New Initiative to Challenge Glasswing
+## 4 ways AI is enabling the future of industrial work (Vier Wege, wie KI industrielle Arbeit verändert)
 
-**Autor:** Esther Shittu  
-**Quelle:** [AI Business](https://aibusiness.com/cybersecurity/openai-launches-daybreak-new-initiative-challenge-glasswing)  
-**Veröffentlichung:** 12. Mai 2026
+Autor: Catherine Bolgar  
+Quelle: [Microsoft Source](https://news.microsoft.com/source/features/ai/4-ways-ai-is-enabling-the-future-of-industrial-work/)  
+Datum der Veröffentlichung: 13. Mai 2026
 
-AI Business berichtet über OpenAI Daybreak, ein Programm zur Identifikation, Behebung und Validierung von Software-Schwachstellen mithilfe von GPT-5.5-Modellen und Codex Security. Die Einordnung als Antwort auf Anthropic-Projekte im Cybersecurity-Markt zeigt, dass KI-Anbieter Security zunehmend als strategisches Enterprise-Segment adressieren. Für IT BRMs entsteht daraus ein doppelter Auftrag: KI kann Security-Workflows beschleunigen, vergrößert aber zugleich die Anforderungen an Freigaben, Auditierbarkeit, Modellgrenzen und den kontrollierten Umgang mit sicherheitskritischem Code.
+Microsoft beschreibt mehrere industrielle AI-Anwendungsfälle: ARUM automatisiert die Übersetzung von CAD-Dateien in Maschinenanweisungen, Cemex nutzt einen Finanzagenten für Management-Entscheidungen, Beca erschließt geotechnische Daten per AI-Assistent und Obeikan setzt Machine Learning sowie Copilot in der Fabriksteuerung ein. Für BRMs ist daran weniger die Technologie selbst interessant als der Integrationscharakter: AI wird in bestehende Produktions-, Finanz- und Datenplattformen eingebettet. Erfolgsfaktoren sind domänenspezifische Datenqualität, Prozessnähe, klare Verantwortlichkeit und messbare operative Effekte.
 
-## Protect your enterprise now from the Shai-Hulud worm and npm vulnerability in 6 actionable steps
+## Amazon launches an AI shopping assistant for the search bar, powered by Alexa+ (Amazon bringt Alexa+-Shopping-Assistent in die Suchleiste)
 
-**Autor:** Louis Columbus  
-**Quelle:** [VentureBeat](https://venturebeat.com/security/shai-hulud-worm-172-npm-pypi-packages-valid-provenance-ci-cd-audit)  
-**Veröffentlichung:** 12. Mai 2026
+Autor: Lauren Forristal  
+Quelle: [TechCrunch](https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa/)  
+Datum der Veröffentlichung: 13. Mai 2026, 07:59 PDT
 
-VentureBeat beschreibt eine Supply-Chain-Kampagne gegen npm- und PyPI-Pakete, bei der kompromittierte Pakete Entwickler- und CI/CD-Umgebungen, Secrets sowie Konfigurationen von KI-Agenten wie Claude Code adressieren. Besonders relevant ist der Hinweis, dass gültige Provenance-Attestierungen allein nicht ausreichen, wenn OIDC-Scopes und CI/CD-Workflows falsch konfiguriert sind. Für Unternehmen mit agentischen Entwicklungswerkzeugen verschärft sich damit die Notwendigkeit, Agent-Konfigurationen, MCP-Tokens, Build-Pipelines und Secret-Rotation als zusammenhängende Angriffsfläche zu behandeln.
+Amazon ersetzt seinen bisherigen generativen Shopping-Assistenten Rufus durch Alexa for Shopping. Der neue Assistent ist in Suche und Chat integriert, berücksichtigt Kaufhistorie und Präferenzen, kann Produkte vergleichen, Preise verfolgen, wiederkehrende Bestellungen planen und über die Funktion Buy for Me auch außerhalb von Amazon einkaufen. Für Enterprise-Retail, Commerce und Datenschutzverantwortliche ist die Entwicklung relevant, weil Einkaufserlebnisse zunehmend durch agentische Assistenten vermittelt werden. Das verschiebt Differenzierung in Richtung Datenzugang, Vertrauensmanagement, Einwilligung und Kontrolle automatisierter Transaktionen.
 
-## xAI Adds 19 New Gas Turbines Despite Ongoing Lawsuit
+## Bosch, Researchers Develop AI for Humanoid Dexterity (Bosch und Forschende entwickeln KI für humanoide Geschicklichkeit)
 
-**Autor:** Molly Taft  
-**Quelle:** [WIRED](https://www.wired.com/story/xai-adds-19-new-gas-turbines-despite-ongoing-lawsuit/)  
-**Veröffentlichung:** 12. Mai 2026
+Autor: Scarlett Evans  
+Quelle: [AI Business](https://aibusiness.com/robotics/bosch-researchers-develop-ai-humanoid-dexterity)  
+Datum der Veröffentlichung: 13. Mai 2026
 
-WIRED berichtet, dass xAI zusätzliche mobile Gasturbinen für seinen Colossus-2-Standort installiert haben soll, während rechtliche Auseinandersetzungen um Luftqualitätsauflagen weiterlaufen. Die Meldung ist ein weiteres Beispiel dafür, dass KI-Infrastruktur nicht nur eine Cloud- oder Beschaffungsfrage ist, sondern zunehmend Energie-, Standort-, Nachhaltigkeits- und Regulierungsrisiken umfasst. Für IT BRMs mit Infrastruktur- oder Cloud-Bezug ist relevant, dass AI-Capacity-Planung stärker mit ESG, Legal, Procurement und Risikomanagement verzahnt werden muss.
+AI Business berichtet über ein System des Bosch Center for AI und der Carnegie Mellon University namens Humanoid Transformer with Touch Dreaming. Es kombiniert taktile Sensorik, Multi-View-Vision und Propriozeption, damit humanoide Roboter Berührung und Kraft besser vorhersagen und Manipulationsaufgaben stabiler ausführen können. Die gemeldete Verbesserung der Erfolgsraten deutet auf Fortschritte bei Physical AI hin, bleibt aber forschungsnah. Für BRMs in Industrie, Logistik oder Field Services ist das ein Frühindikator: Robotik-AI wird relevanter, erfordert aber noch sorgfältige Bewertung von Sicherheitsnachweisen, Betriebsumgebung und Integrationskosten.
