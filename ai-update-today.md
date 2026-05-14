@@ -2,60 +2,60 @@
 
 ## tl;dr
 
-Die relevantesten quellenvalidierten Meldungen der letzten 24 Stunden drehen sich um Enterprise-Agenten, Kostenkontrolle und belastbare Governance. Notion positioniert seinen Workspace als Agenten- und Workflow-Hub, was für BRM-Rollen vor allem bei Tool-Konsolidierung und Integrationsarchitektur relevant ist. Neue Microsoft-Forschung zeigt, dass Frontier-Modelle in mehrstufigen Dokument-Workflows Inhalte nicht nur löschen, sondern subtil verfälschen können. Anthropic gewinnt laut Ramp-Daten erstmals mehr zahlende Geschäftskunden als OpenAI, steht aber unter Druck durch Compute-Kosten, Limits und günstigere Alternativen. Im Legal-Segment baut Anthropic Claude mit spezialisierten Konnektoren und Plugins weiter vertikal aus. Microsoft zeigt anhand industrieller Kundenbeispiele, wie AI in Fertigung, Finanzsteuerung und Digital Twins operativ eingesetzt wird. Amazon ersetzt Rufus durch einen stärker personalisierten Alexa-Shopping-Assistenten und verschiebt damit E-Commerce weiter in Richtung agentischer Einkaufsautomatisierung. Hinweis: Die lokale Dublettenprüfung gegen vorhandene Markdown-Dateien konnte wegen einer blockierten Shell-Sandbox nicht durchgeführt werden.
+Die relevantesten neuen Meldungen drehen sich um agentische KI, Modell-Benchmarking, Trainingsdaten und Governance. Anthropic führt programmatische Agentennutzung für Claude-Abos wieder ein, koppelt sie aber an feste Agent-SDK-Credits und beendet damit faktisch das Modell unbegrenzter Agentennutzung über Pauschalabos. VentureBeat beschreibt mit AI IQ ein umstrittenes, aber für Enterprise-Entscheider nützliches Vergleichsraster für Modelle nach Leistungsdimensionen und Kosten. TechCrunch berichtet über AutoScientist von Adaption, das Fine-Tuning und Datenoptimierung stärker automatisieren soll. Origin Lab adressiert den Engpass hochwertiger Trainingsdaten für World Models, indem es lizenzierte Videospiel-Assets für KI-Labore nutzbar machen will. Meta stärkt mit einem Inkognito-Modus für Meta AI in WhatsApp den Trend zu vertraulicheren KI-Interaktionen. Der OpenAI-Prozess um Sam Altman bleibt für Enterprise-Kunden relevant, weil er Fragen zur Governance und Kontrolle führender KI-Anbieter sichtbar macht.
 
-## Notion just turned its workspace into a hub for AI agents (Notion macht seinen Workspace zum Hub für KI-Agenten)
+## Anthropic reinstates OpenClaw and third-party agent usage on Claude subscriptions — with a catch (Anthropic erlaubt OpenClaw und Drittanbieter-Agenten wieder, aber mit Einschränkungen)
 
-Autor: Sarah Perez  
-Quelle: [TechCrunch](https://techcrunch.com/2026/05/13/notion-just-turned-its-workspace-into-a-hub-for-ai-agents/)  
-Datum der Veröffentlichung: 13. Mai 2026, 14:45 PDT
+Autor: Carl Franzen  
+Quelle: [VentureBeat](https://venturebeat.com/technology/anthropic-reinstates-openclaw-and-third-party-agent-usage-on-claude-subscriptions-with-a-catch)  
+Datum der Veröffentlichung: 13. Mai 2026, 15:15 PT
 
-Notion erweitert seine Plattform um eine Developer Platform, Workers für eigenen Code, Datenbank-Synchronisierung aus externen Systemen und eine API für externe Agenten. Unterstützt werden zum Start unter anderem Claude Code, Cursor, Codex und Decagon. Für Enterprise-Organisationen ist das strategisch relevant, weil Notion damit von einer Produktivitäts-App in Richtung Orchestrierungs- und Integrationsschicht für Agentenarbeit rückt. BRMs sollten prüfen, ob dadurch neue Schattenautomatisierung entsteht oder ob sich Notion kontrolliert als Workflow-Schicht in bestehende Governance-, IAM- und Datenarchitektur einbinden lässt.
+Anthropic öffnet Claude-Abonnements wieder für programmatische Drittanbieter-Agenten wie OpenClaw, führt dafür aber separate, nicht übertragbare Agent-SDK-Credits ein. Für Enterprise-Teams ist das ein wichtiges Signal: Agentische Workflows werden stärker in regulierte, kalkulierbare Verbrauchsmodelle überführt. Praktisch bedeutet dies, dass Prototyping weiterhin über Abos möglich bleibt, produktionsnahe Automatisierung aber zunehmend API-ähnlicher Kostenkontrolle unterliegt. IT-BRM sollten bei Agentenprojekten daher früh klären, ob Nutzungsprofile interaktiv, programmatisch oder produktionskritisch sind, da sich Kosten- und Governance-Modelle deutlich unterscheiden.
 
-## Frontier AI models don't just delete document content — they rewrite it, and the errors are nearly impossible to catch (Frontier-Modelle verändern Dokumentinhalte subtil)
-
-Autor: Ben Dickson  
-Quelle: [VentureBeat](https://venturebeat.com/orchestration/frontier-ai-models-dont-just-delete-document-content-they-rewrite-it-and-the-errors-are-nearly-impossible-to-catch)  
-Datum der Veröffentlichung: 13. Mai 2026, 13:10 PT
-
-VentureBeat berichtet über eine Microsoft-Studie zu mehrstufig delegierten Wissensarbeits-Workflows. Der neue Benchmark DELEGATE-52 testet 19 Modelle in 52 professionellen Domänen; selbst führende Modelle korrumpieren nach mehreren Bearbeitungsrunden im Schnitt relevante Dokumentinhalte. Besonders kritisch: Leistungsfähigere Modelle hinterlassen oft plausibel wirkende, aber sachlich verfälschte Inhalte, was manuelle Endkontrollen erschwert. Für Enterprise-BRMs ist die zentrale Konsequenz, agentische Dokument- und Wissensprozesse nicht nur am Endergebnis zu prüfen, sondern mit Zwischenkontrollen, versionssicherer Nachvollziehbarkeit und domänenspezifischen Tools abzusichern.
-
-## Anthropic finally beat OpenAI in business AI adoption — but 3 big threats could erase its lead (Anthropic überholt OpenAI bei Geschäftskundenadoption)
+## AI IQ is here: a new site scores frontier AI models on the human IQ scale. The results are already dividing tech. (AI IQ bewertet Frontier-Modelle auf einer IQ-Skala)
 
 Autor: Michael Nuñez  
-Quelle: [VentureBeat](https://venturebeat.com/technology/anthropic-finally-beat-openai-in-business-ai-adoption-but-3-big-threats-could-erase-its-lead)  
-Datum der Veröffentlichung: 13. Mai 2026, 14:53 PT
+Quelle: [VentureBeat](https://venturebeat.com/technology/ai-iq-is-here-a-new-site-scores-frontier-ai-models-on-the-human-iq-scale-the-results-are-already-dividing-tech)  
+Datum der Veröffentlichung: 13. Mai 2026, 16:47 PT
 
-Laut Ramp AI Index zahlen erstmals mehr US-Unternehmen für Anthropic als für OpenAI: Anthropic kommt auf 34,4 Prozent, OpenAI auf 32,3 Prozent der teilnehmenden Unternehmen. Der Anstieg wird vor allem mit Claude Code und technisch frühen Nutzergruppen in Software, Finance und Professional Services verbunden. Gleichzeitig beschreibt der Artikel Risiken durch hohe Token-Kosten, Compute-Engpässe, Nutzungslimits und günstigere Open-Source- beziehungsweise Codex-Alternativen. Für BRMs ist das ein Signal, AI-Sourcing nicht als Ein-Anbieter-Strategie zu behandeln, sondern Kostenmodelle, Wechselbarkeit und Workload-Routing aktiv zu steuern.
+AI IQ versucht, mehr als 50 Sprachmodelle über Benchmarks für abstraktes Denken, Mathematik, Programmierung und akademische Aufgaben in einer einheitlichen Skala vergleichbar zu machen. Der Ansatz ist methodisch umstritten, weil ein einzelner Score die sehr ungleichmäßigen Fähigkeiten moderner Modelle nur begrenzt abbildet. Für Enterprise-Entscheider ist dennoch der Kosten-Leistungs-Blick relevant: Die Differenz zwischen teuren Spitzenmodellen und günstigeren Modellen schrumpft in vielen Aufgabenbereichen. Daraus folgt, dass Modell-Routing, Task-Klassifikation und Kostensteuerung zentrale Architekturentscheidungen für produktive KI-Plattformen werden.
 
-## Anthropic Further Targets Legal With New Connectors (Anthropic zielt mit neuen Konnektoren stärker auf Legal)
+## Adaption aims big with AutoScientist, an AI tool that helps models train themselves (Adaption stellt AutoScientist für automatisiertes Modelltraining vor)
 
-Autor: Esther Shittu  
-Quelle: [AI Business](https://aibusiness.com/generative-ai/anthropic-further-targets-legal-new-connectors)  
-Datum der Veröffentlichung: 13. Mai 2026
+Autor: Russell Brandom  
+Quelle: [TechCrunch](https://techcrunch.com/2026/05/13/adaption-aims-big-with-autoscientist-an-ai-tool-that-helps-models-train-themselves/)  
+Datum der Veröffentlichung: 13. Mai 2026, 05:11 PDT
 
-Anthropic erweitert Claude for Legal um 20 Konnektoren zu Legal- und Dokumentenplattformen wie Thomson Reuters CoCounsel, DocuSign, iManage, Box und Everlaw. Zusätzlich kommen 12 praxisbereichsspezifische Plugins, etwa für NDA- und Vertragsprüfungen. Die Meldung zeigt, dass sich Foundation-Model-Anbieter zunehmend über vertikale Workflows differenzieren, nicht nur über Modellleistung. Für Enterprise-Unternehmen bedeutet das: Fachbereichsnutzen steigt, aber Datenschutz, Mandantentrennung, Halluzinationskontrolle und Freigabeprozesse müssen vor produktiver Nutzung besonders sauber geregelt sein.
+Adaption stellt AutoScientist vor, ein Tool, das Modelle durch automatisierte Daten- und Modelloptimierung schneller auf spezifische Fähigkeiten trainieren soll. Der Ansatz verbindet kontinuierlich verbesserte Datensätze mit laufender Modellanpassung und zielt damit auf eine effizientere Alternative zu klassischem Fine-Tuning. Für Unternehmen ist die Entwicklung relevant, weil sie die Schwelle für domänenspezifische Modelle senken könnte. Gleichzeitig bleibt die belastbare Evaluation entscheidend, da die berichteten Leistungsgewinne stark auf aufgabenspezifischen Messungen beruhen und nicht ohne Weiteres auf Standard-Benchmarks übertragbar sind.
 
-## 4 ways AI is enabling the future of industrial work (Vier Wege, wie KI industrielle Arbeit verändert)
+## Origin Lab raises $8M to help video game companies sell data to world-model builders (Origin Lab sammelt 8 Millionen US-Dollar für Trainingsdaten aus Videospielen ein)
 
-Autor: Catherine Bolgar  
-Quelle: [Microsoft Source](https://news.microsoft.com/source/features/ai/4-ways-ai-is-enabling-the-future-of-industrial-work/)  
-Datum der Veröffentlichung: 13. Mai 2026
+Autor: Russell Brandom  
+Quelle: [TechCrunch](https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders/)  
+Datum der Veröffentlichung: 13. Mai 2026, 09:22 PDT
 
-Microsoft beschreibt mehrere industrielle AI-Anwendungsfälle: ARUM automatisiert die Übersetzung von CAD-Dateien in Maschinenanweisungen, Cemex nutzt einen Finanzagenten für Management-Entscheidungen, Beca erschließt geotechnische Daten per AI-Assistent und Obeikan setzt Machine Learning sowie Copilot in der Fabriksteuerung ein. Für BRMs ist daran weniger die Technologie selbst interessant als der Integrationscharakter: AI wird in bestehende Produktions-, Finanz- und Datenplattformen eingebettet. Erfolgsfaktoren sind domänenspezifische Datenqualität, Prozessnähe, klare Verantwortlichkeit und messbare operative Effekte.
+Origin Lab will Videospiel-Assets und simulierte Spielwelten als lizenzierte Trainingsdaten für World Models verfügbar machen. Das adressiert einen zentralen Engpass für Modelle, die physische Räume, Objektbewegungen und Interaktionen verstehen sollen: strukturierte, hochwertige und rechtlich nutzbare Daten. Für Branchen mit Digital Twins, Robotik, Simulation oder industrieller Planung ist der Ansatz strategisch interessant. Gleichzeitig wird Datenlizenzierung zur kritischen Beschaffungs- und Compliance-Frage, weil Herkunft, Nutzungsrechte und Transformationsprozesse der Trainingsdaten belastbar dokumentiert werden müssen.
 
-## Amazon launches an AI shopping assistant for the search bar, powered by Alexa+ (Amazon bringt Alexa+-Shopping-Assistent in die Suchleiste)
+## Anthropic’s Cat Wu says that, in the future, AI will anticipate your needs before you know what they are (Anthropic erwartet proaktivere KI-Assistenten)
 
-Autor: Lauren Forristal  
-Quelle: [TechCrunch](https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa/)  
-Datum der Veröffentlichung: 13. Mai 2026, 07:59 PDT
+Autor: Lucas Ropek  
+Quelle: [TechCrunch](https://techcrunch.com/2026/05/13/anthropics-cat-wu-says-that-in-the-future-ai-will-anticipate-your-needs-before-you-know-what-they-are/)  
+Datum der Veröffentlichung: 13. Mai 2026, 12:28 PDT
 
-Amazon ersetzt seinen bisherigen generativen Shopping-Assistenten Rufus durch Alexa for Shopping. Der neue Assistent ist in Suche und Chat integriert, berücksichtigt Kaufhistorie und Präferenzen, kann Produkte vergleichen, Preise verfolgen, wiederkehrende Bestellungen planen und über die Funktion Buy for Me auch außerhalb von Amazon einkaufen. Für Enterprise-Retail, Commerce und Datenschutzverantwortliche ist die Entwicklung relevant, weil Einkaufserlebnisse zunehmend durch agentische Assistenten vermittelt werden. Das verschiebt Differenzierung in Richtung Datenzugang, Vertrauensmanagement, Einwilligung und Kontrolle automatisierter Transaktionen.
+Anthropic-Produktmanagerin Cat Wu beschreibt die nächste Entwicklungsstufe von Claude als stärker proaktive Assistenz, die Arbeitsmuster erkennt und Automatisierungen vorschlägt. Für Unternehmen verschiebt sich damit die Diskussion von Chatbot-Nutzung zu agentischer Arbeitsgestaltung. IT-BRM sollten daraus ableiten, dass Rollen, Berechtigungen und Kontrollpunkte für KI-Agenten präziser definiert werden müssen. Besonders wichtig ist die Fähigkeit der Fachbereiche, Agentenergebnisse fachlich zu prüfen, da wirksame Agentensteuerung ohne Domänenkompetenz kaum belastbar möglich ist.
 
-## Bosch, Researchers Develop AI for Humanoid Dexterity (Bosch und Forschende entwickeln KI für humanoide Geschicklichkeit)
+## WhatsApp adds an incognito mode in Meta AI chats (WhatsApp führt Inkognito-Modus für Meta-AI-Chats ein)
 
-Autor: Scarlett Evans  
-Quelle: [AI Business](https://aibusiness.com/robotics/bosch-researchers-develop-ai-humanoid-dexterity)  
-Datum der Veröffentlichung: 13. Mai 2026
+Autor: Ivan Mehta  
+Quelle: [TechCrunch](https://techcrunch.com/2026/05/13/whatsapp-adds-an-incognito-mode-in-meta-ai-chats/)  
+Datum der Veröffentlichung: 13. Mai 2026, 07:00 PDT
 
-AI Business berichtet über ein System des Bosch Center for AI und der Carnegie Mellon University namens Humanoid Transformer with Touch Dreaming. Es kombiniert taktile Sensorik, Multi-View-Vision und Propriozeption, damit humanoide Roboter Berührung und Kraft besser vorhersagen und Manipulationsaufgaben stabiler ausführen können. Die gemeldete Verbesserung der Erfolgsraten deutet auf Fortschritte bei Physical AI hin, bleibt aber forschungsnah. Für BRMs in Industrie, Logistik oder Field Services ist das ein Frühindikator: Robotik-AI wird relevanter, erfordert aber noch sorgfältige Bewertung von Sicherheitsnachweisen, Betriebsumgebung und Integrationskosten.
+Meta führt für Meta AI in WhatsApp einen Inkognito-Modus ein, bei dem Gespräche nicht gespeichert werden und der Chat-Kontext nach Sitzungsende verloren geht. Die Funktion baut auf Metas Private-Processing-Ansatz auf und adressiert die wachsende Sorge, dass KI-Interaktionen sensible private oder geschäftliche Informationen enthalten können. Für Enterprise-Kontexte ist die Meldung relevant, weil sie den Marktstandard für vertrauliche KI-Nutzung weiter erhöht. Unternehmen sollten daraus Anforderungen an eigene KI-Assistenten ableiten: klare Retention-Regeln, technische Isolation, Protokollierungskonzepte und transparente Nutzungsgrenzen.
+
+## Who trusts Sam Altman? (Wer vertraut Sam Altman?)
+
+Autor: Tim Fernholz  
+Quelle: [TechCrunch](https://techcrunch.com/2026/05/13/who-trusts-sam-altman/)  
+Datum der Veröffentlichung: 13. Mai 2026, 09:31 PDT
+
+TechCrunch analysiert die gerichtliche Befragung von Sam Altman im Verfahren rund um OpenAIs Struktur und die Frage, ob die Non-Profit-Kontrolle über die kommerzielle Organisation wirksam ist. Für Enterprise-Kunden ist das weniger eine Personalie als ein Governance-Thema: Anbieterstruktur, Kontrollrechte, Interessenkonflikte und Stabilität der Führung können direkten Einfluss auf strategische Plattformentscheidungen haben. Bei langfristigen KI-Partnerschaften sollten daher nicht nur Modellleistung und Preise bewertet werden, sondern auch Anbieter-Governance, regulatorische Angriffsflächen und Abhängigkeiten von einzelnen Führungspersonen.
