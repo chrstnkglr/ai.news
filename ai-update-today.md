@@ -1,53 +1,61 @@
-# AI Update vom 21.05.2026
+# AI Update vom 22. Mai 2026
 
 ## tl;dr
 
-Die letzten 24 Stunden zeigen vor allem drei Enterprise-relevante Linien: weiter steigende Infrastrukturabhängigkeit, stärkere Kommerzialisierung von KI-Plattformen und erste belastbare Hinweise auf neue wissenschaftliche Leistungsfelder. Nvidia meldet erneut Rekordumsätze im Rechenzentrumsgeschäft und baut zugleich ein großes Portfolio privater KI-Beteiligungen auf. Blackstone und Google schaffen mit einem TPU-basierten Compute-as-a-Service-Modell eine weitere Alternative zu klassischen Hyperscaler-Kapazitäten. xAI wird durch SpaceX-Unterlagen erstmals finanziell transparenter; die Zahlen zeigen hohe Verluste und massiven Kapitalbedarf für Grok. OpenAI reklamiert einen mathematischen Durchbruch durch ein allgemeines Reasoning-Modell, was für Enterprise-Strategien vor allem die Relevanz validierter, domänenspezifischer KI-Ergebnisse unterstreicht. Im Bereich Life Sciences zeigen MIT und Google DeepMind, dass KI zunehmend als Forschungsinfrastruktur und nicht nur als Assistenzwerkzeug positioniert wird.
+Enterprise-KI verschiebt sich weiter von Chatbots zu agentischen Plattformen, Betriebsautomatisierung und Governance. Besonders relevant sind neue Ansätze für verlässliche Agenten-Memory, strukturierte Entscheidungslogik und produktionsnahe SRE-Agenten. Alibaba positioniert Qwen3.7-Max als leistungsfähiges, aber proprietäres Agentenmodell mit langen autonomen Laufzeiten und günstigerer API-Ökonomie als westliche Frontier-Modelle. Kore.ai und Resolve AI adressieren typische Enterprise-Hürden: sichere Orchestrierung, Auditierbarkeit, deterministische Regeln und Integration in vorhandene Toolchains. Gleichzeitig zeigt die verschobene US-Executive-Order zur KI-Sicherheitsprüfung, dass regulatorische Vorabkontrollen für Frontier-Modelle politisch umkämpft bleiben. Für IT Business Relationship Manager werden Partnerauswahl, Datenresidenz, Agenten-Governance und Betriebsrisiken zu zentralen Bewertungskriterien.
 
-## Nvidia posts another record quarter, reveals $43B of holdings in startups
+## Alibaba's proprietary Qwen3.7-Max can run for 35 hours autonomously and supports external harnesses like Anthropic's Claude Code (Alibabas Qwen3.7-Max läuft 35 Stunden autonom und unterstützt Agenten-Frameworks)
 
-Autor: Russell Brandom  
-Quelle: [TechCrunch](https://techcrunch.com/2026/05/20/nvidia-posts-another-record-quarter-reveals-43-billion-of-holdings-in-startups/)  
-Datum der Veröffentlichung: 20. Mai 2026, 3:03 PM PDT
+- Autor: Carl Franzen
+- Quelle: [VentureBeat](https://venturebeat.com/technology/alibabas-proprietary-qwen3-7-max-can-run-for-35-hours-autonomously-and-supports-external-harnesses-like-anthropics-claude-code)
+- Datum der Veröffentlichung: 21. Mai 2026, 16:53 PT
 
-Nvidia meldet für das Quartal bis 26. April 2026 einen Umsatz von 81,6 Milliarden US-Dollar, davon 75,2 Milliarden US-Dollar aus dem Data-Center-Geschäft. Für IT Business Relationship Manager ist vor allem relevant, dass Nvidia nicht nur Infrastruktur verkauft, sondern durch Beteiligungen und Commitments zunehmend selbst zum strategischen Akteur im KI-Ökosystem wird. Die privaten Beteiligungen stiegen laut Bericht auf 43 Milliarden US-Dollar; zusätzlich wird auf ein OpenAI-Commitment von 30 Milliarden US-Dollar verwiesen. Enterprise-Kunden sollten GPU-Verfügbarkeit, Preisentwicklung und Anbieterabhängigkeiten deshalb nicht isoliert als Beschaffungsthema betrachten, sondern als Teil einer längerfristigen Plattform- und Partnerstrategie.
+Alibaba hat Qwen3.7-Max als proprietäres API-Modell vorgestellt, das laut Bericht rund 35 Stunden autonome Agentenarbeit leisten kann. Für Unternehmen ist vor allem relevant, dass das Modell mit einem 1-Million-Token-Kontextfenster, 64K Output-Limit und Kompatibilität zu bestehenden Agenten-Harnesses wie Claude Code positioniert wird. Die Leistungsdaten deuten auf starke Fähigkeiten bei langlaufenden Engineering- und Reasoning-Aufgaben hin, zugleich entsteht durch API-only-Verfügbarkeit ein klarer Zielkonflikt: Kosten- und Performancevorteile stehen Fragen zu Datenresidenz, regulatorischer Compliance und Abhängigkeit von Alibaba Cloud gegenüber.
 
-## Behind Blackstone's US$5bn Bet on a Google Cloud AI Company
+## A 0.12% parameter add-on gives AI agents the working memory RAG can't (Ein 0,12-Prozent-Adapter ergänzt Agenten um Arbeitsgedächtnis jenseits von RAG)
 
-Autor: Rithula Nisha  
-Quelle: [AI Magazine](https://aimagazine.com/news/behind-blackstones-us-5bn-bet-on-a-google-cloud-ai-company)  
-Datum der Veröffentlichung: 20. Mai 2026
+- Autor: Ben Dickson
+- Quelle: [VentureBeat](https://venturebeat.com/orchestration/a-0-12-parameter-add-on-gives-ai-agents-the-working-memory-rag-cant)
+- Datum der Veröffentlichung: 21. Mai 2026, 12:00 PT
 
-Blackstone und Google planen ein eigenständiges Unternehmen für KI-Compute auf Basis von Google Cloud TPUs. Blackstone stellt 5 Milliarden US-Dollar Eigenkapital bereit; die ersten 500 MW Kapazität könnten 2027 verfügbar werden. Das Modell ist für Unternehmen relevant, die jenseits klassischer Public-Cloud-Verträge spezialisierte KI-Infrastruktur für Training, Inferenz und High-Performance-Workloads benötigen. Strategisch zeigt der Schritt, dass KI-Infrastruktur zunehmend über Joint Ventures zwischen Kapitalgebern, Cloud-Anbietern, Energie- und Rechenzentrumsbetreibern organisiert wird.
+Der Artikel beschreibt delta-mem, ein leichtgewichtiges Memory-Verfahren, das historische Interaktionen in einer dynamisch aktualisierten Matrix speichert, ohne das Basismodell zu verändern. Im Enterprise-Kontext ist der Ansatz interessant, weil er die Grenzen klassischer RAG-Architekturen adressiert: RAG bleibt stark für zitierfähige Fakten und Dokumente, ist aber teuer und fragil, wenn Agenten über lange Workflows hinweg Arbeitszustände behalten sollen. Für produktive Agentenarchitekturen zeichnet sich damit ein hybrides Zielbild ab: interne Arbeitsgedächtnisse für Task-State und Benutzerpräferenzen, externe Retrieval-Systeme für auditierbares Faktenwissen.
 
-## xAI burned $6.4B last year — SpaceX’s IPO filing shows why the spending is far from over
+## Enterprise AI agents keep failing because they forget what they learned (Enterprise-Agenten scheitern, weil sie Gelerntes vergessen)
 
-Autor: Rebecca Bellan  
-Quelle: [TechCrunch](https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/)  
-Datum der Veröffentlichung: 20. Mai 2026, 3:26 PM PDT
+- Autor: Taryn Plumb
+- Quelle: [VentureBeat](https://venturebeat.com/orchestration/enterprise-ai-agents-keep-failing-because-they-forget-what-they-learned)
+- Datum der Veröffentlichung: 21. Mai 2026, 11:43 PT
 
-SpaceX-Unterlagen geben erstmals detailliertere Einblicke in xAI: 2025 soll xAI bei 3,2 Milliarden US-Dollar Umsatz einen operativen Verlust von 6,4 Milliarden US-Dollar ausgewiesen haben. Gleichzeitig plant das Unternehmen, Grok auf Modelle mit mehreren Billionen Parametern zu skalieren und die eigene Compute-Infrastruktur massiv auszubauen. Für Enterprise-Entscheider ist die Meldung weniger wegen einzelner Produktfunktionen relevant, sondern wegen der ökonomischen Signalwirkung: Frontier-KI bleibt kapitalintensiv, und Anbieter-Roadmaps hängen stark an Finanzierung, Energie, Rechenzentrumskapazität und vertikaler Integration.
+VentureBeat analysiert Entscheidungs-Kontextgraphen als Ansatz, um Agenten verlässlicher und nachvollziehbarer zu machen. Der Kern: Agenten brauchen nicht nur relevante Dokumente, sondern strukturierte Informationen darüber, welche Regel wann gilt, welche Ausnahme Vorrang hat und welche Entscheidungspfade bereits validiert wurden. Für regulierte Prozesse wie Banking, Support oder Supply Chain Management ist diese Unterscheidung wichtig, weil eine hohe Trefferquote allein nicht genügt. BRMs sollten solche Architekturen als Governance-Baustein betrachten, nicht nur als technische Erweiterung von RAG.
 
-## OpenAI claims it solved an 80-year-old math problem — for real this time
+## Resolve AI says the AI coding boom is breaking production systems. It wants to fix that. (Resolve AI will Produktionsprobleme durch KI-generierten Code entschärfen)
 
-Autor: Rebecca Bellan  
-Quelle: [TechCrunch](https://techcrunch.com/2026/05/20/openai-claims-it-solved-an-80-year-old-math-problem-for-real-this-time/)  
-Datum der Veröffentlichung: 20. Mai 2026, 1:28 PM PDT
+- Autor: Michael Nuñez
+- Quelle: [VentureBeat](https://venturebeat.com/technology/resolve-ai-says-the-ai-coding-boom-is-breaking-production-systems-it-wants-to-fix-that)
+- Datum der Veröffentlichung: 21. Mai 2026, 06:00 PT
 
-OpenAI meldet, dass ein neues allgemeines Reasoning-Modell eine seit 1946 offene Erdős-Vermutung in der Geometrie widerlegt habe. Entscheidend ist, dass OpenAI diesmal begleitende Stellungnahmen externer Mathematiker veröffentlicht hat, nachdem frühere Aussagen zu angeblich gelösten Erdős-Problemen zurückgenommen werden mussten. Für Unternehmen ist der Vorgang ein gutes Muster für den Umgang mit KI-Ergebnissen in anspruchsvollen Domänen: Entscheidend sind nicht nur Modellfähigkeit und Automatisierung, sondern belastbare Verifikation, Peer Review und nachvollziehbare Evidenzketten. Der potenzielle Wert liegt in Forschung, Engineering und Optimierung, aber nur mit klaren Validierungsprozessen.
+Resolve AI erweitert seine Plattform um Multi-Agenten-Incident-Analyse, Hintergrundagenten und eine gemeinsame Untersuchungsoberfläche für Menschen und KI-Agenten. Das Unternehmen adressiert ein reales Enterprise-Problem: KI beschleunigt Softwareentwicklung, aber Betrieb, Debugging, Monitoring und Incident Response bleiben Engpässe. Besonders relevant sind die beschriebenen Kontrollmechanismen gegen halluzinierte Root Causes, etwa gegenseitige Agentenprüfung, evidenzbasierte Kausalpfade und explizite Unsicherheitskommunikation. Für IT-Organisationen ist das ein Hinweis, AIOps nicht isoliert als Monitoring-Feature zu bewerten, sondern als Teil des gesamten Software-Lifecycle-Managements.
 
-## Building AI models that understand chemical principles
+## Kore.ai launches Artemis AI agent platform, takes on Salesforce and ServiceNow (Kore.ai startet Artemis-Plattform für Enterprise-Agenten)
 
-Autor: Anne Trafton  
-Quelle: [MIT News](https://news.mit.edu/2026/building-ai-models-with-chemical-principles-connor-coley-0520)  
-Datum der Veröffentlichung: 20. Mai 2026
+- Autor: Michael Nuñez
+- Quelle: [VentureBeat](https://venturebeat.com/technology/kore-ai-launches-artemis-ai-agent-platform-expands-challenge-to-microsoft-and-salesforce)
+- Datum der Veröffentlichung: 21. Mai 2026, 06:00 PT
 
-MIT porträtiert die Arbeit von Connor Coley an KI-Modellen für Chemie, Wirkstoffdesign und Reaktionsplanung. Besonders relevant ist der Ansatz, generative Modelle nicht nur datengetrieben zu trainieren, sondern sie mit chemischen und physikalischen Prinzipien wie Massenerhaltung und plausiblen Zwischenschritten zu verbinden. Für Enterprise-Anwendungen in Pharma, Chemie und Materialwissenschaften ist das ein wichtiger Architekturhinweis: Domänenwissen, Constraints und überprüfbare Zwischenlogik können Genauigkeit und Akzeptanz stärker verbessern als rein größere Modelle.
+Kore.ai hat die Artemis-Version seiner Agent Platform vorgestellt, mit der Unternehmen Agenten über eine YAML-basierte Agent Blueprint Language definieren, versionieren und betreiben können. Die Plattform kombiniert LLM-basiertes Reasoning mit deterministischer Regelverarbeitung in einer sogenannten Dual-Brain-Architektur. Das ist für regulierte Branchen relevant, weil Guardrails und Geschäftsregeln nicht allein dem Sprachmodell überlassen werden. Strategisch positioniert sich Kore.ai als neutralere Alternative zu Microsoft, Salesforce, Google und ServiceNow, obwohl die Plattform zunächst eng mit Azure, Microsoft Foundry, Agent 365, Entra ID und Microsoft Graph integriert ist.
 
-## Strengthening Singapore’s AI Future: A New National Partnership
+## Hark raises $700M Series A for its secretive ‘universal’ AI interface (Hark sammelt 700 Millionen US-Dollar für universelle KI-Schnittstelle ein)
 
-Autor: Google DeepMind  
-Quelle: [Google DeepMind](https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership)  
-Datum der Veröffentlichung: 20. Mai 2026
+- Autor: Tim Fernholz
+- Quelle: [TechCrunch](https://techcrunch.com/2026/05/21/hark-raises-700m-series-a-for-its-secretive-universal-ai-interface/)
+- Datum der Veröffentlichung: 21. Mai 2026, 07:00 PDT
 
-Google DeepMind kündigt eine nationale Partnerschaft mit Singapur an, die KI-Anwendungen in Gesundheit, Life Sciences, Bildung, Workforce-Entwicklung und Klimathemen fördern soll. Für multinationale Unternehmen ist daran relevant, dass staatliche KI-Programme zunehmend als Standortfaktor wirken: Talententwicklung, Forschungskooperationen, regulatorische Einbettung und sektorale Pilotprojekte werden enger miteinander verzahnt. Business Relationship Manager sollten solche nationalen KI-Initiativen beobachten, weil sie mittelfristig Einfluss auf Lieferantenökosysteme, regionale Innovationscluster und verfügbare KI-Kompetenzen haben können.
+Hark hat eine Series-A-Finanzierung über 700 Millionen US-Dollar bei einer Bewertung von 6 Milliarden US-Dollar angekündigt. Das Unternehmen entwickelt ein agentisches KI-System als universelle Schnittstelle zur digitalen Welt, bleibt aber inhaltlich noch weitgehend vage. Für Enterprise-Beobachter ist weniger das konkrete Produkt relevant als das Marktsignal: Investoren finanzieren weiter sehr große Wetten auf KI-Agenten, multimodale Modelle, Hardware und eigene Compute-Infrastruktur, obwohl belastbare Produkt-Markt-Nachweise noch ausstehen.
+
+## Trump delays AI security executive order, saying language ‘could have been a blocker’ (Trump verschiebt Executive Order zur KI-Sicherheitsprüfung)
+
+- Autor: Rebecca Bellan
+- Quelle: [TechCrunch](https://techcrunch.com/2026/05/21/trump-delays-ai-security-executive-order-i-dont-want-to-get-in-the-way-of-that-leading/)
+- Datum der Veröffentlichung: 21. Mai 2026, 10:30 PDT
+
+Die US-Regierung hat die Unterzeichnung einer Executive Order verschoben, die Sicherheitsbewertungen fortgeschrittener KI-Modelle vor deren Veröffentlichung vorgesehen hätte. Laut TechCrunch ging es unter anderem um die Frage, ob KI-Unternehmen Modelle 14 bis 90 Tage vor Launch mit der Regierung teilen müssten. Für Unternehmen mit US-Bezug bleibt damit unklar, ob sich ein stärkeres Vorabprüfregime für Frontier-Modelle durchsetzt. BRMs sollten diese Entwicklung im Kontext von Modellrisikomanagement, Lieferantenbewertung und möglichen Compliance-Anforderungen beobachten.
