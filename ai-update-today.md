@@ -1,53 +1,53 @@
-# AI Update vom 25. Mai 2026
+# AI Update vom 26. Mai 2026
 
 ## tl;dr
 
-Die relevantesten neuen Meldungen drehen sich weniger um neue Modelle als um operative Risiken, Governance und produktionsnahe KI-Einführung. Enterprise-Agenten werden zunehmend als Infrastrukturakteure betrachtet, die Ausfälle auslösen oder verstärken können, wenn SLOs, Abhängigkeiten und Berechtigungen nicht aktiv mitgesteuert werden. Google Cloud und TechCrunch adressieren AI Security als Vorstandsthema, insbesondere wegen Shadow AI, API-Key-Risiken und agentischen Zugriffen auf vergessene Datenbestände. Im Consumer- und Workplace-Umfeld zeigen Amazons Bee-Wearable und Xreals Smartglasses, dass KI-Interfaces näher an Gespräche, Meetings und Arbeitskontexte rücken, aber Datenschutz, Einwilligung und Nutzungsakzeptanz ungelöst bleiben. In Biopharma wird KI laut Capgemini vom Unterstützungswerkzeug zum primären Treiber für Drug Discovery. Für IT Business Relationship Manager ist der gemeinsame Nenner klar: KI-Projekte müssen stärker über Risiko, Datenzugriff, Betriebsmodell und messbaren Geschäftsnutzen gesteuert werden.
+Enterprise-KI verschiebt sich weiter von Pilotprojekten zu operativen Organisations- und Governance-Fragen. OpenAI baut seine Content-Partnerschaften mit brasilianischen Medien aus und verstärkt damit die Debatte über Datenqualität, Attribution und verlässliche Quellen in ChatGPT. VentureBeat beschreibt neue Formen technischer Schulden in KI-Systemen, insbesondere Prompt-, Retrieval-, Modellabhängigkeits- und Evaluationsschulden. ClickUp nutzt massive interne Agenten-Automatisierung als Begründung für Stellenabbau, was die Diskussion über Produktivität, Messbarkeit und Workforce-Redesign verschärft. Der Vatikan adressiert KI erstmals prominent in einer Enzyklika und stellt Machtkonzentration, Aufsicht und gesellschaftliche Folgen in den Mittelpunkt. AI Magazine zeigt am Beispiel Samsara, wie KI in Flottenprozessen zu sicherheitskritischer Infrastruktur wird. Für IT Business Relationship Manager sind vor allem drei Handlungsfelder relevant: belastbare KI-Governance, wertorientierte Erfolgsmessung und frühzeitige Einbindung von Fachbereichen bei Prozess- und Rollenveränderungen.
 
-## AI agents are quietly generating chaos engineering failures enterprises don’t track yet
+## OpenAI, Grupo Folha, and Grupo UOL announce strategic content partnership
 
-Autor: Sayali Patil  
-Quelle: [VentureBeat](https://venturebeat.com/orchestration/ai-agents-are-quietly-generating-chaos-engineering-failures-enterprises-dont-track-yet)  
-Datum der Veröffentlichung: 24. Mai 2026, 10:00 PT
+Autor: OpenAI  
+Quelle: [OpenAI](https://openai.com/index/grupo-folha-grupo-uol-partnership/)  
+Datum der Veröffentlichung: 25. Mai 2026
 
-Der Artikel argumentiert, dass autonome KI-Agenten in Produktionsumgebungen als potenzielle Auslöser von Chaos-Engineering-Ereignissen behandelt werden müssen. Besonders kritisch ist, dass ein Agent aus seiner lokalen Sicht technisch korrekt handeln kann, etwa durch Neustart eines Services, dabei aber Abhängigkeiten, SLO-Burn-Rate, Lastspitzen oder parallele Deployments nicht ausreichend kennt. Für Enterprise-IT bedeutet das: Agentenaktionen brauchen ein gemeinsames Resilience-Budget, Auditierbarkeit, klare Eskalationsschwellen und Human-in-the-loop-Regeln bei uneindeutigen Signalen.
+OpenAI kündigt seine erste Medienpartnerschaft in Brasilien mit Grupo Folha und Grupo UOL an. Inhalte der beiden Medienhäuser sollen in ChatGPT zugänglich gemacht und mit Attribution, Zusammenfassungen und Links zu Originalquellen versehen werden. Für Enterprise-Kontexte ist das relevant, weil sich die Qualität KI-gestützter Informationssysteme zunehmend über lizenzierte, nachvollziehbare und überprüfbare Content-Quellen differenziert. BRMs sollten daraus ableiten, dass interne KI-Assistenten nicht nur Modellzugang brauchen, sondern klare Regeln zu Quellen, Rechten, Aktualität und Rückverfolgbarkeit.
 
-## Everyone is navigating AI security in real time — even Google
+## Why prompt debt, retrieval debt, and evaluation debt are quietly reshaping enterprise AI risk
 
-Autor: Connie Loizos  
-Quelle: [TechCrunch](https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/)  
-Datum der Veröffentlichung: 24. Mai 2026, 14:39 PDT
+Autor: Vikram Venkat  
+Quelle: [VentureBeat](https://venturebeat.com/technology/why-prompt-debt-retrieval-debt-and-evaluation-debt-are-quietly-reshaping-enterprise-ai-risk)  
+Datum der Veröffentlichung: 25. Mai 2026
 
-TechCrunch verbindet Aussagen von Google-Cloud-COO Francis de Souza zu AI Security mit konkreten Sicherheitsproblemen rund um Google-API-Keys und Gemini-Nutzung. Für Unternehmen ist besonders relevant, dass Agenten interne Datenbestände sichtbar machen können, die historisch zwar vorhanden, aber praktisch kaum auffindbar waren. Die Kernaussage für BRM- und IT-Governance-Rollen: Eine AI-Strategie ohne Daten-, Identitäts-, Kosten- und Sicherheitsstrategie erzeugt unmittelbare operative Risiken.
+Der Artikel beschreibt KI-spezifische technische Schulden als neue Risikokategorie für Unternehmen. Neben klassischem Code-Schulden entstehen Risiken durch unversionierte Prompts, wechselnde Modellabhängigkeiten, veraltete oder doppelte Retrieval-Daten und fehlende Evaluationsstandards. Besonders relevant ist die Beobachtung, dass KI-Fehler oft probabilistisch, schwer reproduzierbar und über mehrere Teams verteilt sind. Für BRMs bedeutet das: KI-Produkte sollten nicht nur nach Funktionsumfang bewertet werden, sondern nach Betriebsfähigkeit, Observability, Testbarkeit, Verantwortungsmodell und kontinuierlicher Qualitätssicherung.
 
-## I tried Amazon’s Bee wearable and am both intrigued and slightly creeped out
+## What ClickUp’s mass layoff tells us about the future of work
 
-Autor: Lucas Ropek  
-Quelle: [TechCrunch](https://techcrunch.com/2026/05/24/i-tried-amazons-bee-wearable-and-am-both-intrigued-and-slightly-creeped-out/)  
-Datum der Veröffentlichung: 24. Mai 2026, 08:00 PDT
+Autor: Marina Temkin  
+Quelle: [TechCrunch](https://techcrunch.com/2026/05/25/what-clickups-mass-layoff-tells-us-about-the-future-of-work/)  
+Datum der Veröffentlichung: 25. Mai 2026
 
-TechCrunch testet Amazons Bee-Wearable, das Gespräche aufzeichnen, transkribieren und zusammenfassen kann. Der Nutzen für Meeting-intensive Rollen ist nachvollziehbar, aber der Artikel zeigt deutlich die Datenschutz- und Akzeptanzprobleme eines dauerhaft mithörenden Assistenten. Für Unternehmen wären vor einer Einführung Einwilligungsprozesse, lokale Verarbeitung, Cloud-Speicherung, Löschkonzepte und Betriebsvereinbarungen zentrale Prüfpunkte.
+TechCrunch analysiert ClickUps Entscheidung, 22 Prozent der Belegschaft abzubauen und dies mit einer umfassenden Umstellung auf KI-Agenten zu begründen. Das Unternehmen setzt laut Bericht rund 3.000 interne KI-Agenten ein und will Mitarbeitende stärker an Automatisierungswirkung und erzieltem Geschäftswert messen. Für Enterprise-Organisationen ist der Fall ein Warnsignal: reine Nutzungsmetriken wie Tokenverbrauch reichen nicht aus, um Produktivität zu belegen. BRMs sollten mit HR, Fachbereichen und IT klären, wie KI-Automatisierung transparent gemessen wird, welche Rollen sich verändern und wie Review-Verantwortung bei agentischen Systemen organisiert wird.
 
-## Xreal, Google’s smartglasses partner, thinks it has finally mastered this notoriously tricky industry
+## The pope’s AI encyclical isn’t really about AI
 
-Autor: Lucas Ropek  
-Quelle: [TechCrunch](https://techcrunch.com/2026/05/24/xreal-googles-smartglasses-partner-thinks-it-has-finally-mastered-this-notoriously-tricky-industry/)  
-Datum der Veröffentlichung: 24. Mai 2026, 12:00 PDT
+Autor: Rebecca Bellan  
+Quelle: [TechCrunch](https://techcrunch.com/2026/05/25/the-popes-ai-encyclical-isnt-really-about-ai/)  
+Datum der Veröffentlichung: 25. Mai 2026
 
-Xreal positioniert seine neuen Aura-Smartglasses als möglichen Wendepunkt für alltagstaugliche XR- und KI-Interfaces. Für Enterprise-Kontexte sind vor allem die möglichen Arbeitsplatzszenarien relevant: private virtuelle Arbeitsflächen, Navigation, Training, Remote-Unterstützung und kontextbezogene Apps. Gleichzeitig bleibt die Marktreife begrenzt, da das Gerät zunächst für Entwickler verfügbar ist und noch mit zusätzlicher Hardware betrieben wird.
+Der Artikel ordnet die erste Enzyklika von Papst Leo XIV zu KI als breitere Kritik an Machtkonzentration, fehlender öffentlicher Aufsicht und gesellschaftlicher Ungleichheit ein. KI wird dabei weniger als isolierte Technologie betrachtet, sondern als Verstärker bestehender Governance-, Demokratie- und Verteilungsfragen. Für Unternehmen ist die Entwicklung relevant, weil externe Stakeholder KI zunehmend an gesellschaftlicher Verantwortung, Transparenz und Beteiligung messen. BRMs sollten solche Debatten in KI-Roadmaps berücksichtigen, insbesondere bei Anwendungen mit Kunden-, Mitarbeiter- oder Bürgerkontakt.
 
-## Capgemini: Exploring the Impact of AI on Biopharma
+## Samsara: Are AI Dashcams the New Seatbelts?
 
 Autor: Tom Chapman  
-Quelle: [AI Magazine](https://aimagazine.com/news/capgemini-ai-impact-on-biopharma)  
-Datum der Veröffentlichung: 24. Mai 2026
+Quelle: [AI Magazine](https://aimagazine.com/news/samsara-are-ai-dashcams-new-seatbelts)  
+Datum der Veröffentlichung: 25. Mai 2026
 
-AI Magazine berichtet über Einschätzungen von Capgemini, wonach KI-gestützte Plattformen innerhalb der nächsten Dekade einen deutlich größeren Anteil neuer Wirkstoffkandidaten ermöglichen könnten. Der Schwerpunkt liegt nicht nur auf Geschwindigkeit, sondern auf besserer Kandidatenselektion, früher Toxizitätsbewertung, präziseren Patientensegmenten und enger Integration mit automatisierten Wet Labs. Für Enterprise-BRM im Life-Sciences-Umfeld ist das ein Hinweis, dass KI-Initiativen stärker entlang kompletter R&D-Wertströme statt isolierter Analytics-Use-Cases geplant werden sollten.
+AI Magazine berichtet über Samsaras Position, KI-Dashcams als sicherheitskritische Standardtechnologie für moderne Flotten zu etablieren. Die Systeme erkennen riskantes Fahrverhalten, Ablenkung oder Müdigkeit in Echtzeit und sollen präventiv eingreifen. Der Artikel betont zugleich Datenschutz, Verschlüsselung, Zugriffskontrollen und Abschaltfunktionen in sensiblen Situationen. Für BRMs in Logistik, Field Service oder Industrie ist der Fall ein Beispiel dafür, dass KI-Einführung nicht nur Effizienz-, sondern auch Sicherheits-, Compliance- und Akzeptanzfragen adressieren muss.
 
-## How To Fact Check AI, According To Tech Experts
+## Small Businesses Trust AI With Marketing. Their Customers Do Not
 
-Autor: Joe McKendrick  
-Quelle: [Forbes](https://www.forbes.com/sites/technology/article/how-to-fact-check-ai/)  
-Datum der Veröffentlichung: 24. Mai 2026, 06:30 EDT
+Autor: TerDawn DeBoe  
+Quelle: [Forbes](https://www.forbes.com/sites/terdawn-deboe/2026/05/25/small-businesses-trust-ai-with-marketing-their-customers-do-not/)  
+Datum der Veröffentlichung: 25. Mai 2026
 
-Forbes fasst Methoden zur Prüfung von KI-Ausgaben zusammen und verweist auf hohe Fehler- und Halluzinationsraten in bestimmten Benchmarks. Für Enterprise-Anwendungen ist der Artikel vor allem als Governance-Erinnerung relevant: KI-Ausgaben sollten je nach Risikoklasse als Entwurf, nicht als finale Entscheidungsgrundlage behandelt werden. Besonders bei Recht, Medizin, Finanzen, Forschung und aktuellen Fakten braucht es Quellenprüfung, Modellvergleich, Aktualitätsprüfung und menschliche Fachfreigabe.
+Forbes beschreibt eine Vertrauenslücke zwischen Unternehmen, die KI für Marketinginhalte nutzen, und Kunden, die solchen Inhalten skeptisch gegenüberstehen. Auch wenn der Artikel auf kleinere Unternehmen fokussiert, ist die Schlussfolgerung für Enterprise-Marketing und Customer Experience relevant: KI-generierte Kommunikation kann Effizienz steigern, aber Markenvertrauen beschädigen, wenn Kontext, Qualität und menschliche Verantwortung fehlen. BRMs sollten Marketing- und CX-Teams dabei unterstützen, klare Review-Prozesse, Kennzeichnungspolitiken und Qualitätsmetriken für generative Inhalte zu etablieren.
