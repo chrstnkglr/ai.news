@@ -1,37 +1,44 @@
-# AI Update vom 31. Mai 2026
+# AI Update vom 1. Juni 2026
 
 ## tl;dr
+Im 24-Stunden-Fenster fanden sich nur wenige quellenvalidierte, neue AI-Artikel, die nicht bereits durch frühere Updates abgedeckt waren. Die wichtigsten Themen liegen bei Governance, Akzeptanz und Risikosteuerung: Datacenter-Transparenz wird zum Reputations- und Standortfaktor, AI-getriebene Managemententscheidungen stehen stärker unter ROI-Druck, und Urheberrechtsfragen bleiben ein operatives Risiko für AI-Marketing. Für Enterprise-IT ist besonders relevant, dass AI-Infrastruktur nicht nur technisch, sondern zunehmend politisch, regulatorisch und gesellschaftlich bewertet wird. Gleichzeitig verschiebt sich der Fokus bei AI-Kompetenzen weg vom reinen Tool-Einsatz hin zu Vertrauen, Qualitätsurteil, technischer Basis und Kostenbewusstsein.
 
-Im quellenvalidierten 24-Stunden-Fenster wurden nur wenige neue, nicht bereits behandelte Enterprise-relevante KI-Artikel gefunden. Der wichtigste operative Punkt ist GitHub Copilots Umstellung auf tokenbasierte Abrechnung, weil sie AI-Coding-Kosten stärker nutzungsabhängig und schwerer planbar macht. Meta arbeitet laut Bericht an einem KI-Pendant und erweitert damit den Trend zu Always-on-AI-Wearables, was Datenschutz-, Betriebsrats- und Akzeptanzfragen für Enterprise-Umgebungen verschärft. Forbes greift regulatorische Überlegungen zur Emotionserkennung durch KI auf; für Unternehmen ist das ein Signal, Use Cases mit Nutzerprofiling, HR, Kundenservice und Compliance früh zu prüfen. Ein weiterer Forbes-Beitrag beschreibt eine wachsende Lücke zwischen individuell aufgebauten KI-Kompetenzen der Mitarbeitenden und der organisatorischen Fähigkeit, diese produktiv einzubetten.
-
-## ‘What a joke’: Github Copilot’s new token-based billing spurs consternation among devs (GitHub Copilots neue tokenbasierte Abrechnung sorgt für Kritik)
-
-Autor: Lucas Ropek  
-Quelle: [TechCrunch](https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/)  
-Datum der Veröffentlichung: 30. Mai 2026, 09:30 PDT
-
-GitHub Copilot stellt die Abrechnung von einem stärker pauschalen Modell auf tokenbasierte Nutzung um. TechCrunch beschreibt deutliche Kostenreaktionen einzelner Entwickler, die bei intensiver Agenten- oder „Vibe-Coding“-Nutzung stark steigende monatliche Belastungen erwarten. Für Enterprise-IT ist weniger die Einzelkritik entscheidend als das zugrunde liegende Muster: AI-Coding wird vom Arbeitsplatztool zu einem variablen Verbrauchsposten, der FinOps, Lizenzmanagement und Entwickler-Governance betrifft. BRMs sollten mit Engineering, Einkauf und Finanzen klären, wie Tokenverbrauch, Overages, Projektbudgets und alternative Anbieter künftig transparent gesteuert werden.
-
-## Meta is reportedly developing an AI pendant (Meta entwickelt offenbar ein KI-Pendant)
+## Erin Brockovich takes aim at data center secrecy (Erin Brockovich nimmt die Geheimhaltung bei Rechenzentren ins Visier)
 
 Autor: Anthony Ha  
-Quelle: [TechCrunch](https://techcrunch.com/2026/05/30/meta-is-reportedly-developing-an-ai-pendant/)  
-Datum der Veröffentlichung: 30. Mai 2026, 08:59 PDT
+Quelle: [TechCrunch](https://techcrunch.com/2026/05/31/erin-brockovich-takes-aim-at-data-center-secrecy/)  
+Veröffentlichungsdatum: 31. Mai 2026, 14:05 PDT
 
-TechCrunch berichtet unter Berufung auf The Information, dass Meta ein KI-gestütztes Pendant entwickelt und im kommenden Jahr testen will. Das Gerät soll offenbar auf Metas Übernahme des Wearable-Startups Limitless aufbauen und könnte Gespräche erfassen, auswerten und in persönliche Assistenzfunktionen überführen. Für Unternehmen ist der Bericht relevant, weil Meta zusätzlich an „Wearables for Work“ arbeiten soll. Damit rücken Fragen zu Audioaufzeichnung, Einwilligung, vertraulichen Meetings, BYOD-Regeln und Datenschutz-Folgenabschätzungen näher an den Arbeitsplatz.
+TechCrunch berichtet, dass Erin Brockovich eine Karte für Rechenzentrumsprojekte in den USA gestartet hat, nachdem ihr laut Artikel innerhalb eines Monats fast 4.000 Hinweise aus betroffenen Gemeinden zugingen. Der Kernpunkt ist nicht eine pauschale Ablehnung von AI oder Rechenzentren, sondern mangelnde Transparenz bei Standortentscheidungen, Genehmigungen, NDAs und lokalen Auswirkungen.
 
-## Lawmakers Aiming To Prohibit AI From Detecting Human Emotions Or Mental States Are Barking Up The Wrong Tree (Gesetzgeber wollen KI-Emotionserkennung verbieten, aber der Ansatz greift laut Autor zu kurz)
+Für IT Business Relationship Manager ist das relevant, weil AI-Infrastruktur zunehmend über klassische IT-Kapazitätsplanung hinausgeht. Standortwahl, Energiebedarf, Wasserverbrauch, Geräuschbelastung und lokale Akzeptanz werden zu Stakeholder-Themen. Enterprise-Unternehmen sollten Cloud- und AI-Sourcing daher stärker mit ESG, Public Affairs, Procurement und Risk Management verzahnen.
 
-Autor: Lance Eliot  
-Quelle: [Forbes](https://www.forbes.com/sites/lanceeliot/2026/05/30/lawmakers-aiming-to-prohibit-ai-from-detecting-human-emotions-or-mental-states-are-barking-up-the-wrong-tree/?ss=ai-future-of-work)  
-Datum der Veröffentlichung: 30. Mai 2026, 03:15 EDT
+## Making sense of the debate over AI psychosis (Einordnung der Debatte über „AI Psychosis“)
 
-Der Forbes-Beitrag analysiert regulatorische Ansätze, die generativer KI und LLMs die Erkennung menschlicher Emotionen oder mentaler Zustände untersagen sollen. Auch wenn der Artikel als Analyse einzuordnen ist, adressiert er ein für Unternehmen wichtiges Compliance-Feld: Viele KI-Anwendungen in Kundenservice, Vertrieb, HR, Training oder Sicherheit können implizit emotionale oder psychologische Signale ableiten. BRMs sollten solche Funktionen nicht nur technisch, sondern auch rechtlich und reputativ bewerten. Besonders relevant sind klare Zweckbindung, Datenminimierung, Transparenz gegenüber Nutzern und eine Abgrenzung zwischen hilfreicher Kontextanpassung und sensibler Profilbildung.
+Autor: Anthony Ha  
+Quelle: [TechCrunch](https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/)  
+Veröffentlichungsdatum: 31. Mai 2026, 08:30 PDT
 
-## The AI Revolution And Career Optimism - A New Era For Workers (KI-Revolution und Karriereoptimismus: eine neue Ära für Beschäftigte)
+Der Artikel ordnet die Debatte um überzogene AI-Erwartungen von Führungskräften ein, ausgelöst durch Aussagen von Box-Gründer Aaron Levie. Die Analyse betont den Abstand vieler Entscheider zur konkreten Wertschöpfungsebene: Wer AI-Produktivitätsgewinne nur aus Strategie- oder Investorenperspektive betrachtet, unterschätzt Integrationsaufwand, Qualitätskontrolle und operative Reibung.
 
-Autor: Glenn Llopis  
-Quelle: [Forbes](https://www.forbes.com/sites/glennllopis/2026/05/30/the-ai-revolution-and-career-optimisma-new-era-for-workers/?ss=ai)  
-Datum der Veröffentlichung: 30. Mai 2026, 07:15 EDT
+Für Enterprise-IT ergibt sich daraus ein klares Signal: AI-Roadmaps brauchen belastbare Nutzungsmessung, klare Prozessverantwortung und Feedback aus den Fachbereichen. BRMs sollten besonders darauf achten, AI-Initiativen nicht nur als Effizienzprogramme zu positionieren, sondern den tatsächlichen Arbeitskontext, Governance-Aufwand und Akzeptanzrisiken in die Business Cases einzupreisen.
 
-Forbes beschreibt auf Basis des 2026 Career Optimism Index eine wachsende Kluft zwischen individueller KI-Kompetenzentwicklung und organisatorischer Anpassungsfähigkeit. Laut Beitrag geben 62 Prozent der Arbeitgeber an, dass Mitarbeitende KI-Skills schneller aufbauen, als Unternehmen Prozesse, Werkzeuge und Policies anpassen können. Für IT Business Relationship Manager ist das ein Governance- und Change-Thema: Schattennutzung, uneinheitliche Toolchains und fehlende Leitplanken können Produktivität schaffen, aber auch Risiken für Daten, Qualität und Compliance erhöhen. Sinnvoll sind daher rollenbasierte Enablement-Programme, klare Tool-Freigaben und ein Betriebsmodell, das Fachbereiche beim Transfer von KI-Fähigkeiten in belastbare Prozesse unterstützt.
+## ‘This is fine’ artist KC Green reaches agreement with AI startup Artisan (KC Green erzielt Einigung mit AI-Startup Artisan)
+
+Autor: Anthony Ha  
+Quelle: [TechCrunch](https://techcrunch.com/2026/05/31/this-is-fine-artist-kc-green-reaches-agreement-with-ai-startup-artisan/)  
+Veröffentlichungsdatum: 31. Mai 2026, 11:28 PDT
+
+KC Green, der Schöpfer des bekannten „This is fine“-Memes, hat sich laut TechCrunch mit dem AI-Startup Artisan geeinigt, nachdem dieses eine erkennbare Variante seiner Figur in Anzeigen für den AI-Vertriebsassistenten Ava genutzt hatte. Artisan entfernte die betroffenen Anzeigen in New York und San Francisco.
+
+Der Fall zeigt, dass AI-nahe Kampagnen nicht nur durch generierte Inhalte, sondern auch durch Anleihen an bekannte Werke rechtliche und reputative Risiken erzeugen. Für Unternehmen heißt das: Marketing, Legal und Brand Governance müssen bei AI-Kampagnen früh eingebunden werden. Besonders bei AI-Agenten im Vertrieb ist die Grenze zwischen provokanter Positionierung und IP-Risiko operativ relevant.
+
+## The 5 T’s Of Professional AI Success
+
+Autor: Nisha Talagala  
+Quelle: [Forbes](https://www.forbes.com/sites/nishatalagala/2026/05/31/the-5-ts-of-professional-ai-success-trust-tenacity-taste-technicality-and-tokens/)  
+Veröffentlichungsdatum: 31. Mai 2026, 22:30 EDT
+
+Forbes beschreibt fünf Kompetenzen für professionellen AI-Erfolg: Trust, Tenacity, Taste, Technicality und Tokens. Der Artikel verknüpft diese mit aktuellen Arbeitsplatzveränderungen, AI-bedingten Effizienzprogrammen und neuen Formen der Leistungsbewertung, etwa wenn Unternehmen AI-Nutzung als Kriterium für Produktivität oder Karriereentwicklung heranziehen.
+
+Für Enterprise-Organisationen ist daran weniger die Taxonomie selbst entscheidend als die Managementimplikation. AI Enablement sollte nicht nur Prompt-Schulungen umfassen, sondern auch Urteilsfähigkeit, Validierung, Kostenverständnis und verantwortliche Nutzung. BRMs können hier eine Brückenrolle übernehmen, indem sie Fachbereiche dabei unterstützen, AI-Kompetenzmodelle mit Governance, FinOps und Qualitätsmetriken zu verbinden.
