@@ -1,61 +1,68 @@
-# AI Update vom 2. Juni 2026
+# AI Update vom 3. Juni 2026
 
 ## tl;dr
+Microsoft adressiert mit neuen Open-Source-Werkzeugen zwei zentrale Enterprise-Probleme bei KI-Agenten: verlässliche Verhaltenskontrolle und anwendungsspezifische Regressionstests. OpenAI erweitert Codex deutlich in Richtung Wissensarbeit und positioniert agentische Werkzeuge damit jenseits der Softwareentwicklung. Anthropic skaliert Claude Mythos für kritische Infrastrukturen, was den Wettbewerb um KI-gestützte Cybersecurity weiter verschärft. Google bringt eine Android-Funktion gegen KI-gestützte Deepfake-Anrufe, während Amazon wegen Ring-Gesichtserkennung mit einer Sammelklage konfrontiert ist. In den USA wird KI-Aufsicht regulatorisch konkreter, aber weiterhin industriekompatibel ausgestaltet. Insgesamt verschiebt sich der Enterprise-Fokus von Modellleistung hin zu Governance, Compliance, Sicherheitsarchitektur und kontrollierter Integration in Geschäftsprozesse.
 
-Die neuesten Meldungen zeigen drei Schwerpunkte: Kapitalmärkte, Infrastruktur und operative KI-Risiken. Anthropic bereitet laut Bericht einen IPO vor, während Alphabet und SoftBank große Infrastrukturfinanzierungen für KI-Rechenleistung vorantreiben. Nvidia versucht, KI-Agenten stärker auf lokalen PCs zu verankern und adressiert damit Enterprise-Anforderungen an Latenz, Datenschutz und lokale Ausführung. MiniMax-M3 erhöht den Kostendruck auf proprietäre Frontier-Modelle durch günstige, multimodale und agentenfähige Open-Weights-Ansätze. Gleichzeitig rücken Prompt-Injection-Risiken bei Browser-Agenten und rechtliche Risiken rund um ChatGPT stärker in den Vordergrund. Für Enterprise-BRM bedeutet das: KI-Roadmaps müssen Compute-Beschaffung, Vendor-Risiko, Security-Governance und regulatorische Haftungsfragen zusammen betrachten.
+### New Microsoft tool lets devs spin up AI behavior tests using text descriptions (Microsoft-Werkzeug erzeugt KI-Verhaltenstests aus Textbeschreibungen)
 
-## Anthropic files to go public (Anthropic reicht vertraulich Börsengang ein)
+Autor: Ram Iyer  
+Quelle: [TechCrunch](https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/)  
+Veröffentlichungsdatum: 2. Juni 2026, 12:02 PM PDT
 
-Autor: Kirsten Korosec  
-Quelle: [TechCrunch](https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/)  
-Datum der Veröffentlichung: 1. Juni 2026
+Microsoft stellt mit ASSERT ein Open-Source-Framework für KI-Evaluationen vor, das aus natürlichsprachlichen Ziel-, Policy- und Verhaltensbeschreibungen strukturierte Tests generiert. Für Enterprise-Teams ist das relevant, weil klassische Benchmarks kaum prüfen, ob ein KI-System die konkreten Regeln eines Unternehmens einhält, etwa Vertraulichkeit, Rollenfreigaben oder erlaubte Tool-Nutzung. Besonders wichtig ist der Ansatz für BRM-nahe Use Cases, bei denen Fachbereiche KI-Agenten in Workflows bringen wollen, ohne jedes Risiko manuell in Code übersetzen zu müssen. ASSERT kann zudem Zwischenschritte und Tool Calls protokollieren, was die Nachvollziehbarkeit von Fehlern und Abweichungen verbessert.
 
-Anthropic hat laut TechCrunch vertraulich einen Börsengang bei der SEC vorbereitet. Der Bericht ordnet die Einreichung in eine Phase extrem hoher KI-Bewertungen ein und verweist auf starkes Umsatzwachstum sowie neue Finanzierungsrunden. Für Enterprise-Kunden ist relevant, dass ein IPO den Anbieter stärker unter Kapitalmarkt- und Transparenzdruck setzen könnte, zugleich aber auch Fragen zu Kosten, Margen, Governance und langfristiger Produktstrategie verschärft.
+### Microsoft offers devs a better way to control AI agent behavior (Microsoft bietet Entwicklern eine bessere Kontrolle über KI-Agenten)
 
-## Nvidia chases $200B CPU market with AI agent PCs from Microsoft, Dell, and HP (Nvidia zielt mit KI-Agenten-PCs auf den CPU-Markt)
+Autor: Ram Iyer  
+Quelle: [TechCrunch](https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/)  
+Veröffentlichungsdatum: 2. Juni 2026, 11:00 AM PDT
 
-Autor: Julie Bort  
-Quelle: [TechCrunch](https://techcrunch.com/2026/06/01/nvidia-chases-200b-cpu-market-with-ai-agent-pcs-from-microsoft-dell-and-hp/)  
-Datum der Veröffentlichung: 1. Juni 2026
+Microsofts neue Agent Control Specification soll Policies für KI-Agenten standardisieren und über verschiedene Frameworks hinweg portierbar machen. Regeln können festlegen, was ein Agent tun darf, wann menschliche Freigabe nötig ist, welche Evidenz geloggt wird und wann Inhalte blockiert oder redigiert werden. Der Ansatz ist für Unternehmen strategisch wichtig, weil Agenten-Governance bisher häufig aus verstreuten System Prompts, Speziallogik und nachgelagerten Filtern besteht. Unterstützt werden unter anderem LangChain, OpenAI Agents SDK, Anthropic Agents SDK, AutoGen, CrewAI, Semantic Kernel und MCP-Tools.
 
-Nvidia positioniert neue RTX-Spark-basierte Windows-PCs als lokale Plattform für KI-Agenten, unterstützt von Herstellern wie Microsoft, Dell, HP, Lenovo, ASUS und MSI. Die Systeme sollen lokale LLMs, sichere Sandboxes und agentische Workflows auf Endgeräten ermöglichen. Für IT-BRM ist das strategisch relevant, weil sich KI-Architekturen damit teilweise vom zentralen Cloud-Inferenzmodell hin zu hybriden Client-, Edge- und Cloud-Szenarien verschieben könnten.
+### OpenAI launches new Codex tools for white-collar work (OpenAI erweitert Codex für Wissensarbeit)
 
-## MiniMax-M3 debuts, eclipsing GPT-5.5 and Gemini 3.1 Pro on key benchmark performance for just 5-10% of the cost (MiniMax-M3 erhöht Preisdruck bei Frontier-KI)
+Autor: Russell Brandom  
+Quelle: [TechCrunch](https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/)  
+Veröffentlichungsdatum: 2. Juni 2026, 9:00 AM PDT
 
-Autor: Carl Franzen  
-Quelle: [VentureBeat](https://venturebeat.com/technology/minimax-m3-debuts-eclipsing-gpt-5-5-and-gemini-3-1-pro-on-key-benchmark-performance-for-just-5-10-of-the-cost)  
-Datum der Veröffentlichung: 1. Juni 2026
+OpenAI erweitert Codex mit Plug-ins für Datenanalyse, Creative Production, Sales, Produktdesign, Equity Investing und Investment Banking. Laut Bericht wächst die Nutzung durch Wissensarbeiter schneller als die klassische Entwicklernutzung; rund 20 Prozent der Codex-Nutzer sollen bereits aus diesem Segment kommen. Für Enterprise-Organisationen deutet das auf eine Verschiebung hin: Agentische Werkzeuge werden nicht mehr nur als Developer Productivity Tools positioniert, sondern als Arbeitsplatzplattform für funktionsspezifische Aufgaben. Neue Features wie gehostete interaktive Websites und dokumentbezogene Annotationen erhöhen zugleich die Anforderungen an Berechtigungen, Datenklassifikation und Output-Governance.
 
-MiniMax-M3 kombiniert laut VentureBeat ein 1-Million-Token-Kontextfenster, native Multimodalität und agentische Coding-Fähigkeiten mit deutlich niedrigeren API-Kosten. Besonders relevant ist die angekündigte Open-Weights-Verfügbarkeit, da Unternehmen damit mehr Optionen für private Deployments, Kostensenkung und geringere Anbieterabhängigkeit erhalten könnten. Die Leistungsangaben sollten jedoch vor produktiven Entscheidungen durch eigene Benchmarks, Sicherheitsprüfungen und Compliance-Bewertungen validiert werden.
+### Anthropic scales Claude Mythos to critical infrastructure in 15+ countries (Anthropic skaliert Claude Mythos für kritische Infrastrukturen)
 
-## Anthropic’s browser agent got hijacked 31.5% of the time before safeguards engaged (Anthropics Browser-Agent zeigt messbare Prompt-Injection-Risiken)
+Autor: Rebecca Bellan  
+Quelle: [TechCrunch](https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/)  
+Veröffentlichungsdatum: 2. Juni 2026, 7:44 AM PDT
 
-Autor: Louis Columbus  
-Quelle: [VentureBeat](https://venturebeat.com/security/anthropic-browser-agent-hijacked-31-percent-before-safeguards-engaged)  
-Datum der Veröffentlichung: 1. Juni 2026
+Anthropic erweitert Project Glasswing auf rund 150 Organisationen in mehr als 15 Ländern. Claude Mythos soll dort Codebasen in Bereichen wie Energie, Wasser, Gesundheitswesen, Kommunikation und Hardware auf Schwachstellen prüfen. Für IT-Verantwortliche ist die Meldung relevant, weil KI-gestützte Schwachstellensuche zunehmend als Bestandteil kritischer Infrastrukturprogramme betrachtet wird. Gleichzeitig entsteht ein Governance-Dilemma: Je leistungsfähiger solche Modelle in der Zero-Day-Erkennung werden, desto wichtiger werden Zugriffskontrolle, Prüfprotokolle, nationale Sicherheitsabstimmung und Missbrauchsprävention.
 
-VentureBeat analysiert Anthropic-Angaben zu Prompt-Injection-Tests bei agentischen Browser-Oberflächen. Entscheidend ist weniger der isolierte Prozentwert als die fehlende Vergleichbarkeit zwischen Anbietern: OpenAI, Google, Meta und Anthropic messen unterschiedliche Oberflächen, Metriken und Angriffsszenarien. Für Enterprise-Teams folgt daraus, dass Vendor-Angaben zu Agentensicherheit nicht direkt vergleichbar sind und eigene Red-Teaming-Tests vor Produktivsetzung erforderlich bleiben.
+### Google rolls out fake call detection to protect against AI deepfake impersonation scams (Google führt Schutz vor KI-Deepfake-Anrufen ein)
 
-## Florida sues OpenAI, Sam Altman, in first-of-its-kind lawsuit over violent incidents (Florida verklagt OpenAI und Sam Altman)
+Autor: Aisha Malik  
+Quelle: [TechCrunch](https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/)  
+Veröffentlichungsdatum: 2. Juni 2026, 11:00 AM PDT
 
-Autor: Lucas Ropek  
-Quelle: [TechCrunch](https://techcrunch.com/2026/06/01/florida-sues-openai-sam-altman-in-first-of-its-kind-lawsuit-over-violent-incidents/)  
-Datum der Veröffentlichung: 1. Juni 2026
+Google führt für Android eine Erkennung gefälschter Anrufe ein, die insbesondere KI-gestützte Stimmenimitationen und Spoofing vertrauenswürdiger Kontakte adressieren soll. Die Funktion startet global in Phone by Google für Android-12+-Geräte, zunächst auf Pixel-Geräten, und nutzt eine stille Verifikation zwischen Geräten. Für Unternehmen ist dies ein Hinweis darauf, dass Voice Fraud und Deepfake Social Engineering operativ relevanter werden. IT-, Security- und Fachbereichsteams sollten telefonbasierte Freigabeprozesse, Zahlungsfreigaben und Helpdesk-Identitätsprüfungen entsprechend überprüfen.
 
-Der Generalstaatsanwalt von Florida verklagt OpenAI und Sam Altman wegen mutmaßlicher Sicherheitsversäumnisse im Zusammenhang mit ChatGPT und gewaltsamen Vorfällen. OpenAI hat Verantwortung in einem der erwähnten Fälle zuvor zurückgewiesen. Für Unternehmen ist der Fall ein Signal, dass Sicherheitskommunikation, Risikohinweise, Jugendschutz, Monitoring und Eskalationsprozesse bei generativer KI zunehmend haftungsrelevant werden.
+### Amazon faces class action lawsuit over Ring facial-recognition feature (Amazon sieht Sammelklage wegen Ring-Gesichtserkennung)
 
-## SoftBank Commits $87.3B to France AI Infrastructure Buildout (SoftBank plant Milliardeninvestition in französische KI-Infrastruktur)
+Autor: Amanda Silberling  
+Quelle: [TechCrunch](https://techcrunch.com/2026/06/02/amazon-faces-class-action-lawsuit-over-ring-facial-recognition-feature/)  
+Veröffentlichungsdatum: 2. Juni 2026, 10:47 AM PDT
 
-Autor: Scarlett Evans  
-Quelle: [AI Business](https://aibusiness.com/generative-ai/softbank-commits-87-3b-france-ai-infrastructure-buildout)  
-Datum der Veröffentlichung: 1. Juni 2026
+Amazon wird wegen der Ring-Funktion Familiar Faces verklagt. Die Klage behauptet, dass Gesichtsdaten von Passanten ohne deren Zustimmung erfasst und gespeichert würden. Für Enterprise-Entscheider ist der Fall ein weiteres Beispiel dafür, dass KI-Funktionen mit biometrischen Daten nicht nur technische, sondern erhebliche Datenschutz-, Consent- und Reputationsrisiken erzeugen. Besonders relevant ist die Abgrenzung zwischen Opt-in der Gerätebesitzer und fehlender Einwilligung Dritter, die von der Erfassung betroffen sind.
 
-SoftBank will 87,3 Milliarden US-Dollar in KI-Infrastruktur in Frankreich investieren, darunter Rechenzentrumskapazitäten im Umfang mehrerer Gigawatt. Das Projekt stärkt Europas Position im globalen Wettbewerb um KI-Compute, Energieversorgung und digitale Souveränität. Für Enterprise-BRM ist relevant, dass Standort, Energieprofil und regulatorischer Rahmen von KI-Infrastruktur zunehmend Teil von Beschaffungs- und Resilienzentscheidungen werden.
+### Trump signs narrower executive order on AI oversight after industry objections (Trump unterzeichnet abgeschwächte Executive Order zur KI-Aufsicht)
 
-## This AI weather startup is out-forecasting government agencies (KI-Wetter-Startup übertrifft etablierte Prognosesysteme)
+Autor: Rebecca Bellan  
+Quelle: [TechCrunch](https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/)  
+Veröffentlichungsdatum: 2. Juni 2026, 9:23 AM PDT
 
-Autor: Tim Fernholz  
-Quelle: [TechCrunch](https://techcrunch.com/2026/06/01/this-ai-weather-startup-is-out-forecasting-government-agencies/)  
-Datum der Veröffentlichung: 1. Juni 2026
+Die neue Executive Order sieht freiwillige Prüfungen leistungsfähiger KI-Modelle durch die US-Regierung vor, bevor sie veröffentlicht werden. Gegenüber früheren Entwürfen wurde die Vorlaufzeit nach Einwänden aus der Industrie von bis zu 90 Tagen auf 30 Tage reduziert. Für global tätige Unternehmen ist daran weniger die unmittelbare Pflicht als die Richtung wichtig: Frontier-Modelle rücken stärker in regulatorische Vorabprüfung, Sicherheitsbewertung und nationale Wettbewerbslogik. Zugleich bleibt die US-Regierung bemüht, die Maßnahme nicht als Lizenz- oder Genehmigungssystem erscheinen zu lassen.
 
-WindBorne Systems hat WeatherMesh-6 vorgestellt, ein KI-Wettermodell, das häufigere Prognosen und hohe Auflösung mit eigenen Sensordaten aus Wetterballons kombiniert. Der Artikel zeigt, dass proprietäre Datenvorteile und Datenassimilation in KI-Systemen geschäftskritischer werden als das Modell allein. Für Unternehmen mit wetterabhängigen Lieferketten, Energie-, Logistik- oder Versicherungsprozessen könnte dies neue Optionen für präzisere operative Planung eröffnen.
+### ZeroDrift raises $10M to protect AI models from themselves (ZeroDrift sammelt 10 Millionen US-Dollar für KI-Compliance-Schicht ein)
+
+Autor: Russell Brandom  
+Quelle: [TechCrunch](https://techcrunch.com/2026/06/02/zerodrift-raises-10-million-to-protect-ai-models-from-themselves/)  
+Veröffentlichungsdatum: 2. Juni 2026, 5:32 AM PDT
+
+ZeroDrift positioniert sich als Compliance-Schicht zwischen KI-Modellen und Endnutzern und hat dafür 10 Millionen US-Dollar Seed-Finanzierung erhalten. Das System soll problematische Antworten deterministisch anhand bekannter Standards wie SOC 2 oder GDPR erkennen und anschließend mit LLM-Unterstützung regelkonforme Alternativen erzeugen. Für Enterprise-Architekturen ist der Ansatz interessant, weil er KI-Sicherheit nicht allein an das Basismodell delegiert, sondern eine kontrollierende Zwischenschicht einzieht. Das passt zu einem breiteren Trend: Governance wird als eigenständige technische Komponente in KI-Stacks implementiert, nicht nur als organisatorische Richtlinie.
