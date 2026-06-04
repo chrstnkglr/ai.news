@@ -1,68 +1,53 @@
-# AI Update vom 3. Juni 2026
+# AI Update vom 2026-06-04
 
 ## tl;dr
-Microsoft adressiert mit neuen Open-Source-Werkzeugen zwei zentrale Enterprise-Probleme bei KI-Agenten: verlässliche Verhaltenskontrolle und anwendungsspezifische Regressionstests. OpenAI erweitert Codex deutlich in Richtung Wissensarbeit und positioniert agentische Werkzeuge damit jenseits der Softwareentwicklung. Anthropic skaliert Claude Mythos für kritische Infrastrukturen, was den Wettbewerb um KI-gestützte Cybersecurity weiter verschärft. Google bringt eine Android-Funktion gegen KI-gestützte Deepfake-Anrufe, während Amazon wegen Ring-Gesichtserkennung mit einer Sammelklage konfrontiert ist. In den USA wird KI-Aufsicht regulatorisch konkreter, aber weiterhin industriekompatibel ausgestaltet. Insgesamt verschiebt sich der Enterprise-Fokus von Modellleistung hin zu Governance, Compliance, Sicherheitsarchitektur und kontrollierter Integration in Geschäftsprozesse.
 
-### New Microsoft tool lets devs spin up AI behavior tests using text descriptions (Microsoft-Werkzeug erzeugt KI-Verhaltenstests aus Textbeschreibungen)
+Die letzten 24 Stunden zeigen vor allem eine weitere Verlagerung von KI aus Pilotprojekten in Enterprise-Infrastruktur, Entwicklerplattformen und operative Geschäftsprozesse. Google stärkt seine AI-Cloud-Position mit einem größeren Lovable-Deal und einer außergewöhnlich großen Kapitalaufnahme für KI-Infrastruktur. Microsoft bündelt auf der Build 2026 Agentenplattform, Kontextschicht, eigene Modelle und Governance-Kontrollen zu einem stärker integrierten Enterprise-Angebot. Meta skaliert seinen Business-Agenten in WhatsApp global und macht Messaging damit stärker zu einem workflowfähigen Kundenservice-Kanal. Gleichzeitig entstehen neue Kontrollschichten: Publisher erhalten Opt-out-Möglichkeiten für KI-Suche, während Coralogix auf Observability für produktive KI-Agenten setzt. Für IT Business Relationship Manager sind besonders die Themen Anbieterbindung, Governance, Observability, Datenzugriff und Fachbereichs-Enablement relevant.
 
-Autor: Ram Iyer  
-Quelle: [TechCrunch](https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/)  
-Veröffentlichungsdatum: 2. Juni 2026, 12:02 PM PDT
+## Lovable signs multiyear deal with Google Cloud to up usage 5x, source says
 
-Microsoft stellt mit ASSERT ein Open-Source-Framework für KI-Evaluationen vor, das aus natürlichsprachlichen Ziel-, Policy- und Verhaltensbeschreibungen strukturierte Tests generiert. Für Enterprise-Teams ist das relevant, weil klassische Benchmarks kaum prüfen, ob ein KI-System die konkreten Regeln eines Unternehmens einhält, etwa Vertraulichkeit, Rollenfreigaben oder erlaubte Tool-Nutzung. Besonders wichtig ist der Ansatz für BRM-nahe Use Cases, bei denen Fachbereiche KI-Agenten in Workflows bringen wollen, ohne jedes Risiko manuell in Code übersetzen zu müssen. ASSERT kann zudem Zwischenschritte und Tool Calls protokollieren, was die Nachvollziehbarkeit von Fehlern und Abweichungen verbessert.
+Autor: Julie Bort  
+Quelle: [TechCrunch](https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/)  
+Datum der Veröffentlichung: 3. Juni 2026, 15:56 PDT
 
-### Microsoft offers devs a better way to control AI agent behavior (Microsoft bietet Entwicklern eine bessere Kontrolle über KI-Agenten)
+Lovable erweitert seine mehrjährige Zusammenarbeit mit Google Cloud deutlich; laut TechCrunch soll der Cloud-Footprint inklusive KI-Nutzung um den Faktor fünf steigen. Strategisch relevant ist, dass Lovable dadurch erweiterten Zugang zu Anthropic Claude und Google Gemini erhält und sein Agent über Googles Enterprise Agent Gallery verfügbar werden soll. Für Enterprise-Kunden ist das ein Signal, dass Vibe-Coding- und Agentenplattformen zunehmend über Hyperscaler-Marktplätze, zentrale Beschaffung und Cloud-Governance in Unternehmenslandschaften einziehen. BRMs sollten dabei besonders auf Security-by-design, Code-Governance und Abhängigkeiten zwischen Cloud-, Modell- und Tool-Anbietern achten.
 
-Autor: Ram Iyer  
-Quelle: [TechCrunch](https://techcrunch.com/2026/06/02/microsoft-offers-devs-a-better-way-to-control-ai-agent-behavior/)  
-Veröffentlichungsdatum: 2. Juni 2026, 11:00 AM PDT
+## Alphabet’s record-breaking $85B raise for Google’s AI business is a helluva good signal
 
-Microsofts neue Agent Control Specification soll Policies für KI-Agenten standardisieren und über verschiedene Frameworks hinweg portierbar machen. Regeln können festlegen, was ein Agent tun darf, wann menschliche Freigabe nötig ist, welche Evidenz geloggt wird und wann Inhalte blockiert oder redigiert werden. Der Ansatz ist für Unternehmen strategisch wichtig, weil Agenten-Governance bisher häufig aus verstreuten System Prompts, Speziallogik und nachgelagerten Filtern besteht. Unterstützt werden unter anderem LangChain, OpenAI Agents SDK, Anthropic Agents SDK, AutoGen, CrewAI, Semantic Kernel und MCP-Tools.
+Autor: Julie Bort  
+Quelle: [TechCrunch](https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/)  
+Datum der Veröffentlichung: 3. Juni 2026, 12:38 PDT
 
-### OpenAI launches new Codex tools for white-collar work (OpenAI erweitert Codex für Wissensarbeit)
+Alphabet plant eine Kapitalaufnahme von insgesamt 85 Milliarden US-Dollar, die laut Bericht auf KI-Infrastruktur und Rechenzentren ausgerichtet ist. Der Artikel ordnet dies als starkes Signal für die Aufnahmefähigkeit öffentlicher Märkte gegenüber großvolumigen KI-Investitionen ein. Für Enterprise-IT bedeutet das: Die Hyperscaler werden ihre KI-Kapazitäten weiter aggressiv ausbauen, aber die Finanzierung dieses Ausbaus wird zunehmend zu einem Markt- und Risikothema. BRMs sollten Kostenmodelle, Kapazitätszusagen und langfristige Cloud-Verträge in KI-Roadmaps kritisch mit Finance und Procurement abstimmen.
 
-Autor: Russell Brandom  
-Quelle: [TechCrunch](https://techcrunch.com/2026/06/02/openai-launches-new-codex-tools-for-white-collar-work/)  
-Veröffentlichungsdatum: 2. Juni 2026, 9:00 AM PDT
+## Microsoft Build 2026: Be yourself at work
 
-OpenAI erweitert Codex mit Plug-ins für Datenanalyse, Creative Production, Sales, Produktdesign, Equity Investing und Investment Banking. Laut Bericht wächst die Nutzung durch Wissensarbeiter schneller als die klassische Entwicklernutzung; rund 20 Prozent der Codex-Nutzer sollen bereits aus diesem Segment kommen. Für Enterprise-Organisationen deutet das auf eine Verschiebung hin: Agentische Werkzeuge werden nicht mehr nur als Developer Productivity Tools positioniert, sondern als Arbeitsplatzplattform für funktionsspezifische Aufgaben. Neue Features wie gehostete interaktive Websites und dokumentbezogene Annotationen erhöhen zugleich die Anforderungen an Berechtigungen, Datenklassifikation und Output-Governance.
+Autor: Kyle Daigle  
+Quelle: [Microsoft Source](https://news.microsoft.com/source/asia/2026/06/03/microsoft-build-2026-be-yourself-at-work/)  
+Datum der Veröffentlichung: 3. Juni 2026
 
-### Anthropic scales Claude Mythos to critical infrastructure in 15+ countries (Anthropic skaliert Claude Mythos für kritische Infrastrukturen)
+Microsoft stellt zur Build 2026 eine umfassende Agenten- und Entwicklerplattform vor: Microsoft IQ als Kontextschicht, Scout als persönlicher Arbeitsagent, neue MAI-Modelle, Foundry-Erweiterungen, Agent 365 sowie offene Spezifikationen für Agentenkontrolle und Evaluation. Besonders relevant ist der Versuch, Modellwahl, Unternehmenskontext, Governance, Security und lokale Ausführung in einen konsistenten Stack zu integrieren. Für Enterprise-Unternehmen kann das die Einführung von Agenten beschleunigen, erhöht aber zugleich die Bedeutung sauberer Identitäts-, Berechtigungs-, Daten- und Compliance-Architekturen. BRMs sollten Fachbereiche früh aufklären, dass Agentenfähigkeit nicht nur ein Tool-Thema ist, sondern stark von Datenqualität, Prozessklarheit und Governance-Reife abhängt.
 
-Autor: Rebecca Bellan  
-Quelle: [TechCrunch](https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/)  
-Veröffentlichungsdatum: 2. Juni 2026, 7:44 AM PDT
+## Coralogix raises $200M on bet that someone needs to watch the AI agents
 
-Anthropic erweitert Project Glasswing auf rund 150 Organisationen in mehr als 15 Ländern. Claude Mythos soll dort Codebasen in Bereichen wie Energie, Wasser, Gesundheitswesen, Kommunikation und Hardware auf Schwachstellen prüfen. Für IT-Verantwortliche ist die Meldung relevant, weil KI-gestützte Schwachstellensuche zunehmend als Bestandteil kritischer Infrastrukturprogramme betrachtet wird. Gleichzeitig entsteht ein Governance-Dilemma: Je leistungsfähiger solche Modelle in der Zero-Day-Erkennung werden, desto wichtiger werden Zugriffskontrolle, Prüfprotokolle, nationale Sicherheitsabstimmung und Missbrauchsprävention.
+Autor: Jagmeet Singh  
+Quelle: [TechCrunch](https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/)  
+Datum der Veröffentlichung: 3. Juni 2026, 06:02 PDT
 
-### Google rolls out fake call detection to protect against AI deepfake impersonation scams (Google führt Schutz vor KI-Deepfake-Anrufen ein)
+Coralogix erhält 200 Millionen US-Dollar in einer Series-F-Finanzierung und positioniert sich als Monitoring- und Observability-Schicht für KI-Agenten. Der Artikel beschreibt, dass autonome Software-Agenten neue Anforderungen an Logs, Traces, Incident-Analyse und Betriebsdaten stellen. Für Unternehmen ist das ein wichtiger Reifeindikator: Sobald Agenten produktive Aufgaben übernehmen, reichen klassische Dashboards und manuelle Fehlersuche oft nicht mehr aus. BRMs sollten bei Agenteninitiativen von Beginn an Observability, Auditierbarkeit, Eskalationspfade und Betriebsverantwortung mitdenken.
 
-Autor: Aisha Malik  
-Quelle: [TechCrunch](https://techcrunch.com/2026/06/02/google-rolls-out-fake-call-detection-to-protect-against-ai-deepfake-impersonation-scams/)  
-Veröffentlichungsdatum: 2. Juni 2026, 11:00 AM PDT
+## Meta’s AI agent for WhatsApp Business is now available globally
 
-Google führt für Android eine Erkennung gefälschter Anrufe ein, die insbesondere KI-gestützte Stimmenimitationen und Spoofing vertrauenswürdiger Kontakte adressieren soll. Die Funktion startet global in Phone by Google für Android-12+-Geräte, zunächst auf Pixel-Geräten, und nutzt eine stille Verifikation zwischen Geräten. Für Unternehmen ist dies ein Hinweis darauf, dass Voice Fraud und Deepfake Social Engineering operativ relevanter werden. IT-, Security- und Fachbereichsteams sollten telefonbasierte Freigabeprozesse, Zahlungsfreigaben und Helpdesk-Identitätsprüfungen entsprechend überprüfen.
+Autor: Ivan Mehta  
+Quelle: [TechCrunch](https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/)  
+Datum der Veröffentlichung: 3. Juni 2026, 06:40 PDT
 
-### Amazon faces class action lawsuit over Ring facial-recognition feature (Amazon sieht Sammelklage wegen Ring-Gesichtserkennung)
+Meta rollt den Meta Business Agent weltweit in WhatsApp Business aus und erweitert ihn auch auf Instagram-Direktnachrichten. Der Agent soll Kundenfragen beantworten, Produkte empfehlen, Termine buchen, Leads qualifizieren und bei Bedarf an Menschen übergeben. Für Unternehmen zeigt sich damit ein klarer Trend: Conversational AI wandert aus isolierten Chatbot-Projekten in reichweitenstarke Kommunikationskanäle. BRMs sollten prüfen, wie solche Kanäle mit CRM, Commerce, Datenschutz, Consent-Management und Service-Level-Prozessen verbunden werden können.
 
-Autor: Amanda Silberling  
-Quelle: [TechCrunch](https://techcrunch.com/2026/06/02/amazon-faces-class-action-lawsuit-over-ring-facial-recognition-feature/)  
-Veröffentlichungsdatum: 2. Juni 2026, 10:47 AM PDT
+## Publishers will be able to opt out of AI Search, thanks to new regulation
 
-Amazon wird wegen der Ring-Funktion Familiar Faces verklagt. Die Klage behauptet, dass Gesichtsdaten von Passanten ohne deren Zustimmung erfasst und gespeichert würden. Für Enterprise-Entscheider ist der Fall ein weiteres Beispiel dafür, dass KI-Funktionen mit biometrischen Daten nicht nur technische, sondern erhebliche Datenschutz-, Consent- und Reputationsrisiken erzeugen. Besonders relevant ist die Abgrenzung zwischen Opt-in der Gerätebesitzer und fehlender Einwilligung Dritter, die von der Erfassung betroffen sind.
+Autor: Sarah Perez  
+Quelle: [TechCrunch](https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/)  
+Datum der Veröffentlichung: 3. Juni 2026, 07:58 PDT
 
-### Trump signs narrower executive order on AI oversight after industry objections (Trump unterzeichnet abgeschwächte Executive Order zur KI-Aufsicht)
-
-Autor: Rebecca Bellan  
-Quelle: [TechCrunch](https://techcrunch.com/2026/06/02/trump-signs-narrower-executive-order-on-ai-oversight-after-industry-objections/)  
-Veröffentlichungsdatum: 2. Juni 2026, 9:23 AM PDT
-
-Die neue Executive Order sieht freiwillige Prüfungen leistungsfähiger KI-Modelle durch die US-Regierung vor, bevor sie veröffentlicht werden. Gegenüber früheren Entwürfen wurde die Vorlaufzeit nach Einwänden aus der Industrie von bis zu 90 Tagen auf 30 Tage reduziert. Für global tätige Unternehmen ist daran weniger die unmittelbare Pflicht als die Richtung wichtig: Frontier-Modelle rücken stärker in regulatorische Vorabprüfung, Sicherheitsbewertung und nationale Wettbewerbslogik. Zugleich bleibt die US-Regierung bemüht, die Maßnahme nicht als Lizenz- oder Genehmigungssystem erscheinen zu lassen.
-
-### ZeroDrift raises $10M to protect AI models from themselves (ZeroDrift sammelt 10 Millionen US-Dollar für KI-Compliance-Schicht ein)
-
-Autor: Russell Brandom  
-Quelle: [TechCrunch](https://techcrunch.com/2026/06/02/zerodrift-raises-10-million-to-protect-ai-models-from-themselves/)  
-Veröffentlichungsdatum: 2. Juni 2026, 5:32 AM PDT
-
-ZeroDrift positioniert sich als Compliance-Schicht zwischen KI-Modellen und Endnutzern und hat dafür 10 Millionen US-Dollar Seed-Finanzierung erhalten. Das System soll problematische Antworten deterministisch anhand bekannter Standards wie SOC 2 oder GDPR erkennen und anschließend mit LLM-Unterstützung regelkonforme Alternativen erzeugen. Für Enterprise-Architekturen ist der Ansatz interessant, weil er KI-Sicherheit nicht allein an das Basismodell delegiert, sondern eine kontrollierende Zwischenschicht einzieht. Das passt zu einem breiteren Trend: Governance wird als eigenständige technische Komponente in KI-Stacks implementiert, nicht nur als organisatorische Richtlinie.
+Google führt infolge britischer Regulierung eine Opt-out-Möglichkeit für Publisher ein, damit deren Inhalte nicht in generativen KI-Suchfunktionen wie AI Overviews oder AI Mode erscheinen. Der Schritt wird zunächst mit ausgewählten britischen Publishern getestet und soll später breiter ausgerollt werden. Für Enterprise-Unternehmen ist das über Medienhäuser hinaus relevant, weil es den Umgang mit Content-Rechten, Attribution und KI-gestützter Auffindbarkeit neu justiert. BRMs in wissensintensiven Organisationen sollten beobachten, wie sich solche Mechanismen auf Content-Strategie, SEO, Knowledge Management und rechtliche Freigaben auswirken.
