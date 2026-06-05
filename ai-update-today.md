@@ -1,53 +1,53 @@
-# AI Update vom 2026-06-04
+# AI Update vom 5. Juni 2026
 
 ## tl;dr
 
-Die letzten 24 Stunden zeigen vor allem eine weitere Verlagerung von KI aus Pilotprojekten in Enterprise-Infrastruktur, Entwicklerplattformen und operative Geschäftsprozesse. Google stärkt seine AI-Cloud-Position mit einem größeren Lovable-Deal und einer außergewöhnlich großen Kapitalaufnahme für KI-Infrastruktur. Microsoft bündelt auf der Build 2026 Agentenplattform, Kontextschicht, eigene Modelle und Governance-Kontrollen zu einem stärker integrierten Enterprise-Angebot. Meta skaliert seinen Business-Agenten in WhatsApp global und macht Messaging damit stärker zu einem workflowfähigen Kundenservice-Kanal. Gleichzeitig entstehen neue Kontrollschichten: Publisher erhalten Opt-out-Möglichkeiten für KI-Suche, während Coralogix auf Observability für produktive KI-Agenten setzt. Für IT Business Relationship Manager sind besonders die Themen Anbieterbindung, Governance, Observability, Datenzugriff und Fachbereichs-Enablement relevant.
+OpenAI verbessert mit „Dreaming“ die Gedächtnislogik von ChatGPT und adressiert damit ein zentrales Enterprise-Thema: Kontextkontinuität über lange Nutzungszeiträume. Microsofts Scout zeigt, wie Office-Agenten künftig stärker wie autonome digitale Mitarbeiter mit Identität, Richtlinien und Governance geführt werden. Google DeepMinds Gemma 4 12B und Nvidias neue Physical-AI-Werkzeuge zeigen eine Verschiebung hin zu Edge-Ausführung, lokalen Modellen und simulationsgestützter Entwicklung. Amazon öffnet seine Shopping-Agent-Technologie für externe Händler und positioniert AWS damit stärker als Plattform für agentischen Commerce. Im Robotikbereich bleibt reale Betriebsdatenerfassung ein Engpass, den Hello Robot mit einem bewusst pragmatischen Assistenzroboter adressiert.
 
-## Lovable signs multiyear deal with Google Cloud to up usage 5x, source says
+## Dreaming: Better memory for a more helpful ChatGPT (Dreaming: Besseres Gedächtnis für ein hilfreicheres ChatGPT)
 
-Autor: Julie Bort  
-Quelle: [TechCrunch](https://techcrunch.com/2026/06/03/lovable-signs-multi-year-deal-with-google-cloud-to-up-usage-5x-source-says/)  
-Datum der Veröffentlichung: 3. Juni 2026, 15:56 PDT
+**Autor:** OpenAI  
+**Quelle:** [OpenAI](https://openai.com/index/chatgpt-memory-dreaming/)  
+**Veröffentlichung:** 4. Juni 2026
 
-Lovable erweitert seine mehrjährige Zusammenarbeit mit Google Cloud deutlich; laut TechCrunch soll der Cloud-Footprint inklusive KI-Nutzung um den Faktor fünf steigen. Strategisch relevant ist, dass Lovable dadurch erweiterten Zugang zu Anthropic Claude und Google Gemini erhält und sein Agent über Googles Enterprise Agent Gallery verfügbar werden soll. Für Enterprise-Kunden ist das ein Signal, dass Vibe-Coding- und Agentenplattformen zunehmend über Hyperscaler-Marktplätze, zentrale Beschaffung und Cloud-Governance in Unternehmenslandschaften einziehen. BRMs sollten dabei besonders auf Security-by-design, Code-Governance und Abhängigkeiten zwischen Cloud-, Modell- und Tool-Anbietern achten.
+OpenAI führt ein weiterentwickeltes System zur Gedächtnissynthese in ChatGPT ein. Ziel ist es, Erinnerungen frischer, relevanter und robuster über längere Zeiträume hinweg zu halten. Für Enterprise-Unternehmen ist das relevant, weil produktive KI-Assistenten nicht nur Modellqualität benötigen, sondern belastbare Kontextverwaltung über Projekte, Rollen, Präferenzen und Compliance-Grenzen hinweg. Die Ankündigung unterstreicht, dass „Memory“ zunehmend zur Plattformfunktion wird und Governance-Fragen zu Datenhaltung, Nutzerprofilen, Löschung und Zweckbindung verschärft.
 
-## Alphabet’s record-breaking $85B raise for Google’s AI business is a helluva good signal
+## Scout from M’Soft is the agentic Autopilot that works across M365 (Scout von Microsoft ist ein agentischer Autopilot für M365)
 
-Autor: Julie Bort  
-Quelle: [TechCrunch](https://techcrunch.com/2026/06/03/alphabets-record-breaking-85b-raise-for-googles-ai-business-is-a-helluva-good-signal/)  
-Datum der Veröffentlichung: 3. Juni 2026, 12:38 PDT
+**Autor:** Joe Green  
+**Quelle:** [AI News](https://www.artificialintelligence-news.com/news/microsofts-autopilot-scout-is-the-agentic-autopilot-that-works-across-m365/)  
+**Veröffentlichung:** 4. Juni 2026
 
-Alphabet plant eine Kapitalaufnahme von insgesamt 85 Milliarden US-Dollar, die laut Bericht auf KI-Infrastruktur und Rechenzentren ausgerichtet ist. Der Artikel ordnet dies als starkes Signal für die Aufnahmefähigkeit öffentlicher Märkte gegenüber großvolumigen KI-Investitionen ein. Für Enterprise-IT bedeutet das: Die Hyperscaler werden ihre KI-Kapazitäten weiter aggressiv ausbauen, aber die Finanzierung dieses Ausbaus wird zunehmend zu einem Markt- und Risikothema. BRMs sollten Kostenmodelle, Kapazitätszusagen und langfristige Cloud-Verträge in KI-Roadmaps kritisch mit Finance und Procurement abstimmen.
+Microsoft testet Scout als ersten „Autopilot“, der über Outlook, OneDrive, SharePoint und Teams hinweg Aufgaben koordinieren soll. Der Agent erhält eine eigene Identität, nutzt OpenClaw als technische Basis und soll über Entra, Purview, Intune-Richtlinien und menschliche Freigaben abgesichert werden. Für IT Business Relationship Manager ist vor allem die Betriebslogik relevant: Agenten werden nicht mehr nur als Chat-Erweiterung, sondern als verwaltbare digitale Akteure im Microsoft-365-Ökosystem behandelt. Damit steigen Anforderungen an Identity Governance, Berechtigungsmodelle, Auditierbarkeit und Fachbereichsfreigaben.
 
-## Microsoft Build 2026: Be yourself at work
+## Google’s Gemma 4 12B Shows AI Race Moving to Edge Devices (Google Gemma 4 12B zeigt die Verlagerung von KI auf Edge-Geräte)
 
-Autor: Kyle Daigle  
-Quelle: [Microsoft Source](https://news.microsoft.com/source/asia/2026/06/03/microsoft-build-2026-be-yourself-at-work/)  
-Datum der Veröffentlichung: 3. Juni 2026
+**Autor:** Esther Shittu  
+**Quelle:** [AI Business](https://aibusiness.com/agentic-ai/google-s-gemma-4-12b-shows-ai-race-moving-edge-devices)  
+**Veröffentlichung:** 4. Juni 2026
 
-Microsoft stellt zur Build 2026 eine umfassende Agenten- und Entwicklerplattform vor: Microsoft IQ als Kontextschicht, Scout als persönlicher Arbeitsagent, neue MAI-Modelle, Foundry-Erweiterungen, Agent 365 sowie offene Spezifikationen für Agentenkontrolle und Evaluation. Besonders relevant ist der Versuch, Modellwahl, Unternehmenskontext, Governance, Security und lokale Ausführung in einen konsistenten Stack zu integrieren. Für Enterprise-Unternehmen kann das die Einführung von Agenten beschleunigen, erhöht aber zugleich die Bedeutung sauberer Identitäts-, Berechtigungs-, Daten- und Compliance-Architekturen. BRMs sollten Fachbereiche früh aufklären, dass Agentenfähigkeit nicht nur ein Tool-Thema ist, sondern stark von Datenqualität, Prozessklarheit und Governance-Reife abhängt.
+AI Business ordnet Google DeepMinds Gemma 4 12B als Signal ein, dass Enterprise-KI stärker auf lokale und Edge-nahe Ausführung zusteuert. Das Modell steht unter Apache-2.0-Lizenz und soll multimodale Verarbeitung auch auf Geräten mit begrenzten Ressourcen ermöglichen. Für Unternehmen ist dies strategisch relevant, weil lokale Modelle Kosten, Latenz und Datenhoheit verbessern können, aber zugleich neue Anforderungen an Geräteverwaltung, Modellverteilung, Sicherheitsupdates und Evaluation schaffen. Besonders für agentische Workflows ist entscheidend, ob kleinere Modelle ausreichend zuverlässig für eng umrissene Aufgaben arbeiten.
 
-## Coralogix raises $200M on bet that someone needs to watch the AI agents
+## Nvidia Unveils New Physical AI Research and Agent Workflows
 
-Autor: Jagmeet Singh  
-Quelle: [TechCrunch](https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/)  
-Datum der Veröffentlichung: 3. Juni 2026, 06:02 PDT
+**Autor:** Scarlett Evans  
+**Quelle:** [AI Business](https://aibusiness.com/generative-ai/nvidia-unveils-physical-ai-research-agent-workflows)  
+**Veröffentlichung:** 4. Juni 2026
 
-Coralogix erhält 200 Millionen US-Dollar in einer Series-F-Finanzierung und positioniert sich als Monitoring- und Observability-Schicht für KI-Agenten. Der Artikel beschreibt, dass autonome Software-Agenten neue Anforderungen an Logs, Traces, Incident-Analyse und Betriebsdaten stellen. Für Unternehmen ist das ein wichtiger Reifeindikator: Sobald Agenten produktive Aufgaben übernehmen, reichen klassische Dashboards und manuelle Fehlersuche oft nicht mehr aus. BRMs sollten bei Agenteninitiativen von Beginn an Observability, Auditierbarkeit, Eskalationspfade und Betriebsverantwortung mitdenken.
+Nvidia erweitert seine Physical-AI-Werkzeuge rund um Cosmos 3, Omniverse, Isaac Sim und Isaac Lab. Die neuen Agenten-Workflows sollen Simulation, synthetische Datengenerierung, Szenenrekonstruktion, Training und Evaluation für Robotik, autonome Fahrzeuge und Vision-AI-Systeme stärker automatisieren. Für Enterprise-Anwender in Fertigung, Logistik und Mobilität ist der Ansatz relevant, weil er den Übergang von Modellprototypen zu validierbaren physischen Systemen adressiert. Der Artikel zeigt außerdem, dass die Wettbewerbsdifferenzierung bei Physical AI zunehmend in durchgängigen Entwicklungs- und Testpipelines liegt, nicht nur in einzelnen Modellen.
 
-## Meta’s AI agent for WhatsApp Business is now available globally
+## Amazon brings AI shopping assistant to retailers with Kate Spade (Amazon bringt KI-Shopping-Assistenten zu Händlern, mit Kate Spade als frühem Anwender)
 
-Autor: Ivan Mehta  
-Quelle: [TechCrunch](https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/)  
-Datum der Veröffentlichung: 3. Juni 2026, 06:40 PDT
+**Autor:** Muhammad Zulhusni  
+**Quelle:** [AI News](https://www.artificialintelligence-news.com/news/amazon-ai-shopping-assistant-kate-spade-retailers/)  
+**Veröffentlichung:** 4. Juni 2026
 
-Meta rollt den Meta Business Agent weltweit in WhatsApp Business aus und erweitert ihn auch auf Instagram-Direktnachrichten. Der Agent soll Kundenfragen beantworten, Produkte empfehlen, Termine buchen, Leads qualifizieren und bei Bedarf an Menschen übergeben. Für Unternehmen zeigt sich damit ein klarer Trend: Conversational AI wandert aus isolierten Chatbot-Projekten in reichweitenstarke Kommunikationskanäle. BRMs sollten prüfen, wie solche Kanäle mit CRM, Commerce, Datenschutz, Consent-Management und Service-Level-Prozessen verbunden werden können.
+Amazon bietet seine Agentic-Shopping-Assistant-Technologie über AWS für externe Händler an. Die Lösung nutzt unter anderem Amazon Bedrock, AgentCore und OpenSearch und soll Conversational-Commerce-Anwendungen schneller deploybar machen. Kate Spade setzt die Technologie als „AI Gift Concierge“ ein. Für Enterprise-Retailer ist die Meldung relevant, weil Amazon nicht nur eigene Handelsprozesse automatisiert, sondern seine Commerce-Agentenarchitektur als Plattformangebot vermarktet. Damit verschiebt sich die Make-or-Buy-Frage bei KI-Assistenten im Handel weiter in Richtung Plattformintegration, Datenzugriff und Differenzierung über Marken- und Kundenerlebnis.
 
-## Publishers will be able to opt out of AI Search, thanks to new regulation
+## Is Silicon Valley ready to put robots in people’s homes? Hello Robot is. (Ist Silicon Valley bereit für Roboter im Zuhause? Hello Robot versucht es)
 
-Autor: Sarah Perez  
-Quelle: [TechCrunch](https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/)  
-Datum der Veröffentlichung: 3. Juni 2026, 07:58 PDT
+**Autor:** Tim Fernholz  
+**Quelle:** [TechCrunch](https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/)  
+**Veröffentlichung:** 4. Juni 2026, 8:05 Uhr PDT
 
-Google führt infolge britischer Regulierung eine Opt-out-Möglichkeit für Publisher ein, damit deren Inhalte nicht in generativen KI-Suchfunktionen wie AI Overviews oder AI Mode erscheinen. Der Schritt wird zunächst mit ausgewählten britischen Publishern getestet und soll später breiter ausgerollt werden. Für Enterprise-Unternehmen ist das über Medienhäuser hinaus relevant, weil es den Umgang mit Content-Rechten, Attribution und KI-gestützter Auffindbarkeit neu justiert. BRMs in wissensintensiven Organisationen sollten beobachten, wie sich solche Mechanismen auf Content-Strategie, SEO, Knowledge Management und rechtliche Freigaben auswirken.
+TechCrunch porträtiert Hello Robot und dessen Assistenzroboter Stretch 4, der nicht auf humanoide Maximalversprechen, sondern auf reale Nutzung in Haushalten und Forschung setzt. Der Artikel hebt hervor, dass reale Betriebsdaten, sichere Interaktion und robuste Hardware zentrale Engpässe für Physical AI bleiben. Für Unternehmen mit Robotik-, Pflege-, Facility- oder Laborautomatisierungsinitiativen ist die Einordnung wichtig: Die Wertschöpfung entsteht nicht allein durch Foundation Models, sondern durch kontrollierte Datenerfassung, sichere Deployment-Umgebungen und iterative Prozessintegration.
