@@ -1,53 +1,61 @@
-# AI Update vom 5. Juni 2026
+# AI Update vom 2026-06-06
 
 ## tl;dr
 
-OpenAI verbessert mit „Dreaming“ die Gedächtnislogik von ChatGPT und adressiert damit ein zentrales Enterprise-Thema: Kontextkontinuität über lange Nutzungszeiträume. Microsofts Scout zeigt, wie Office-Agenten künftig stärker wie autonome digitale Mitarbeiter mit Identität, Richtlinien und Governance geführt werden. Google DeepMinds Gemma 4 12B und Nvidias neue Physical-AI-Werkzeuge zeigen eine Verschiebung hin zu Edge-Ausführung, lokalen Modellen und simulationsgestützter Entwicklung. Amazon öffnet seine Shopping-Agent-Technologie für externe Händler und positioniert AWS damit stärker als Plattform für agentischen Commerce. Im Robotikbereich bleibt reale Betriebsdatenerfassung ein Engpass, den Hello Robot mit einem bewusst pragmatischen Assistenzroboter adressiert.
+Die wichtigsten neuen Meldungen zeigen einen klaren Schwerpunkt auf produktionsnaher Enterprise-KI: Rechenkapazität, Kostenkontrolle, agentische Workflows und industrielle Automatisierung. Google sichert sich bei SpaceX kurzfristig enorme GPU-Kapazität, während AirTrunk in Indien 5 GW neue AI-Data-Center-Kapazität plant. Parallel verschiebt sich die Diskussion von Modellfähigkeit hin zu Token-Kosten, FinOps-ähnlicher Steuerung und messbarem ROI. Shell und C3 AI zeigen, wie agentische KI in Instandhaltung und OT/ERP-integrierten Prozessen produktiv werden kann. Amazon erweitert seine Lagerrobotik in Europa und verbindet autonome Materialbewegung mit natürlichsprachlicher Steuerung. Für Governance- und Risikoteams bleibt relevant, dass neue Forschungsarbeiten bei KI-Bewusstsein vor vorschnellen Zuschreibungen warnen und stärker auf Systemarchitektur statt Verhalten fokussieren.
 
-## Dreaming: Better memory for a more helpful ChatGPT (Dreaming: Besseres Gedächtnis für ein hilfreicheres ChatGPT)
+## Google will pay SpaceX $920M per month for compute
 
-**Autor:** OpenAI  
-**Quelle:** [OpenAI](https://openai.com/index/chatgpt-memory-dreaming/)  
-**Veröffentlichung:** 4. Juni 2026
+Autor: Sean O'Kane  
+Quelle: [TechCrunch](https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/)  
+Veröffentlichung: 5. Juni 2026
 
-OpenAI führt ein weiterentwickeltes System zur Gedächtnissynthese in ChatGPT ein. Ziel ist es, Erinnerungen frischer, relevanter und robuster über längere Zeiträume hinweg zu halten. Für Enterprise-Unternehmen ist das relevant, weil produktive KI-Assistenten nicht nur Modellqualität benötigen, sondern belastbare Kontextverwaltung über Projekte, Rollen, Präferenzen und Compliance-Grenzen hinweg. Die Ankündigung unterstreicht, dass „Memory“ zunehmend zur Plattformfunktion wird und Governance-Fragen zu Datenhaltung, Nutzerprofilen, Löschung und Zweckbindung verschärft.
+Google mietet ab Oktober 2026 bis Juni 2029 bei SpaceX Rechenkapazität für rund 920 Millionen US-Dollar pro Monat. Laut TechCrunch geht es um etwa 110.000 NVIDIA-GPUs samt zugehöriger CPU-, Speicher- und Infrastrukturkomponenten. Für Enterprise-Kunden ist die Meldung ein Signal, dass selbst hyperskalierende Anbieter mit eigener Infrastruktur kurzfristige Kapazitätsbrücken benötigen, wenn Agentenplattformen und Gemini-Enterprise-Nachfrage stärker wachsen als geplant. Für IT-BRM bedeutet das: Verfügbarkeit, Preisstabilität und Exit-Klauseln bei AI-Workloads werden zu strategischen Beschaffungsthemen.
 
-## Scout from M’Soft is the agentic Autopilot that works across M365 (Scout von Microsoft ist ein agentischer Autopilot für M365)
+## The token bill comes due: Inside the industry scramble to manage AI’s runaway costs (Die Token-Rechnung wird fällig)
 
-**Autor:** Joe Green  
-**Quelle:** [AI News](https://www.artificialintelligence-news.com/news/microsofts-autopilot-scout-is-the-agentic-autopilot-that-works-across-m365/)  
-**Veröffentlichung:** 4. Juni 2026
+Autor: Rebecca Bellan  
+Quelle: [TechCrunch](https://techcrunch.com/2026/06/05/the-token-bill-comes-due-inside-the-industry-scramble-to-manage-ais-runaway-costs/)  
+Veröffentlichung: 5. Juni 2026
 
-Microsoft testet Scout als ersten „Autopilot“, der über Outlook, OneDrive, SharePoint und Teams hinweg Aufgaben koordinieren soll. Der Agent erhält eine eigene Identität, nutzt OpenClaw als technische Basis und soll über Entra, Purview, Intune-Richtlinien und menschliche Freigaben abgesichert werden. Für IT Business Relationship Manager ist vor allem die Betriebslogik relevant: Agenten werden nicht mehr nur als Chat-Erweiterung, sondern als verwaltbare digitale Akteure im Microsoft-365-Ökosystem behandelt. Damit steigen Anforderungen an Identity Governance, Berechtigungsmodelle, Auditierbarkeit und Fachbereichsfreigaben.
+TechCrunch beschreibt, wie Unternehmen nach einer Phase aggressiver KI-Adoption zunehmend unter unkontrollierten Token-Kosten leiden. Die Linux Foundation plant mit der Tokenomics Foundation Standards für Token-Verbrauch, Abrechnung und Effizienzmetriken, ähnlich wie FinOps für Cloud-Kosten. Besonders relevant ist die Beobachtung, dass agentische Funktionen zwar Produktivität steigern können, aber den Verbrauch massiv erhöhen und ROI-Nachweise erschweren. IT-BRM sollten AI-Kosten künftig nicht nur als Lizenzkosten, sondern als nutzungsbasierte Betriebskennzahl mit Governance, Limits, Reporting und Fachbereichsverrechnung behandeln.
 
-## Google’s Gemma 4 12B Shows AI Race Moving to Edge Devices (Google Gemma 4 12B zeigt die Verlagerung von KI auf Edge-Geräte)
+## How C3 AI agents will automate predictive maintenance for Shell (Wie C3-AI-Agenten Predictive Maintenance bei Shell automatisieren)
 
-**Autor:** Esther Shittu  
-**Quelle:** [AI Business](https://aibusiness.com/agentic-ai/google-s-gemma-4-12b-shows-ai-race-moving-edge-devices)  
-**Veröffentlichung:** 4. Juni 2026
+Autor: Ryan Daws  
+Quelle: [AI News](https://www.artificialintelligence-news.com/news/how-c3-ai-agents-will-automate-predictive-maintenance-for-shell/)  
+Veröffentlichung: 5. Juni 2026
 
-AI Business ordnet Google DeepMinds Gemma 4 12B als Signal ein, dass Enterprise-KI stärker auf lokale und Edge-nahe Ausführung zusteuert. Das Modell steht unter Apache-2.0-Lizenz und soll multimodale Verarbeitung auch auf Geräten mit begrenzten Ressourcen ermöglichen. Für Unternehmen ist dies strategisch relevant, weil lokale Modelle Kosten, Latenz und Datenhoheit verbessern können, aber zugleich neue Anforderungen an Geräteverwaltung, Modellverteilung, Sicherheitsupdates und Evaluation schaffen. Besonders für agentische Workflows ist entscheidend, ob kleinere Modelle ausreichend zuverlässig für eng umrissene Aufgaben arbeiten.
+Shell erweitert den Einsatz der C3 AI Reliability Suite in Richtung agentischer Instandhaltung. Die Plattform überwacht bereits über 30.000 kritische Anlagenkomponenten und soll künftig Ursachenanalysen, Arbeitsaufträge, Ersatzteilverfügbarkeit und Beschaffungsanforderungen stärker automatisieren. Entscheidend ist die Integration von Echtzeit-OT-Daten mit ERP-Kontext, etwa aus SAP, damit KI-Agenten nicht nur Anomalien melden, sondern in bestehende Betriebsprozesse eingreifen können. Für Enterprise-Unternehmen ist das ein belastbares Beispiel für KI-Nutzen jenseits von Wissensarbeit: höhere Anlagenverfügbarkeit, kürzere Reaktionszeiten und geringere operative Risiken.
 
-## Nvidia Unveils New Physical AI Research and Agent Workflows
+## AirTrunk commits $30B to build 5GW of AI data centers in India
 
-**Autor:** Scarlett Evans  
-**Quelle:** [AI Business](https://aibusiness.com/generative-ai/nvidia-unveils-physical-ai-research-agent-workflows)  
-**Veröffentlichung:** 4. Juni 2026
+Autor: Jagmeet Singh  
+Quelle: [TechCrunch](https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india/)  
+Veröffentlichung: 5. Juni 2026
 
-Nvidia erweitert seine Physical-AI-Werkzeuge rund um Cosmos 3, Omniverse, Isaac Sim und Isaac Lab. Die neuen Agenten-Workflows sollen Simulation, synthetische Datengenerierung, Szenenrekonstruktion, Training und Evaluation für Robotik, autonome Fahrzeuge und Vision-AI-Systeme stärker automatisieren. Für Enterprise-Anwender in Fertigung, Logistik und Mobilität ist der Ansatz relevant, weil er den Übergang von Modellprototypen zu validierbaren physischen Systemen adressiert. Der Artikel zeigt außerdem, dass die Wettbewerbsdifferenzierung bei Physical AI zunehmend in durchgängigen Entwicklungs- und Testpipelines liegt, nicht nur in einzelnen Modellen.
+AirTrunk plant bis 2030 Investitionen von 30 Milliarden US-Dollar in Indien und will dort 5 GW neue Rechenzentrumskapazität aufbauen. Die Meldung verdeutlicht, dass Indien als Standort für AI-Infrastruktur deutlich an Bedeutung gewinnt, unterstützt durch staatliche Anreize, Talentverfügbarkeit und Energieperspektiven. Gleichzeitig bleiben Strom, Wasser, Land und Netzanschlüsse kritische Engpässe. Für IT-BRM mit globalen Sourcing-Strategien wird Indien damit interessanter, aber auch prüfpflichtig in Bezug auf Resilienz, Nachhaltigkeit, Datenstandort und regulatorische Anforderungen.
 
-## Amazon brings AI shopping assistant to retailers with Kate Spade (Amazon bringt KI-Shopping-Assistenten zu Händlern, mit Kate Spade als frühem Anwender)
+## Amazon Unveils Next-Generation Robot in $11.6B European Push
 
-**Autor:** Muhammad Zulhusni  
-**Quelle:** [AI News](https://www.artificialintelligence-news.com/news/amazon-ai-shopping-assistant-kate-spade-retailers/)  
-**Veröffentlichung:** 4. Juni 2026
+Autor: Scarlett Evans  
+Quelle: [AI Business](https://aibusiness.com/robotics/amazon-unveils-next-generation-robot-11-6b-european-push)  
+Veröffentlichung: 5. Juni 2026
 
-Amazon bietet seine Agentic-Shopping-Assistant-Technologie über AWS für externe Händler an. Die Lösung nutzt unter anderem Amazon Bedrock, AgentCore und OpenSearch und soll Conversational-Commerce-Anwendungen schneller deploybar machen. Kate Spade setzt die Technologie als „AI Gift Concierge“ ein. Für Enterprise-Retailer ist die Meldung relevant, weil Amazon nicht nur eigene Handelsprozesse automatisiert, sondern seine Commerce-Agentenarchitektur als Plattformangebot vermarktet. Damit verschiebt sich die Make-or-Buy-Frage bei KI-Assistenten im Handel weiter in Richtung Plattformintegration, Datenzugriff und Differenzierung über Marken- und Kundenerlebnis.
+Amazon stellt eine neue Version seines mobilen Lagerroboters Proteus vor und verbindet die Einführung mit einer Investition von 11,6 Milliarden US-Dollar in europäische Fulfillment-Operationen. Der neue Proteus soll sich nicht mehr nur in Dockbereichen bewegen, sondern breiter auf Lagerflächen agieren und per natürlichsprachlicher Texteingabe gesteuert werden. Ergänzend erweitert Amazon Systeme wie STARK und Vulcan, darunter robotische Handhabung mit Tastsinn. Für Unternehmen in Logistik, Handel und Produktion zeigt die Meldung, dass KI-gestützte Robotik zunehmend als Prozessplattform gedacht wird, nicht nur als isolierte Automatisierungsinsel.
 
-## Is Silicon Valley ready to put robots in people’s homes? Hello Robot is. (Ist Silicon Valley bereit für Roboter im Zuhause? Hello Robot versucht es)
+## Mira Murati steps back into the spotlight, carefully (Mira Murati kehrt vorsichtig ins Rampenlicht zurück)
 
-**Autor:** Tim Fernholz  
-**Quelle:** [TechCrunch](https://techcrunch.com/2026/06/04/is-silicon-valley-ready-to-put-robots-in-peoples-homes-hello-robot-is/)  
-**Veröffentlichung:** 4. Juni 2026, 8:05 Uhr PDT
+Autor: Connie Loizos  
+Quelle: [TechCrunch](https://techcrunch.com/2026/06/04/mira-murati-steps-back-into-the-spotlight-carefully/)  
+Veröffentlichung: 4. Juni 2026
 
-TechCrunch porträtiert Hello Robot und dessen Assistenzroboter Stretch 4, der nicht auf humanoide Maximalversprechen, sondern auf reale Nutzung in Haushalten und Forschung setzt. Der Artikel hebt hervor, dass reale Betriebsdaten, sichere Interaktion und robuste Hardware zentrale Engpässe für Physical AI bleiben. Für Unternehmen mit Robotik-, Pflege-, Facility- oder Laborautomatisierungsinitiativen ist die Einordnung wichtig: Die Wertschöpfung entsteht nicht allein durch Foundation Models, sondern durch kontrollierte Datenerfassung, sichere Deployment-Umgebungen und iterative Prozessintegration.
+Mira Murati, ehemalige CTO von OpenAI und CEO von Thinking Machines Lab, skizziert eine neue Generation sogenannter Interaction Models. Diese sollen kontinuierliche Audio-, Text- und Videoströme in kurzen Intervallen verarbeiten und dadurch weniger wie klassische Prompt-Antwort-Systeme funktionieren. Für Enterprise-Teams ist daran weniger der Produktstatus relevant als die Richtung: KI-Interfaces bewegen sich von Chatfenstern zu multimodalen, kontinuierlichen Arbeitsbegleitern. Das erhöht Anforderungen an Datenschutz, Aufzeichnung, Kontextsteuerung, Berechtigungen und Governance in Arbeitsumgebungen.
+
+## Scientists are seriously asking if bees and ChatGPT are conscious (Forschende fragen ernsthaft, ob Bienen und ChatGPT bewusst sein könnten)
+
+Autor: Colin Klein und Andrew Barron, via The Conversation  
+Quelle: [ScienceDaily](https://www.sciencedaily.com/releases/2026/06/260604044258.htm)  
+Veröffentlichung: 5. Juni 2026
+
+Der Beitrag fasst Forschungsarbeiten zusammen, die Bewusstsein bei Tieren und KI-Systemen nicht primär am beobachtbaren Verhalten, sondern an zugrunde liegenden Informationsverarbeitungsmechanismen prüfen. Die Autoren kommen zu dem Schluss, dass heutige KI-Systeme einschließlich ChatGPT nach diesen Kriterien wahrscheinlich nicht bewusst sind, lassen aber die Möglichkeit künftiger anders gebauter Systeme offen. Für Enterprise-Governance ist das relevant, weil anthropomorphe Sprache und scheinbar reflektiertes Verhalten zu Fehlannahmen über Fähigkeiten, Verantwortung und Risiken führen können. Praktisch spricht die Forschung für nüchterne Modellbewertung, klare Verantwortungszuordnung und vorsichtige Kommunikation gegenüber Mitarbeitenden und Kunden.
