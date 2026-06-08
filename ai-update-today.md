@@ -1,29 +1,29 @@
-# AI Update vom 07.06.2026
+# AI Update vom 2026-06-08
 
 ## tl;dr
 
-Im geprüften 24-Stunden-Fenster wurden drei relevante, quellenvalidierte und nicht bereits behandelte AI-News identifiziert. OpenAI adressiert Prompt-Injection-Risiken mit einem neuen Lockdown Mode, der für Unternehmen mit sensiblen Daten unmittelbar relevant ist. In der US-Politik verdichten sich Signale, dass KI-Anbieter stärker als strategische Infrastruktur betrachtet werden, inklusive möglicher staatlicher Beteiligungen. Zudem verlässt Sriram Krishnan seine Rolle als KI-Berater im Weißen Haus, was für die weitere US-AI-Policy und Regulierungslinie beobachtungswürdig ist. Bereits im Repository behandelte Themen wie Google-SpaceX-Compute, Siri-Revamp, Meta-Agenten, Anthropic-IPO und AI-Rechenzentrumskosten wurden nicht erneut aufgenommen.
+In den letzten 24 Stunden wurden nur wenige neue, quellenvalidierte AI-Artikel aus den vorgegebenen Quellen gefunden, die noch nicht durch frühere Updates inhaltlich abgedeckt waren. Relevante Entwicklungen betreffen vor allem Enterprise-Produktstrategie, Betriebsstabilität von KI-Diensten und die Messung von KI-Adoption. OpenAI arbeitet laut TechCrunch weiter an einer stärker integrierten ChatGPT-„Super App“, um Codex, Agentenfunktionen und weitere bezahlte Workflows enger zu bündeln. Notion musste Anthropic-Modelle wegen einer temporären Claude-Störung kurzzeitig deaktivieren, was die Abhängigkeit produktiver Enterprise-Workflows von Modell- und Plattformverfügbarkeit verdeutlicht. AI Magazine berichtet, dass Amazon ein internes KI-Nutzungsranking eingestellt hat, nachdem Mitarbeitende Tokenverbrauch statt produktiver Ergebnisse optimiert hatten. Für IT Business Relationship Manager ist die zentrale Lehre: KI-Erfolg sollte an belastbaren Geschäftsergebnissen, stabilen Betriebsmodellen und Governance-Kennzahlen gemessen werden, nicht an bloßer Tool-Nutzung.
 
-## OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks (OpenAI stellt Lockdown Mode gegen Prompt-Injection-Risiken vor)
-
-Autor: Anthony Ha  
-Quelle: [TechCrunch](https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/)  
-Datum der Veröffentlichung: 6. Juni 2026, 13:32 PDT
-
-OpenAI führt einen Lockdown Mode ein, der das Risiko von Datenabfluss durch Prompt-Injection-Angriffe reduzieren soll. Der Modus deaktiviert unter anderem Live-Web-Browsing, Web-Bildabruf, Deep Research und Agent Mode. Für Enterprise-IT ist die Einordnung wichtig: OpenAI positioniert die Funktion nicht als vollständige Absicherung, sondern als zusätzliche Schutzschicht für Nutzer und Organisationen mit sensiblen Daten. BRMs sollten das als Signal werten, dass agentische Funktionen und externe Inhalte künftig stärker nach Risikoklassen gesteuert werden müssen, etwa über Policies, Mandantentrennung und Freigabeprozesse.
-
-## The Trump administration might take an equity stake in OpenAI (Die Trump-Regierung erwägt offenbar eine Beteiligung an OpenAI)
+## OpenAI is still working on that ‘super app’ (OpenAI arbeitet weiter an einer „Super App“)
 
 Autor: Anthony Ha  
-Quelle: [TechCrunch](https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/)  
-Datum der Veröffentlichung: 6. Juni 2026, 09:17 PDT
+Quelle: [TechCrunch](https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/)  
+Datum der Veröffentlichung: 7. Juni 2026, 09:23 PDT
 
-Die US-Regierung diskutiert laut Bericht Modelle, bei denen die Öffentlichkeit über staatliche Beteiligungen am wirtschaftlichen Erfolg führender KI-Unternehmen partizipieren könnte. OpenAI wird als möglicher Kandidat genannt, auch im Kontext eines Public Wealth Fund. Für Enterprise-Unternehmen ist weniger die konkrete Beteiligungsstruktur entscheidend als der strategische Trend: Frontier-AI wird zunehmend als industriepolitische Infrastruktur behandelt. Das kann Beschaffung, regulatorische Auflagen, Souveränitätsanforderungen und Risikoanalysen bei der Nutzung US-basierter KI-Dienste beeinflussen.
+TechCrunch berichtet, dass OpenAI weiter an einer überarbeiteten ChatGPT-Version arbeitet, die als integrierte „Super App“ Coding-Tools, Agentenfunktionen und weitere produktive Workflows zusammenführen soll. Strategisch zielt OpenAI damit offenbar darauf, ChatGPT stärker als Einstiegspunkt in kostenpflichtige Enterprise- und Developer-Produkte wie Codex zu positionieren. Für Unternehmen ist das relevant, weil sich der Markt von isolierten Chatbots hin zu Plattformen verschiebt, die Arbeitsschritte über mehrere Systeme hinweg koordinieren. BRMs sollten prüfen, ob bestehende KI-Roadmaps noch auf einzelne Assistenzfunktionen ausgerichtet sind oder bereits Plattform-, Identitäts-, Datenzugriffs- und Kostensteuerung für agentische Nutzung berücksichtigen.
 
-## Sriram Krishnan is leaving his role as White House AI advisor (Sriram Krishnan verlässt seine Rolle als KI-Berater im Weißen Haus)
+## Notion restores access to Anthropic after service disruption (Notion stellt Anthropic-Zugriff nach Dienststörung wieder her)
 
 Autor: Anthony Ha  
-Quelle: [TechCrunch](https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/)  
-Datum der Veröffentlichung: 6. Juni 2026, 10:42 PDT
+Quelle: [TechCrunch](https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/)  
+Datum der Veröffentlichung: 7. Juni 2026, 10:56 PDT
 
-Sriram Krishnan verlässt Ende Juni seine Rolle als Senior Policy Advisor für KI im Weißen Haus. Der Bericht ordnet seine Arbeit in eine US-KI-Agenda ein, die Datenzentren, schnellere KI-Einführung und eine eher zurückhaltende Regulierung priorisiert. Für IT Business Relationship Manager ist der Personalwechsel relevant, weil US-KI-Politik weiterhin direkten Einfluss auf Cloud- und KI-Anbieter, Compliance-Erwartungen und internationale Governance-Debatten hat. Unternehmen sollten politische Veränderungen nicht isoliert betrachten, sondern in ihre Vendor-Risk- und AI-Governance-Prozesse integrieren.
+Notion deaktivierte vorübergehend Anthropic-Modelle in Notion AI, nachdem bei Claude Opus 4.7 und 4.8 erhöhte Fehlerquoten aufgetreten waren. Laut TechCrunch wurde der Zugriff später wiederhergestellt; Anthropic führte den Vorfall auf ein kurzzeitiges Infrastrukturproblem zurück. Für Enterprise-Anwender zeigt der Fall, dass KI-Funktionen in SaaS-Plattformen zunehmend von der Verfügbarkeit externer Modellanbieter abhängen. BRMs sollten deshalb bei KI-fähigen SaaS-Produkten nicht nur Funktionsumfang und Modellqualität bewerten, sondern auch Fallback-Mechanismen, SLA-Transparenz, Incident-Kommunikation und Abhängigkeiten von Drittmodellen in Vendor-Assessments aufnehmen.
+
+## Why Amazon Has Dropped its Internal AI Usage Leaderboard (Warum Amazon sein internes KI-Nutzungsranking eingestellt hat)
+
+Autor: Diya Joseph  
+Quelle: [AI Magazine](https://aimagazine.com/news/why-amazon-has-dropped-its-internal-ai-usage-leaderboard)  
+Datum der Veröffentlichung: 7. Juni 2026
+
+AI Magazine berichtet, dass Amazon ein internes Ranking zur KI-Nutzung eingestellt hat, nachdem Beschäftigte offenbar Tokenverbrauch und Tool-Aktivität statt produktiver Ergebnisse optimierten. Amazon verschiebt den Fokus demnach stärker auf „normalisierte Deployments“, also auf tatsächlich ausgelieferte Arbeitsergebnisse. Für Enterprise-Organisationen ist das ein klares Governance-Signal: Adoptionsmetriken wie Logins, Prompts oder Tokenverbrauch können Fehlanreize setzen, wenn sie nicht mit Business Outcomes verknüpft sind. BRMs sollten KI-KPIs deshalb auf messbare Wertbeiträge ausrichten, etwa Durchlaufzeiten, Fehlerreduktion, Produktionsreife, Compliance-Nachweise und Kundennutzen.
