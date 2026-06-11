@@ -1,55 +1,45 @@
-# AI Update vom 10. Juni 2026
+# AI Update vom 11. Juni 2026
 
 ## tl;dr
 
-Anthropic macht mit Claude Fable 5 erstmals ein Mythos-Klasse-Modell breiter verfügbar, koppelt den Zugang aber an höhere Preise, Schutzmechanismen und verpflichtende Datenaufbewahrung. Parallel reagiert die Bundesregierung auf die wachsenden Frontier-Modell-Risiken mit einem geplanten KI-Sicherheitsinstitut. MIT zeigt in einer neuen Studie, dass KI-gestützte Faktenprüfung kurzfristig hilft, aber die eigenständige Fähigkeit zur Erkennung von Falschinformationen schwächen kann. Für Enterprise-Teams ist das ein Governance-Signal: KI-Tools sollten nicht nur Antworten liefern, sondern Kompetenzen aufbauen. OpenCV 5.0 erweitert klassische Computer-Vision-Infrastruktur um LLM- und VLM-Fähigkeiten und wird damit für multimodale KI-Architekturen relevanter. Google baut NotebookLM zu einem produktivitätsnahen Recherche- und Output-Werkzeug aus, das nun strukturierte Arbeitsartefakte wie Tabellen, Präsentationen und PDFs erzeugt.
+OpenAI erleichtert OCI-Kunden den Bezug von OpenAI-Modellen und Codex über bestehende Oracle-Cloud-Verpflichtungen, was für Enterprise-Beschaffung und Governance relevant ist. MIT berichtet über eine wasserfreie, energieeffizientere Kühltechnologie für KI-Rechenzentren, die die Infrastrukturkosten und Nachhaltigkeitsbilanz von AI-Workloads adressiert. McDonald’s testet erneut KI-gestützte Drive-thru-Bestellung, diesmal mit einem Google-gestützten System, was operative Automatisierung in Filialprozessen greifbar macht. The Verge beschreibt, wie volatil und politisiert die KI-Regulierung in Washington geworden ist. OpenAI zeigt mit einem Forschungsbeispiel aus der Astrophysik, wie Codex bei überprüfbaren wissenschaftlichen Software-Workflows eingesetzt wird.
 
-## Anthropic’s Claude Fable 5 is a version of Mythos the public can access today (Anthropics Claude Fable 5 macht Mythos-Technologie öffentlich nutzbar)
+## Access OpenAI models and Codex through your Oracle cloud commitment
 
-Autor: Rebecca Bellan  
-Quelle: [TechCrunch](https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/)  
-Datum der Veröffentlichung: 9. Juni 2026, 10:00 Uhr PDT
+Autor: OpenAI  
+Quelle: [OpenAI](https://openai.com/index/openai-on-oracle-cloud/)  
+Datum der Veröffentlichung: 10. Juni 2026
 
-Anthropic veröffentlicht mit Claude Fable 5 eine öffentlich zugängliche, abgesicherte Variante seiner bisher restriktiver behandelten Mythos-Modellklasse. Für Unternehmen ist vor allem relevant, dass Fable 5 laut Bericht bei Softwareentwicklung, Wissensarbeit und Vision-Aufgaben eingesetzt werden soll, aber bei Hochrisikothemen wie Cybersecurity, Biologie, Chemie und Modelldestillation auf Claude Opus 4.8 zurückfallen kann.
+OpenAI und Oracle ermöglichen OCI-Kunden, berechtigte Oracle Universal Credits für OpenAI-Modelle und Codex zu nutzen. Für Enterprise-Organisationen ist weniger die reine Modellverfügbarkeit entscheidend als der Beschaffungsweg: Bestehende Cloud Commitments, Einkaufsprozesse und Governance-Strukturen können weiterverwendet werden. Für IT Business Relationship Manager ist das ein Signal, dass Frontier-AI zunehmend in etablierte Cloud-Verträge eingebettet wird und damit einfacher in regulierte Betriebsmodelle überführt werden kann.
 
-Die Einführung zeigt, wie Frontier-Modelle zunehmend über ein gestuftes Zugriffsmodell vermarktet werden: breite Nutzung mit Guardrails, ausgewählte Nutzung für kritischere Fähigkeiten und zusätzliche Auflagen wie 30 Tage Traffic-Retention auch für Kunden mit bisherigen Zero-Retention-Vereinbarungen. Für IT BRMs ist das ein wichtiger Vertrags- und Compliance-Punkt, weil leistungsfähigere Modelle nicht nur höhere Tokenkosten verursachen, sondern auch neue Datenschutz-, Audit- und Beschaffungsfragen auslösen.
+## Startup’s nuclear-inspired cooling system could make data centers more sustainable
 
-## Reaktion auf Claude Mythos? Bundesregierung gründet KI-Sicherheitsinstitut
+Autor: Zach Winn  
+Quelle: [MIT News](https://news.mit.edu/2026/nuclear-inspired-cooling-system-ferveret-could-make-data-centers-more-sustainable-0610)  
+Datum der Veröffentlichung: 10. Juni 2026
 
-Autor: heise online / iX Magazin  
-Quelle: [heise online](https://www.heise.de/news/Bundesregierung-will-KI-Sicherheitsinstitut-gruenden-11326247.html)  
-Datum der Veröffentlichung: 9. Juni 2026, 18:01 Uhr
+MIT stellt Ferveret vor, ein Startup mit einem aus der Nukleartechnik abgeleiteten Kühlansatz für KI-Rechenzentren. Die Lösung nutzt eine spezielle Flüssigkeit und Adaptive Phase Cooling, um Server effizienter und ohne Wasserverbrauch zu kühlen. Laut MIT erreichte das System in Tests eine 15-prozentige Verbesserung der Recheneffizienz gegenüber modernen Flüssigkühlungen; kombiniert mit Leistungssteuerung sollen bei gleicher Energie bis zu 35 Prozent mehr KI-Tokens möglich sein. Für Unternehmen mit wachsendem AI-Workload verschiebt sich damit die Diskussion von Modellkosten hin zu Energie, Wasser, Standortwahl und Rechenzentrumsarchitektur.
 
-Die Bundesregierung plant laut heise ein KI-Sicherheitsinstitut, um die Analysefähigkeiten bei leistungsfähigen KI-Modellen auszubauen. Der Schritt ist im Kontext der aktuellen Debatte um hochleistungsfähige Modelle wie Claude Mythos einzuordnen, bei denen technische Fähigkeiten, Missbrauchspotenziale und Zugangskontrollen stärker in den Fokus rücken.
+## McDonald’s tests Google-backed AI drive-thru ordering system
 
-Für Enterprise-Unternehmen deutet das auf eine weitere Institutionalisierung von KI-Sicherheitsanforderungen hin. IT BRMs sollten daraus ableiten, dass Modell-Risikobewertungen, Red-Teaming, Lieferanten-Nachweise und technische Kontrollmechanismen stärker Teil regulärer KI-Beschaffung und Architekturfreigaben werden.
+Autor: Muhammad Zulhusni  
+Quelle: [AI News](https://www.artificialintelligence-news.com/news/mcdonalds-ai-drive-thru-google-archiq/)  
+Datum der Veröffentlichung: 10. Juni 2026
 
-## The consequences of relying on AI for accurate news (Die Folgen der Abhängigkeit von KI bei verlässlichen Nachrichten)
+McDonald’s testet in fünf US-Filialen ein KI-System namens ArchIQ für Drive-thru-Bestellungen. Das System soll Bestellungen entgegennehmen, Änderungen verarbeiten, den Gesamtbetrag anzeigen und Kunden weiterleiten; laut einem Franchisee-Account wurden bereits mehr als eine Million Transaktionen verarbeitet, etwa 90 Prozent ohne Eskalation an Mitarbeitende. Nach dem abgebrochenen IBM-Pilotprojekt zeigt der neue Test, dass Conversational AI in standardisierten Serviceprozessen weiter relevant bleibt, aber Genauigkeit, Kundenerlebnis, Eskalationslogik und Betriebsintegration die entscheidenden Erfolgsfaktoren sind.
 
-Autor: Adam Conner-Simons, MIT Media Lab  
-Quelle: [MIT News](https://news.mit.edu/2026/consequences-of-relying-on-ai-for-accurate-news-0609)  
-Datum der Veröffentlichung: 9. Juni 2026
+## The future of AI regulation is courting the strangest, most anxious bedfellows
 
-Eine MIT-Media-Lab-Studie zeigt, dass KI-Assistenten Menschen kurzfristig bei der Erkennung von Falschinformationen unterstützen können, aber langfristig die eigenständige Urteilsfähigkeit schwächen können. In der Untersuchung stieg die Erkennungsleistung mit KI-Unterstützung zunächst, während die ungestützte Leistung nach mehreren Wochen deutlich nachließ.
+Autor: Tina Nguyen  
+Quelle: [The Verge](https://www.theverge.com/column/947838/washington-ai-network-honors-2026-midterms)  
+Datum der Veröffentlichung: 10. Juni 2026
 
-Für Unternehmen ist die Studie über News-Kontexte hinaus relevant: Ähnliche Abhängigkeitseffekte können bei Analysten, Service-Teams, Knowledge-Workern und Entscheidungsprozessen entstehen, wenn KI-Systeme primär direkte Antworten liefern. BRMs sollten bei KI-Rollouts deshalb nicht nur Effizienz messen, sondern auch prüfen, ob Workflows menschliche Kompetenz erhalten, etwa durch erklärende Assistenz, Quellenarbeit, Review-Schritte und sokratische Interaktion statt bloßer Antwortautomatisierung.
+The Verge analysiert die zunehmend unübersichtliche KI-Regulierungslandschaft in Washington. Im Mittelpunkt stehen Lobbying, Wahlkampfdynamiken, religiös-ethische Appelle und politische Unsicherheit rund um KI-Aufsicht. Für Enterprise-Unternehmen bedeutet das: Regulatorische Planbarkeit bleibt begrenzt, insbesondere bei Frontier-Modellen, Sicherheitsprüfungen, Verbraucherschutz und politischer Einflussnahme. BRMs sollten AI-Roadmaps daher nicht nur technologisch, sondern auch regulatorisch und reputationsbezogen bewerten.
 
-## OpenCV 5.0 bringt LLMs in die Computer-Vision-Bibliothek
+## How an astrophysicist uses Codex to help simulate black holes
 
-Autor: heise online / iX Magazin  
-Quelle: [heise online](https://www.heise.de/news/OpenCV-5-0-bringt-LLMs-in-die-Computer-Vision-Bibliothek-11325973.html)  
-Datum der Veröffentlichung: 9. Juni 2026, 15:00 Uhr
+Autor: OpenAI  
+Quelle: [OpenAI](https://openai.com/index/using-codex-to-simulate-black-holes/)  
+Datum der Veröffentlichung: 11. Juni 2026
 
-OpenCV 5.0 modernisiert laut heise die DNN-Engine und erweitert die Bibliothek um Unterstützung für LLMs und Vision-Language-Modelle. Damit verschiebt sich OpenCV von einer klassischen Computer-Vision-Bibliothek stärker in Richtung multimodaler KI-Infrastruktur.
-
-Für Enterprise-Architekturen ist das relevant, weil bestehende CV-Anwendungen in Qualitätskontrolle, Dokumentenverarbeitung, Anlagenüberwachung oder medizinischer Bildanalyse leichter mit Sprach- und Reasoning-Komponenten kombiniert werden können. Gleichzeitig steigen die Anforderungen an MLOps, Modellvalidierung und Laufzeitkontrolle, weil deterministische Bildverarbeitung stärker mit probabilistischen Modellkomponenten verschmilzt.
-
-## NotebookLM kann jetzt Excel-Tabellen und Präsentationen erzeugen
-
-Autor: heise online  
-Quelle: [heise online](https://www.heise.de/news/NotebookLM-exportiert-jetzt-in-Excel-PowerPoint-und-PDF-11325959.html)  
-Datum der Veröffentlichung: 9. Juni 2026, 13:50 Uhr
-
-Google erweitert NotebookLM laut heise um die Fähigkeit, aus Quellenmaterial strukturierte Arbeitsartefakte wie Excel-Tabellen, PowerPoint-Präsentationen und PDFs zu erzeugen. Das positioniert NotebookLM stärker als Produktivitätsschicht für Recherche, Wissensaufbereitung und Management-Output.
-
-Für Unternehmen ist der Schritt ein weiterer Hinweis, dass KI-Werkzeuge von reinen Chat-Interfaces zu dokumentenzentrierten Arbeitsumgebungen wandern. IT BRMs sollten dabei auf Datenklassifizierung, Quellenbindung, Exportkontrollen und Nachvollziehbarkeit achten, insbesondere wenn vertrauliche Unternehmensdokumente in automatisch generierte Präsentationen oder Tabellen überführt werden.
+OpenAI beschreibt, wie der Astrophysiker Chi-kwan Chan Codex nutzt, um Algorithmen für Simulationen rund um Schwarze Löcher zu entwickeln und zu testen. Der relevante Enterprise-Punkt liegt weniger in der Astrophysik selbst als im Arbeitsmuster: KI generiert prüfbare algorithmische Ansätze, die anschließend durch Tests, physikalisches Verständnis und Reproduzierbarkeit validiert werden. Das ist ein belastbares Beispiel für AI-gestützte Softwareentwicklung in anspruchsvollen Domänen, in denen menschliche Kontrolle und formale Überprüfung weiterhin zentral bleiben.
