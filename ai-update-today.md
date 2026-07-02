@@ -1,49 +1,53 @@
-# AI Update vom 01.07.2026
+# AI Update vom 2. Juli 2026
 
 ## tl;dr
 
-OpenAI und Anthropic treiben KI stärker in spezialisierte Enterprise-Workflows: Forschung, Wissenschaft, Agenten und Dateninfrastruktur stehen im Fokus. OpenAI veröffentlicht mit GeneBench-Pro einen Benchmark für wissenschaftliche Urteilskraft von KI-Agenten in Computational Biology. Anthropic positioniert Claude Science als Workbench für Forschungsteams und erweitert gleichzeitig die Verfügbarkeit von Claude-Modellen in Microsoft Foundry auf Azure. MIT ordnet agentische KI nüchtern ein und betont Risiken durch unzureichende Prüfung, Datenlecks und De-Skilling. Für IT Business Relationship Manager sind vor allem drei Themen relevant: Plattform-Ökosysteme, Governance für Agenten sowie belastbare Bewertung von KI-Nutzen jenseits klassischer Chatbot-Anwendungen.
+Die wichtigsten neuen Meldungen betreffen vor allem produktionsnahe Enterprise-KI: AWS baut mit Forward Deployed Engineering ein direkt in Kundenorganisationen eingebettetes Umsetzungsmodell auf, während Siemens und IFS industrielle KI stärker mit Betriebs- und Engineeringdaten verzahnen wollen. Anthropic hat nach regulatorischen Einschränkungen Fable 5 und Mythos 5 teilweise wieder verfügbar gemacht und zugleich Claude Sonnet 5 als kostengünstigeres, stärker agentisches Modell eingeführt. Google erweitert sein Multimedia-KI-Portfolio mit Nano Banana 2 Lite und Gemini Omni Flash für Bild-, Video- und Editing-Workflows. Haleon und Microsoft zeigen, wie Copilot, Azure und Data Governance in regulierten, globalen Geschäftsprozessen skaliert werden sollen. Bayer nutzt Iambic Therapeutics für KI-gestützte Wirkstoffforschung, was die Relevanz spezialisierter AI-Plattformen in F&E-Prozessen weiter erhöht. Bereits im Repository behandelte URLs und Themen wurden nicht erneut aufgenommen, außer wenn eine neue, eigenständige Entwicklung vorliegt.
 
-## Introducing GeneBench-Pro (Einführung von GeneBench-Pro)
+## Exploring AWS's US$1bn Forward Deployed Engineering AI Unit
 
-Autor: OpenAI  
-Quelle: [OpenAI](https://openai.com/index/introducing-genebench-pro/)  
-Datum der Veröffentlichung: 30. Juni 2026
+Autor: Rithula Nisha  
+Quelle: [AI Magazine](https://aimagazine.com/news/behind-aws-1bn-forward-deployed-engineering-unit)  
+Datum der Veröffentlichung: 1. Juli 2026
 
-OpenAI stellt GeneBench-Pro vor, einen Forschungsbenchmark für KI-Agenten in Computational Biology. Der Benchmark testet nicht nur Fachwissen oder Tool-Nutzung, sondern die Fähigkeit, uneindeutige wissenschaftliche Daten zu analysieren, Annahmen zu revidieren und entscheidungsfähige Ergebnisse abzuleiten. Für Enterprise-Organisationen ist das relevant, weil solche Benchmarks zeigen, wo KI-Agenten bereits Wert in spezialisierten Expertenprozessen schaffen können und wo menschliche Validierung weiterhin zwingend bleibt. Besonders für Life Sciences, Healthcare, R&D und regulierte Industrien deutet der Artikel auf eine Verschiebung von generischer Automatisierung hin zu domänenspezifischer Entscheidungsunterstützung.
+AWS investiert 1 Milliarde US-Dollar in eine Forward-Deployed-Engineering-Einheit, die erfahrene AWS-Ingenieure direkt in Kundenteams bringt, um agentische KI-Systeme produktionsreif umzusetzen. Für Enterprise-IT ist das relevant, weil AWS damit nicht nur Infrastruktur, sondern Umsetzungsverantwortung, Architekturwissen, Runbooks und Enablement stärker in Kundenprojekte einbringt. Der Ansatz adressiert eine zentrale Lücke vieler KI-Programme: Der Übergang von Pilotprojekten zu belastbaren, governancefähigen Prozessen bleibt oft an fehlender Engineering-Kapazität, Datenkontext und Betriebsmodellen hängen.
 
-## Core dump epidemiology: fixing an 18-year-old bug
-
-Autor: OpenAI  
-Quelle: [OpenAI](https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug/)  
-Datum der Veröffentlichung: 30. Juni 2026
-
-OpenAI beschreibt, wie es durch populationsweite Analyse von Core Dumps zwei schwer nachvollziehbare Infrastrukturfehler identifizierte: stille Hardwarekorruption auf einem Azure-Host und eine alte Race Condition in GNU libunwind. Der Beitrag ist für Enterprise-IT relevant, weil er zeigt, dass skalierte KI-Services stark von Dateninfrastruktur, Low-Level-Reliability und systematischer Observability abhängen. Für BRMs ist die zentrale Lehre, dass KI-Plattformen nicht nur Modellthemen sind, sondern robuste Betriebsmodelle, Incident-Analyse und Lieferantenarchitekturen erfordern. Das gilt besonders für geschäftskritische RAG-, Agenten- und Datenzugriffsszenarien.
-
-## With Claude Science, Anthropic Targets Another Application
+## Restrictions on Fable 5, Mythos 5 Lifted, as Anthropic Launches Sonnet 5
 
 Autor: Esther Shittu  
-Quelle: [AI Business](https://aibusiness.com/generative-ai/with-claude-science-anthropic-targets-application)  
-Datum der Veröffentlichung: 30. Juni 2026
+Quelle: [AI Business](https://aibusiness.com/generative-ai/restrictions-fable-5-mythos-5-lifted-anthropic-launches-sonnet-5)  
+Datum der Veröffentlichung: 1. Juli 2026
 
-Anthropic führt Claude Science als integrierte Workbench für wissenschaftliche Forschung ein. Die Lösung bündelt Workflows für Genomik, Single-Cell-Analysen, Strukturbiologie und Cheminformatik, nutzt Claude Opus 4.8 und unterstützt Erweiterungen über das Model Context Protocol. Strategisch zeigt der Schritt, dass Anbieter ihre KI-Angebote zunehmend vertikalisieren und nicht mehr nur allgemeine Modelle oder Coding-Assistenten verkaufen. Für Unternehmen erhöht das den Druck, Use Cases nach Domäne, Datenzugang, Validierungsbedarf und Governance-Reife zu bewerten.
+Anthropic macht Fable 5 und Mythos 5 nach US-Regierungsbeschränkungen wieder verfügbar, wobei Mythos 5 weiterhin nur eingeschränkt zugänglich ist. Parallel startet Claude Sonnet 5 als stärker agentisches Modell, das Tools wie Browser und Terminals autonom nutzen kann und preislich unter Opus 4.8 positioniert wird. Für IT Business Relationship Manager ist die wichtigste Lehre weniger das einzelne Modell als das Risiko von Modellverfügbarkeit: Governance muss künftig auch Exportkontrollen, regionale Zugriffsbeschränkungen, Modellfamilienabhängigkeit und Fallback-Architekturen berücksichtigen.
 
-## Anthropic’s Claude Models Now Available in Microsoft Foundry
+## Google Expands AI Imaging Offerings With Nano Banana Lite 2
 
 Autor: Scarlett Evans  
-Quelle: [AI Business](https://aibusiness.com/agentic-ai/anthropic-s-claude-models-available-microsoft-foundry)  
-Datum der Veröffentlichung: 30. Juni 2026
+Quelle: [AI Business](https://aibusiness.com/generative-ai/google-expands-ai-imaging-offerings-nano-banana-lite-2)  
+Datum der Veröffentlichung: 1. Juli 2026
 
-Anthropic stellt Claude-Modelle in Microsoft Foundry auf Azure bereit, darunter Opus 4.8 und Sonnet 4.6. Laut Bericht laufen die Modelle auf Nvidia GB300 Blackwell Ultra-Systemen und sollen Unternehmen beim Aufbau domänenspezifischer, autonomer Agenten unterstützen. Für Microsoft-zentrierte Enterprise-Landschaften ist das eine wichtige Plattformmeldung, weil Claude damit stärker in bestehende Azure-, Governance- und Agentenarchitekturen integrierbar wird. Gleichzeitig verschärft sich die Abhängigkeit von Hyperscaler-, GPU- und Modellanbieter-Ökosystemen.
+Google erweitert sein generatives Portfolio mit Nano Banana 2 Lite, technisch Gemini 3.1 Flash Lite Image, und macht Gemini Omni Flash breiter für Entwickler verfügbar. Nano Banana 2 Lite ist auf schnelle, kosteneffiziente Bildgenerierung ausgelegt und zielt auf hochvolumige Workloads wie Prototyping, Content-Ideation und automatisierte visuelle Produktion. Für Unternehmen wird damit der Kosten- und Integrationsvergleich zwischen klassischen Kreativtools, spezialisierten Bildmodellen und multimodalen Plattformdiensten wichtiger.
 
-## Q&A: What is agentic AI today, and what do we want it to be? (Was ist agentische KI heute, und was soll sie werden?)
+## Inside the Haleon & Microsoft Deal to Automate Global Health
 
-Autor: Adam Zewe  
-Quelle: [MIT News](https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630)  
-Datum der Veröffentlichung: 30. Juni 2026
+Autor: Diya Joseph  
+Quelle: [AI Magazine](https://aimagazine.com/news/how-haleon-microsoft-automate-global-health-leveraging-ai)  
+Datum der Veröffentlichung: 1. Juli 2026
 
-MIT News interviewt Phillip Isola zu agentischer KI und trennt den Begriff klar von generativer KI: Agenten handeln in digitalen oder physischen Umgebungen, statt nur Inhalte zu erzeugen. Der Artikel betont, dass heutige Agenten meist Foundation Models mit Tools, Speicher und Anwendungshüllen kombinieren. Für Enterprise-Einsätze sind die genannten Risiken zentral: unzureichende Prüfung von Agentenergebnissen, private Datenlecks, zu vage Anweisungen und De-Skilling. BRMs sollten Agentenprojekte daher nicht nur als Produktivitätsthema behandeln, sondern als Veränderung von Verantwortlichkeiten, Kontrollpunkten und Betriebsrisiken.
+Haleon und Microsoft schließen eine fünfjährige Zusammenarbeit, um KI, Daten und Cloud-Infrastruktur global zu skalieren. Im Mittelpunkt stehen Microsoft Azure, Microsoft 365 Copilot, Automatisierung administrativer Arbeit sowie KI-Anwendungsfälle in Consumer Insights, Marketing, R&D, Supply Chain und kommerzieller Umsetzung. Besonders relevant ist der Governance-Aspekt: Haleon operiert in 170 Märkten und muss KI-Workflows mit Identitätsschutz, Compliance und Datenkontrolle über Ländergrenzen hinweg betreiben.
 
-## Ergebnis der Quellen- und Dublettenprüfung
+## Bayer Deploys Iambic AI to Accelerate Drug Discovery
 
-Die aufgenommenen URLs waren in den vorhandenen Markdown-Updates laut Repository-Kontext nicht enthalten. Inhaltlich wurden bereits behandelte Themen wie Südkoreas KI-Chipprogramm, Wimbledon/IBM, xFusion, OpenAI/HP und ROI durch Token-Zählung nicht erneut aufgenommen.
+Autor: Diya Joseph  
+Quelle: [AI Magazine](https://aimagazine.com/news/bayer-deploys-iambic-ai-to-accelerate-drug-discovery)  
+Datum der Veröffentlichung: 1. Juli 2026
+
+Bayer geht eine strategische Partnerschaft mit Iambic Therapeutics ein, um KI-gestützte Plattformen für die Entdeckung und Entwicklung kleiner Moleküle zu nutzen. Ziel ist es, schwer adressierbare Wirkstoffziele schneller zu bearbeiten und Entscheidungsprozesse entlang der pharmazeutischen F&E-Wertschöpfungskette zu verbessern. Für Enterprise-IT zeigt der Fall, dass KI-Mehrwert zunehmend in domänenspezifischen Plattformen entsteht, die wissenschaftliche Daten, Modellierung, regulatorische Anforderungen und Entscheidungsunterstützung verbinden.
+
+## Inside Siemens and IFS's Performance-Boosting Industrial AI
+
+Autor: Rithula Nisha  
+Quelle: [AI Magazine](https://aimagazine.com/news/inside-siemens-ifs-performance-boosting-industrial-ai)  
+Datum der Veröffentlichung: 1. Juli 2026
+
+Siemens und IFS wollen industrielle KI-Systeme aufbauen, die Produktionsplanung, Engineering-Daten, Asset Management und Betriebsdaten enger verbinden. Der Kern ist ein geschlossener Daten- und Prozesskreislauf zwischen digitalem Zwilling, Servicehistorie, Anlagenverhalten und realem Produktionsbetrieb. Für Unternehmen mit Fertigung, Logistik oder kritischer Infrastruktur ist die Botschaft klar: Agentische KI in Operations-Umgebungen benötigt belastbaren Kontext aus integrierten Systemen, sonst steigen Risiken durch falsche Empfehlungen, Datensilos und unvollständige Betriebsmodelle.
