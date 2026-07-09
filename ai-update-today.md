@@ -1,49 +1,74 @@
-# AI Update vom 08. Juli 2026
+# AI Update vom 09.07.2026
 
 ## tl;dr
+OpenAI stellt mit GPT-Live eine neue Voice-Architektur vor, die kontinuierliche, natürlichere Sprachinteraktion mit Hintergrund-Reasoning verbindet. Parallel warnt OpenAI vor verzerrten Coding-Benchmarks, nachdem ein Audit rund 30 Prozent defekter SWE-Bench-Pro-Aufgaben identifiziert hat. Für Enterprise-IT besonders relevant sind agentische Risiken: AI Magazine berichtet über JadePuffer als end-to-end autonom operierende Ransomware-Kampagne. Die Bank of England sieht durch KI-Boom, komplexe Verschuldung und KI-gestützte Cyberangriffe wachsende Finanzstabilitätsrisiken. Anthropic bringt Claude Cowork auf Web und Mobile, was Agenten-Workflows stärker in den digitalen Arbeitsplatz und auf Endgeräte verschiebt. Nvidia und Hugging Face bauen zugleich offene Robotik-Toolchains aus, wodurch Physical-AI-Stacks zugänglicher, aber auch stärker an Nvidia-Ökosysteme gebunden werden.
 
-In den letzten 24 Stunden gab es vor allem relevante Enterprise-Signale bei KI-Infrastruktur, Governance und operativer Skalierung. Samsung profitiert massiv von der Nachfrage nach KI-Speicher und zeigt, wie stark AI-Workloads bereits klassische Hardwaremärkte verschieben. Schneider Electric will mit der Übernahme von Cognite eine industrielle Daten- und KI-Plattform stärken, was für Produktions- und OT-nahe KI-Vorhaben besonders relevant ist. AMD steigt über Turing sichtbarer in autonome Mobilität und KI-Beschleuniger außerhalb des Nvidia-Stacks ein. MIT zeigt anhand eines militärischen Prototyping-Projekts, dass generative KI Low-Code- und Vibe-Coding-Szenarien beschleunigen kann, aber Code-Review, Sicherheit und Datenflüsse weiterhin zentrale Kontrollpunkte bleiben. Bei OpenAI verlässt mit Joshua Achiam ein sicherheits- und politiknaher Chief Futurist das Unternehmen, was die Governance-Frage bei Frontier-KI weiter verschärft.
+## Introducing GPT‑Live (Einführung von GPT-Live)
 
-## Samsung’s AI Growth: From US$1tn Cap to 1,800% Profit Rise
+Autor: OpenAI  
+Quelle: [OpenAI](https://openai.com/index/introducing-gpt-live/)  
+Veröffentlichung: 8. Juli 2026
+
+OpenAI führt GPT-Live als neue Generation von Sprachmodellen für ChatGPT Voice ein. Kern ist eine Full-Duplex-Architektur: Das Modell kann gleichzeitig zuhören und sprechen, statt auf klar getrennte Sprecherwechsel angewiesen zu sein. Für komplexere Aufgaben delegiert GPT-Live im Hintergrund an GPT-5.5, während die Sprachinteraktion weiterläuft.
+
+Für Enterprise-Kontexte ist das vor allem relevant, weil Voice Interfaces damit von einfachen Assistenzfunktionen in Richtung länger laufender, agentischer Arbeitsabläufe wandern. BRMs sollten prüfen, welche Fachprozesse von natürlicher Sprache profitieren, aber auch Governance-Fragen zu Aufzeichnung, Kontextweitergabe, API-Verfügbarkeit und Barrierefreiheit früh einordnen.
+
+## Separating signal from noise in coding evaluations (Signal und Rauschen in Coding-Evaluationen trennen)
+
+Autor: OpenAI  
+Quelle: [OpenAI](https://openai.com/index/separating-signal-from-noise-coding-evaluations/)  
+Veröffentlichung: 8. Juli 2026
+
+OpenAI berichtet über ein Audit von SWE-Bench Pro und schätzt, dass rund 30 Prozent der Aufgaben defekt sind. Genannt werden unter anderem zu strikte Tests, unvollständige Prompts, zu geringe Testabdeckung und irreführende Aufgabenstellungen. OpenAI zieht daraus die Konsequenz, frühere Empfehlungen zugunsten von SWE-Bench Pro zurückzunehmen.
+
+Für Unternehmen ist die Botschaft klar: Modell-Benchmarks sind keine neutrale Wahrheit, sondern Teil der Lieferanten- und Risikobewertung. Bei AI-Coding-Tools sollten BRMs nicht nur Leaderboards betrachten, sondern eigene repräsentative Aufgaben, Codequalität, Testabdeckung, Security Reviews und Wartbarkeit messen.
+
+## Behind JadePuffer: The First Agentic AI Ransomware (JadePuffer: die erste agentische KI-Ransomware)
+
+Autor: Rithula Nisha  
+Quelle: [AI Magazine](https://aimagazine.com/news/jadepuffer-sysdig-sniffs-out-the-first-agentic-ransomware)  
+Veröffentlichung: 8. Juli 2026
+
+AI Magazine fasst Sysdig-Recherchen zu JadePuffer zusammen, einer Ransomware-Operation, die laut Bericht durch ein LLM autonom von der Aufklärung bis zur Verschlüsselung ausgeführt wurde. Der Angriff nutzte eine Langflow-Schwachstelle, suchte nach API-Keys und Cloud-Zugangsdaten, bewegte sich lateral und korrigierte fehlgeschlagene Schritte selbstständig.
+
+Für Enterprise-IT verschiebt das die Bedrohungsmodellierung: Nicht nur Modelle selbst, sondern auch AI-Entwicklungsumgebungen, Agent-Frameworks und ungeschützte LLM-Infrastruktur werden zu kritischen Angriffsflächen. Priorität haben Inventarisierung von AI-Tools, Secret Scanning, Netzwerksegmentierung, strikte Egress-Kontrollen und Monitoring agentischer Aktivitäten.
+
+## Will AI Market Growth & Opaque Debt Threaten UK Banks? (Gefährden KI-Marktwachstum und intransparente Schulden britische Banken?)
 
 Autor: Diya Joseph  
-Quelle: [AI Magazine](https://aimagazine.com/news/samsungs-ai-growth-from-us-1tn-cap-to-1-800-profit-rise)  
-Datum der Veröffentlichung: 07. Juli 2026
+Quelle: [AI Magazine](https://aimagazine.com/news/will-ai-market-growth-opaque-debt-threaten-uk-banks)  
+Veröffentlichung: 8. Juli 2026
 
-Samsung erwartet laut AI Magazine einen massiven Gewinnsprung im zweiten Quartal, getrieben durch die Nachfrage nach Speicherchips für KI-Infrastruktur. Besonders relevant ist die Verschiebung hin zu High-Bandwidth Memory und die daraus resultierende Verknappung klassischer DRAM- und NAND-Produkte. Für Enterprise-IT bedeutet das: KI-Budgets wirken zunehmend in vorgelagerte Hardwaremärkte hinein, was Beschaffung, Server-Roadmaps und Kostenmodelle für Rechenzentren beeinflussen kann.
+Die Bank of England warnt laut AI Magazine vor Risiken aus stark gestiegenen KI-Bewertungen, konzentrierten Marktpositionen, hoher Verschuldung im AI-Infrastruktursegment und wachsenden Cyberrisiken durch leistungsfähigere KI. Besonders kritisch ist die Kombination aus unsicheren Gewinnannahmen, komplexen Kreditstrukturen und operativer Abhängigkeit von Technologieanbietern.
 
-## How Schneider Electric Scales Industrial AI with Cognite
+Für BRMs in regulierten Branchen ist das ein Signal, KI-Programme stärker mit Resilienz-, Lieferanten- und Finanzrisikomanagement zu verzahnen. Neben Use-Case-ROI sollten Konzentrationsrisiken, Cloud- und Modellabhängigkeiten sowie Exit- und Fallback-Szenarien systematisch bewertet werden.
 
-Autor: Diya Joseph  
-Quelle: [AI Magazine](https://aimagazine.com/news/how-schneider-electric-scales-industrial-ai-with-cognite)  
-Datum der Veröffentlichung: 07. Juli 2026
+## You Will Soon Use Claude Cowork on Your Phone (Claude Cowork kommt auf Smartphone und Web)
 
-Schneider Electric plant die vollständige Übernahme von Cognite für 3,1 Milliarden US-Dollar, um eine stärker integrierte Datenbasis für industrielle KI zu schaffen. Der Artikel betont, dass skalierbare industrielle KI nicht nur Modellleistung benötigt, sondern kontextualisierte Betriebsdaten, Governance und eine belastbare Verbindung zu Anlagen-, Asset- und Engineering-Workflows. Für IT Business Relationship Manager ist das ein klarer Hinweis, dass industrielle KI-Vorhaben früh mit OT, Datenarchitektur, Cybersecurity und Fachbereichen gemeinsam geplant werden müssen.
+Autor: Esther Shittu  
+Quelle: [AI Business](https://aibusiness.com/agentic-ai/you-will-soon-use-claude-cowork-your-phone)  
+Veröffentlichung: 8. Juli 2026
 
-## Self-Driving Company Gets Funding and Chips From AMD
+Anthropic erweitert Claude Cowork auf Web und Mobile. Nutzer sollen Agenten-Workflows auf dem Desktop starten und auf mobilen Geräten fortsetzen können; bei wichtigen Entscheidungspunkten soll Claude eine Freigabe per Benachrichtigung einholen. Der Rollout beginnt als Beta für Claude-Max-Nutzer.
 
-Autor: Graham Hope  
-Quelle: [AI Business](https://aibusiness.com/generative-ai/self-driving-company-funding-chips-from-amd)  
-Datum der Veröffentlichung: 07. Juli 2026
+Für Unternehmen erhöht das den Nutzen agentischer Workflows, aber auch die Anforderungen an Mobile Governance. BRMs sollten insbesondere Datenschutz, Geräteverwaltung, Shadow-AI-Risiken, Berechtigungsmodelle und Protokollierung klären, bevor solche Agenten in Fachbereichen breit genutzt werden.
 
-Das japanische Self-Driving-Startup Turing hat 79 Millionen US-Dollar Series-A-Finanzierung erhalten; zu den Investoren zählt AMD Ventures. Turing nutzt bereits AMD-GPUs für einen Teil seines Trainingsbedarfs und will damit Abhängigkeiten von Nvidia reduzieren. Für Unternehmen ist die Meldung relevant, weil sie den Wettbewerb bei KI-Beschleunigern und die zunehmende Diversifizierung von AI-Compute-Strategien unterstreicht.
+## Nvidia, Hugging Face Collaborate on Open Source Robot Models (Nvidia und Hugging Face kooperieren bei offenen Robotikmodellen)
 
-## How novice coders can develop AI programs for military applications
+Autor: Scarlett Evans  
+Quelle: [AI Business](https://aibusiness.com/generative-ai/nvidia-hugging-face-collaborate-open-source-robot-models)  
+Veröffentlichung: 8. Juli 2026
 
-Autor: Haley Wahl  
-Quelle: [MIT News](https://news.mit.edu/2026/how-novice-coders-can-develop-ai-programs-for-military-applications-0707)  
-Datum der Veröffentlichung: 07. Juli 2026
+Nvidia integriert Isaac-GR00T-Modelle und Teleoperations-Frameworks in Hugging Faces LeRobot-Bibliothek. Ziel ist ein zugänglicherer Workflow für Datensammlung, Training, Simulation, Evaluation und Deployment von Robotikmodellen. Zugleich stärkt Nvidia damit sein eigenes Hardware- und Software-Ökosystem im Physical-AI-Markt.
 
-MIT beschreibt ein Projekt, in dem ein nichttechnischer Air-Force-Cadet mithilfe von ChatGPT, Claude, Gemini und Google AI Studio einen militärischen Software-Prototyp entwickelte. Das Ergebnis zeigt den Nutzen generativer KI für schnelles Prototyping durch Fachexperten, macht aber zugleich die Grenzen deutlich: Sicherheitsprüfung, Datenabfluss, Code-Review und realistische Scope-Kontrolle bleiben Engpässe. Für Enterprise-Kontexte ist die Kernaussage übertragbar: Fachbereiche können mit KI schneller Lösungsideen greifbar machen, produktionsreife Systeme benötigen aber weiterhin Architektur-, Security- und Engineering-Governance.
+Für Unternehmen mit Logistik-, Fertigungs- oder Service-Robotik ist das strategisch relevant: Offene Toolchains können Proofs of Concept beschleunigen, reduzieren aber nicht automatisch Lock-in. Architekturentscheidungen sollten früh klären, welche Teile portabel bleiben und wo Nvidia-spezifische Optimierung bewusst akzeptiert wird.
 
-## OpenAI’s Chief Futurist Is Leaving the Company
+## Meta’s Muse Image Might be Just What SMBs Need (Metas Muse Image könnte für KMU relevant werden)
 
-Autor: Maxwell Zeff  
-Quelle: [WIRED](https://www.wired.com/story/openai-chief-futurist-joshua-achiam-is-leaving-the-company/)  
-Datum der Veröffentlichung: 07. Juli 2026
+Autor: Esther Shittu  
+Quelle: [AI Business](https://aibusiness.com/generative-ai/meta-s-muse-image-might-what-smbs-need)  
+Veröffentlichung: 8. Juli 2026
 
-WIRED berichtet, dass OpenAIs Chief Futurist Joshua Achiam das Unternehmen nach fast neun Jahren verlassen wird. Achiam war eng mit Fragen zu KI-Sicherheit, Mission Alignment und politischer Regulierung verbunden. Für Enterprise-Entscheider ist weniger die Personalie selbst entscheidend als das Signal: Bei Frontier-KI-Anbietern bleiben Governance, Safety-Verantwortung und organisatorische Stabilität zentrale Risikofaktoren bei strategischen Abhängigkeiten.
+Meta bringt Muse Image in seine Advantage+-Werbesuite. Das Modell soll kleine und mittlere Unternehmen dabei unterstützen, markenkonsistente Anzeigenvarianten und Bildbearbeitungen über natürliche Sprache zu erstellen. Der strategische Fokus liegt weniger auf maximaler Modellleistung als auf direkter Integration in Metas Werbeplattformen.
 
-## Ergebnis der Quellen- und Dublettenprüfung
-
-Die berücksichtigten URLs waren in den vorhandenen Markdown-Updates nicht enthalten. Inhaltlich bereits behandelte Themen wurden ausgeschlossen, insbesondere ältere Meldungen zu Anthropic-Modellen, OpenAI-Börsengang, früheren Chip-Förderprogrammen und bereits erfassten Enterprise-AI-Partnerschaften.
+Für Enterprise-Marketing ist dies ein weiterer Hinweis, dass generative KI zunehmend in bestehende SaaS-Workflows eingebettet wird. BRMs sollten Fachbereiche darauf vorbereiten, dass Governance nicht nur bei separaten KI-Tools ansetzt, sondern direkt in Plattformen wie Ads, CRM, Collaboration und Commerce greifen muss.
