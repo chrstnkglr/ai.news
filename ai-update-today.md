@@ -1,53 +1,61 @@
-# AI Update vom 16. Juli 2026
+# AI Update vom 17. Juli 2026
 
 ## tl;dr
 
-OpenAI stellt mit GPT-Red ein automatisiertes Red-Teaming-Verfahren vor, das Prompt-Injection-Resilienz in produktionsnahen Modellen systematisch verbessern soll. Für Enterprise-IT ist das ein klares Signal, dass Sicherheitsbewertungen für agentische KI nicht mehr nur manuelle Tests, sondern skalierbare, kontinuierliche Verfahren brauchen. AI Business rückt die nächste Reifephase von Enterprise-KI in den Fokus: weg von Pilotprojekten, hin zu messbaren End-to-End-Workflows, Governance und klarer Ergebnisverantwortung. Valarian adressiert mit einer neuen Finanzierung den wachsenden Bedarf an souveräner KI-Infrastruktur und workloadnaher Governance. Perplexity positioniert sich mit einem Sandbox-Konzept stärker im Agentenmarkt und weniger ausschließlich als KI-Suchanbieter. Nokia versucht, mit einer NVIDIA-basierten AI-RAN-Plattform Telekommunikationsnetze software- und GPU-zentriert zu modernisieren. MIT zeigt mit „Neural Transparency“, dass Transparenz bereits beim Design personalisierter KI-Agenten ansetzen muss, nicht erst nach Fehlverhalten im Betrieb. Die Dublettenprüfung gegen vorhandene Markdown-Updates im Repository ergab keine bereits enthaltenen URLs oder inhaltlich identische Meldungen für die ausgewählten Artikel.
+In den letzten 24 Stunden dominierten drei Themen: agentische Integration in bestehende Plattformen, sichere Nutzung hochleistungsfähiger KI und die Industrialisierung von Physical AI. Google erweitert AI Mode um App-Interaktionen und Google Vids um personalisierte KI-Avatare, was Enterprise-Workflows stärker in Richtung conversational interfaces und automatisierter Content-Produktion verschiebt. Google DeepMind und Isomorphic Labs positionieren KI-Bioresilienz als Governance- und Sicherheitsdomäne mit Partnernetzwerken für Prävention, Erkennung und Reaktion auf biologische Risiken. AI Business berichtet über neue Initiativen für standardisierte KI-Zahlungen, eine Toyota-Ausgründung im Robotikbereich und Nebius’ Infrastrukturstrategie für KI-Rechenzentren. TechCrunch ordnet AMI Labs’ Weltmodell-Ansatz als Gegenentwurf zum AGI-Marketing ein und betont die Relevanz für Robotik, Fertigung und physische Systeme. Bereits im Repository behandelte Themen, insbesondere GPT-Red, souveräne KI-Infrastruktur, Perplexity-Agenten-Sandbox und Nokia AI-RAN, wurden nicht erneut aufgenommen.
 
-## GPT‑Red: Unlocking Self-Improvement for Robustness (GPT-Red: Selbstverbesserung für robustere KI)
+## Our approach to bioresilience (Unser Ansatz für Bioresilienz)
 
-**Autor:** OpenAI  
-**Quelle:** [OpenAI](https://openai.com/index/unlocking-self-improvement-gpt-red/)  
-**Veröffentlichung:** 15. Juli 2026
+Autor: Isomorphic Labs und Google DeepMind  
+Quelle: [Google DeepMind](https://deepmind.google/blog/our-approach-to-bioresilience/)  
+Datum der Veröffentlichung: 16. Juli 2026
 
-OpenAI beschreibt GPT-Red als internes, automatisiertes Red-Teaming-Modell, das Schwachstellen wie Prompt Injection in realitätsnahen Nutzungsszenarien aufdecken und in Trainingsdaten für robustere Modelle überführen soll. Besonders relevant ist der Fokus auf KI-Systeme, die mit Drittinhalten aus Browsern, Dateien, Tools oder Unternehmensanwendungen interagieren. Für IT Business Relationship Manager ist der Artikel ein Hinweis, dass agentische KI-Programme frühzeitig Sicherheitsarchitekturen für Tool-Nutzung, Datenexfiltration, Berechtigungen und Monitoring benötigen. Governance sollte hier nicht als spätere Compliance-Schicht verstanden werden, sondern als Bestandteil des Modell- und Produktlebenszyklus.
+Google DeepMind und Isomorphic Labs stellen ein Programm vor, das Frontier-KI in der Biologie gleichzeitig nutzbar und kontrollierbarer machen soll. Der Ansatz basiert auf drei Säulen: Missbrauchsprävention, schnellere Erkennung neuer Ausbrüche und beschleunigte Reaktion durch KI-gestützte Gegenmaßnahmen. Relevant für Enterprise-BRM ist vor allem die Governance-Logik: DeepMind beschreibt Bedrohungsmodellierung, Evaluationen, Mitigations und Monitoring als durchgängige Sicherheitskette für hochsensible KI-Anwendungen. Besonders wichtig ist der Hinweis auf DNA-Synthese-Screening und mögliche biologische Wasserzeichen, weil hier klassische Kontrollmechanismen durch KI-generierte Sequenzen unter Druck geraten.
 
-## Moving Enterprise AI From Pilots to Payoff (Enterprise-KI vom Pilotprojekt zum Geschäftsnutzen führen)
+## Google’s AI Mode now lets you link and interact with select apps (Googles AI Mode interagiert nun mit ausgewählten Apps)
 
-**Autor:** Scarlett Evans  
-**Quelle:** [AI Business](https://aibusiness.com/agentic-ai/moving-enterprise-ai-from-pilots-payoff)  
-**Veröffentlichung:** 15. Juli 2026
+Autor: Aisha Malik  
+Quelle: [TechCrunch](https://techcrunch.com/2026/07/16/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/)  
+Datum der Veröffentlichung: 16. Juli 2026
 
-Der Beitrag ordnet ein, warum Enterprise-KI 2026 weniger über Tool-Verfügbarkeit und mehr über Workflow-Redesign, messbare Geschäftsergebnisse und Governance entschieden wird. Zentrale Botschaft ist, dass führende Unternehmen nicht nur Chatbots ausrollen, sondern komplette Arbeitsabläufe neu gestalten, Verantwortlichkeiten definieren und Outcome-Metriken etablieren. Für BRMs ist das besonders anschlussfähig: KI-Investitionen sollten stärker an Prozesszyklen, Entscheidungsqualität, Risikoreduktion und Fachbereichs-KPIs gekoppelt werden. Agentische KI erhöht dabei den Druck, Autonomiegrenzen, Eskalationspfade und Auditierbarkeit verbindlich zu klären.
+Google erweitert AI Mode um direkte Integrationen mit Instacart, Canva und YouTube. Damit wird die Suchoberfläche stärker zu einem Aufgaben- und Transaktionslayer, der nicht nur Antworten liefert, sondern Aktionen in Drittanwendungen auslöst. Für Enterprise-Organisationen ist das ein weiterer Hinweis darauf, dass KI-Assistenten zunehmend an Prozessgrenzen, Identitäten und Berechtigungen andocken. BRM sollten solche Entwicklungen als Vorzeichen für kommende Anforderungen an App-Governance, Consent-Management und Auditierbarkeit agentischer Nutzerinteraktionen betrachten.
 
-## Startup Raises $50 Million to Develop Sovereign AI Infrastructure (Startup erhält 50 Millionen US-Dollar für souveräne KI-Infrastruktur)
+## Google Vids now lets you star in your own AI videos (Google Vids ermöglicht personalisierte KI-Videos mit eigenem Avatar)
 
-**Autor:** Graham Hope  
-**Quelle:** [AI Business](https://aibusiness.com/generative-ai/startup-banks-50-million-develop-sovereign-ai-infrastructure)  
-**Veröffentlichung:** 15. Juli 2026
+Autor: Sarah Perez  
+Quelle: [TechCrunch](https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/)  
+Datum der Veröffentlichung: 16. Juli 2026
 
-Valarian hat 50 Millionen US-Dollar eingesammelt, um eine Softwareebene für souveräne KI-Infrastruktur zu entwickeln. Der Ansatz zielt darauf, Kontrolle über Deployment, Zugriff und Datennutzung auf Workload-Ebene zu ermöglichen, auch wenn darunter weiterhin Hyperscaler-Infrastruktur genutzt wird. Für Enterprise-Unternehmen ist das relevant, weil Souveränität nicht nur eine Frage des Rechenzentrumsstandorts ist, sondern auch der Governance über Datenflüsse, Zugriffspolitiken und regulatorische Abhängigkeiten. Besonders in regulierten Branchen kann eine solche Kontrollschicht helfen, Cloud-Strategie und nationale oder branchenspezifische Compliance-Anforderungen besser zu verbinden.
+Google Vids erhält personalisierte KI-Avatare, die auf Selfie und Sprachaufnahme basieren, sowie multimodale Videofunktionen über Gemini Omni. Für Unternehmen verschiebt sich damit die Grenze zwischen klassischer Präsentation, Schulungsvideo und synthetischer Medienproduktion. Google verweist auf Alters- und Regionsbeschränkungen sowie SynthID-Wasserzeichen, dennoch bleiben Fragen zu Freigabeprozessen, Markenrisiken und Identitätsmissbrauch zentral. Für BRM ist der operative Punkt klar: Kommunikations-, HR- und Enablement-Teams bekommen leistungsfähigere Werkzeuge, benötigen aber Richtlinien für Stimme, Bild, Zustimmung und Kennzeichnung.
 
-## Perplexity AI Introduces Space Sandbox for Agents (Perplexity führt Space-Sandbox für Agenten ein)
+## Why AMI Labs’ Alexandre LeBrun won’t call his AI ‘AGI’ or ‘superintelligence’ (Warum AMI Labs seine KI nicht AGI nennt)
 
-**Autor:** Esther Shittu  
-**Quelle:** [AI Business](https://aibusiness.com/agentic-ai/perplexity-ai-introduces-sandbox-for-agents)  
-**Veröffentlichung:** 15. Juli 2026
+Autor: Kate Park  
+Quelle: [TechCrunch](https://techcrunch.com/2026/07/16/why-ami-labs-alexandre-lebrun-wont-call-his-ai-agi-or-superintelligence/)  
+Datum der Veröffentlichung: 16. Juli 2026
 
-Perplexity stellt mit Space eine Sandbox für seinen Computer-Agenten vor, der Web-Recherche, Code, Dateiverwaltung und externe Anwendungen nutzen kann. Die Maßnahme adressiert ein Kernproblem agentischer KI: Je mehr ein Agent mit Systemen und Daten interagiert, desto wichtiger werden isolierte Ausführungsumgebungen, Berechtigungsmodelle und klare Datenräume. Strategisch zeigt der Schritt, dass Perplexity über KI-Suche hinaus in Richtung produktiver Wissensarbeit und Agenteninfrastruktur expandieren will. Für Unternehmen bleibt entscheidend, ob solche Agenten sauber in bestehende Identity-, DLP- und Audit-Strukturen eingebunden werden können.
+AMI Labs, das von Yann LeCun mitgeprägte Weltmodell-Startup, grenzt sich bewusst von Begriffen wie AGI und Superintelligenz ab. CEO Alexandre LeBrun argumentiert, dass Weltmodelle nicht primär Sprache, sondern Zustände der physischen Welt vorhersagen sollen. Das ist besonders relevant für Robotik, Fertigung, Elektronik und industrielle Systeme, in denen LLMs allein nicht ausreichend Kontext über reale Umgebungen haben. Für Enterprise-BRM ist der Artikel ein Signal, Physical AI nicht als reine LLM-Erweiterung zu bewerten, sondern als eigenständige Architekturklasse mit anderen Daten-, Sicherheits- und Partneranforderungen.
 
-## Nokia’s AI-RAN platform: a radio comeback that runs on NVIDIA (Nokias AI-RAN-Plattform läuft auf NVIDIA)
+## Foundation Launched to Standardize AI Payments (Stiftung zur Standardisierung von KI-Zahlungen gestartet)
 
-**Autor:** Dashveenjit Kaur  
-**Quelle:** [AI News](https://www.artificialintelligence-news.com/news/nokia-ai-ran-platform-nvidia/)  
-**Veröffentlichung:** 15. Juli 2026
+Autor: Graham Hope  
+Quelle: [AI Business](https://aibusiness.com/agentic-ai/foundation-standardize-ai-payments)  
+Datum der Veröffentlichung: 16. Juli 2026
 
-Nokia positioniert seine neue AI-RAN-Plattform als GPU-beschleunigte Modernisierung von Mobilfunknetzen auf Basis von Nokia anyRAN und NVIDIA Aerial. Ziel ist es, bestehendes Spektrum effizienter zu nutzen und Netzkapazität schrittweise per Software und Beschleunigerhardware zu erhöhen. Für Enterprise-IT ist die Meldung vor allem im Kontext von Edge, Campusnetzen, 5G/6G und industrieller Konnektivität relevant. Gleichzeitig zeigt der Artikel, dass Anbieterclaims zu „Firsts“ sorgfältig geprüft werden müssen, da Ericsson bereits KI-Funktionen für RAN-Software mit anderer Architektur vermarktet.
+AI Business berichtet über eine neue Initiative zur Standardisierung von Zahlungen durch KI-Agenten. Das Thema ist für Unternehmen strategisch wichtig, weil agentische Systeme nur dann produktiv in Beschaffung, Handel und Serviceprozesse eingebunden werden können, wenn Authentifizierung, Autorisierung, Zahlungsfreigabe und Haftung geklärt sind. Für BRM entsteht daraus ein klarer Prüfpunkt: Agenten, die Transaktionen auslösen, brauchen andere Kontrollen als Assistenten, die nur Empfehlungen geben. Besonders relevant sind Rollenmodelle, Limits, Genehmigungsworkflows und Nachvollziehbarkeit gegenüber Finance, Compliance und Cybersecurity.
 
-## 3 Questions: Neural transparency and the future of AI design (Neurale Transparenz und die Zukunft des KI-Designs)
+## Toyota Spin-Out Launches From Stealth With $300M (Toyota-Ausgründung startet mit 300 Millionen US-Dollar)
 
-**Autor:** MIT Media Lab  
-**Quelle:** [MIT News](https://news.mit.edu/2026/3-questions-neural-transparency-and-future-of-ai-design-0715)  
-**Veröffentlichung:** 15. Juli 2026
+Autor: Scarlett Evans  
+Quelle: [AI Business](https://aibusiness.com/robotics/walden-robotics-emerges-from-stealth)  
+Datum der Veröffentlichung: 16. Juli 2026
 
-MIT stellt „Neural Transparency“ als Ansatz vor, der Nutzern bereits beim Entwurf personalisierter KI-Chatbots Hinweise auf wahrscheinliche Verhaltenseigenschaften geben soll. Der Fokus liegt auf Prävention: Risiken wie Halluzination, Toxizität oder übermäßige Zustimmung sollen erkennbar werden, bevor ein System produktiv genutzt wird. Für Unternehmen ist das konzeptionell wichtig, weil viele Fachbereiche eigene KI-Assistenten, Agenten oder Custom GPTs konfigurieren. BRMs sollten daraus ableiten, dass Self-Service-KI nicht nur einfache Bereitstellung braucht, sondern Guardrails, Design-Checks und transparente Risikohinweise direkt im Erstellungsprozess.
+Walden Robotics, eine Toyota-Ausgründung, tritt mit 300 Millionen US-Dollar Finanzierung aus dem Stealth-Modus. Die Meldung unterstreicht, dass Physical AI und Robotik weiter von Forschungs- und Pilotprogrammen in kapitalintensive industrielle Umsetzung wandern. Für Enterprise-Unternehmen ist relevant, dass Robotikplattformen künftig stärker mit KI-Modellen, Simulation, Sensorik und Fertigungsdaten verzahnt werden. BRM in Industrie, Logistik und Facility-nahen Bereichen sollten früh klären, welche Datenplattformen, Sicherheitszonen und Integrationsmuster für solche Systeme erforderlich sind.
+
+## Nebius Embarks on “Asset-Light” Data Center Model (Nebius setzt auf ein Asset-Light-Modell für KI-Rechenzentren)
+
+Autor: Graham Hope  
+Quelle: [AI Business](https://aibusiness.com/data-centers/nebius-asset-light-data-center-model)  
+Datum der Veröffentlichung: 16. Juli 2026
+
+Nebius richtet seine KI-Infrastrukturstrategie stärker auf ein Asset-Light-Modell aus. Damit bleibt die Rechenzentrumsfrage im KI-Markt dynamisch: Anbieter suchen nach Wegen, Compute-Kapazität schneller zu skalieren, ohne alle Infrastrukturkomponenten selbst langfristig zu binden. Für Enterprise-BRM ist dies ein Hinweis, Cloud- und KI-Infrastrukturverträge nicht nur nach Modellzugang, sondern auch nach Kapazitätsrisiko, Standortstrategie, Datenresidenz und Abhängigkeit von Neocloud-Anbietern zu bewerten. Besonders bei agentischen und multimodalen Workloads werden Latenz, Verfügbarkeit und Kostensteuerung zu geschäftskritischen Faktoren.
