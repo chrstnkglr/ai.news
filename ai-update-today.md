@@ -1,69 +1,61 @@
-# AI Update vom 23. Juli 2026
+# AI Update vom 24. Juli 2026
 
 ## tl;dr
 
-OpenAI verschiebt Enterprise-Agenten mit Presence stärker in Richtung produktiver, kontrollierter Workflows für Kundenservice und interne Prozesse. Parallel wird der Infrastrukturbedarf konkreter: OpenAI plant laut TechCrunch bis 2030 AI-Infrastrukturinvestitionen von 750 Milliarden US-Dollar, während Google hohe AI-Capex mit stark wachsendem Cloud-Geschäft rechtfertigt. Microsoft und Mistral vertiefen ihre Partnerschaft für europäische AI-Infrastruktur und souveräne Modellbereitstellung. Für Enterprise-Architekturen rückt Data Governance erneut in den Vordergrund, weil agentische Systeme ohne Semantik, Ownership und Datenkontext in Produktion scheitern können. Im Security-Markt entstehen neue AI-native Endpoint- und Agent-Control-Ansätze, exemplarisch durch Glow. Synthesia erweitert AI-Training von Videogenerierung zu interaktivem Coaching mit Bewertung. Für industrielle und autonome Systeme zeigt ein neuer Lidar-Chip von MIT, dass AI-nahe Hardware-Innovationen weiterhin relevant für Edge- und Robotics-Szenarien bleiben.
+KI-News der letzten 24 Stunden drehen sich stark um Enterprise-Betrieb, Governance und Infrastruktur. AMD positioniert Helios als ernsthaften Nvidia-Gegenentwurf für KI-Racks und nennt OpenAI, Meta, Oracle, Anthropic und Microsoft als Kunden. Anthropic erweitert Claude Voice in Richtung arbeitsfähiger Assistenz mit App-Integrationen. Im Security-Bereich zeigen zwei Meldungen dieselbe Spannung: KI-Guardrails können legitime Sicherheitsforschung behindern, während KI-generierte Spear-Phishing-Angriffe neue Abwehrarchitekturen erfordern. OpenAI bringt Health in ChatGPT für US-Nutzer und rückt damit Datenschutz, Berechtigungen und regulierte Daten stärker in den Mittelpunkt. Runway abstrahiert generative Medienmodelle über Routing nach Qualität, Geschwindigkeit und Kosten. Für Enterprise-BRM ist der gemeinsame Nenner: KI wird weniger als einzelnes Tool relevant, sondern als gesteuerte, integrierte und auditierbare Betriebsfähigkeit.
 
-## Introducing OpenAI Presence (Einführung von OpenAI Presence)
+### Launching Health in ChatGPT
 
-**Autor:** OpenAI  
-**Quelle:** [OpenAI](https://openai.com/index/introducing-openai-presence/)  
-**Datum der Veröffentlichung:** 22. Juli 2026
+Autor: OpenAI  
+Quelle: [OpenAI](https://openai.com/index/health-in-chatgpt/)  
+Datum der Veröffentlichung: 23. Juli 2026
 
-OpenAI stellt Presence als Enterprise-Produkt für produktive Voice- und Chat-Agenten vor. Der Fokus liegt nicht auf Modellleistung allein, sondern auf Policies, Guardrails, Eskalationsregeln, Simulationen, Evaluierungen und kontrollierten Verbesserungszyklen über Codex. Für IT Business Relationship Manager ist relevant, dass OpenAI damit stärker in gemanagte Prozessautomatisierung vordringt: Billing, Claims, IT-Service-Requests und ähnliche Workflows werden als Zielbilder genannt. Die Einschränkung ist ebenso wichtig: Presence ist kein Self-Service-Produkt, sondern wird über Forward Deployed Engineers und ausgewählte Integratoren ausgerollt.
+OpenAI startet Health in ChatGPT für eingeloggte US-Nutzer ab 18 Jahren und erlaubt die Verbindung von Apple Health sowie unterstützten medizinischen Datensätzen. Für Enterprise-Kontexte ist vor allem relevant, dass OpenAI zusätzliche Datenschutz- und Sicherheitszusagen macht: verbundene Gesundheitsdaten und darauf bezogene Gespräche sollen nicht für Foundation-Model-Training oder Werbung genutzt werden. Für BRM in regulierten Branchen ist das ein Signal, dass generative KI zunehmend in sensible Datenräume vordringt und Governance, Consent-Management, Auditierbarkeit sowie klare Abgrenzung zu medizinischer Beratung entscheidend werden.
 
-## OpenAI’s AI spending spree has ballooned to $750B
+### AMD takes on Nvidia with its Helios AI rack-scale system
 
-**Autor:** Tim De Chant  
-**Quelle:** [TechCrunch](https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/)  
-**Datum der Veröffentlichung:** 22. Juli 2026, 9:13 AM PDT
+Autor: Lucas Ropek  
+Quelle: [TechCrunch](https://techcrunch.com/2026/07/23/amd-takes-on-nvidia-with-its-helios-ai-rack-scale-system/)  
+Datum der Veröffentlichung: 23. Juli 2026, 13:33 PDT
 
-TechCrunch berichtet, dass OpenAI seine Infrastrukturplanung bis 2030 auf 750 Milliarden US-Dollar ausgeweitet hat. Im Zentrum steht zunächst Project Camellia, ein geplanter Data-Center-Campus in Georgia mit 3,2 Gigawatt Leistungsbedarf. Für Enterprise-Kunden ist das ein Signal, dass Frontier-AI-Roadmaps weiterhin massiv von Energie, Standortpolitik, Netzanschlüssen und regulatorischer Akzeptanz abhängen. BRM-seitig sollten Kosten-, Verfügbarkeits- und Nachhaltigkeitsannahmen in AI-Business-Cases entsprechend konservativ bewertet werden.
+AMD stellt Helios als Rack-Scale-System für große KI-Workloads heraus und will damit Nvidias Dominanz bei KI-Rechenzentrumsarchitekturen angreifen. TechCrunch berichtet, dass unter anderem OpenAI, Meta, Oracle, Anthropic und Microsoft Helios einsetzen wollen; zusätzlich soll Anthropic im Rahmen einer strategischen Partnerschaft bis zu zwei Gigawatt GPU-Kapazität über AMDs neues Rack-System nutzen. Für Enterprise-IT ist das strategisch relevant, weil Beschaffungs-, Cloud- und Plattformentscheidungen künftig stärker von Lieferfähigkeit, Energiebedarf, Chip-Ökosystem und Software-Reife abhängen.
 
-## Google justifies its massive AI spending with a booming cloud business
+### Anthropic updates Claude voice mode with more capable models
 
-**Autor:** Lucas Ropek  
-**Quelle:** [TechCrunch](https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/)  
-**Datum der Veröffentlichung:** 22. Juli 2026, 3:01 PM PDT
+Autor: Ivan Mehta  
+Quelle: [TechCrunch](https://techcrunch.com/2026/07/23/anthropic-updates-claude-voice-mode-with-more-capable-models/)  
+Datum der Veröffentlichung: 23. Juli 2026, 12:00 PDT
 
-Alphabet meldet starkes Wachstum im Google-Cloud-Geschäft und stellt es als Beleg für die wirtschaftliche Tragfähigkeit hoher AI-Investitionen dar. TechCrunch nennt Google Cloud als wesentlich durch Enterprise-AI-Lösungen und AI-Infrastruktur getrieben. Für Enterprise-Entscheider bleibt die Kernaussage ambivalent: Cloud-Anbieter können AI-Nachfrage monetarisieren, aber die hohen Capex fließen letztlich in Preis-, Vertrags- und Lock-in-Dynamiken ein. Bei strategischen Cloud- und AI-Plattformentscheidungen werden mehrjährige Kapazitätszusagen, Exit-Optionen und Workload-Portabilität wichtiger.
+Anthropic erweitert Claude Voice, sodass Nutzer zwischen Opus-, Sonnet- und Haiku-Modellen wählen können; standardmäßig nutzt Voice das zuletzt verwendete Textmodell in einer schnellen Variante. Besonders relevant für Enterprise-Anwendungsfälle ist die Verbindung zu Tools wie Gmail, Google Calendar, Slack, Canva und Notion, wodurch Sprachinteraktion näher an echte Arbeitsausführung rückt. Für BRM bedeutet das: Sprachassistenten werden nicht nur ein UX-Thema, sondern berühren Berechtigungen, Tool-Governance, Datengrenzen und Prozessverantwortung.
 
-## Microsoft & Mistral’s Multi-Billion-Dollar European AI Deal
+### AegisAI, founded by former Google security execs, lands $36M to stop AI-driven spear phishing
 
-**Autor:** Adam Pond  
-**Quelle:** [AI Magazine](https://aimagazine.com/news/microsoft-mistrals-multibillion-dollar-european-ai-deal)  
-**Datum der Veröffentlichung:** 22. Juli 2026
+Autor: Marina Temkin  
+Quelle: [TechCrunch](https://techcrunch.com/2026/07/23/aegisai-founded-by-former-google-security-execs-lands-36m-to-stop-ai-driven-spear-phishing/)  
+Datum der Veröffentlichung: 23. Juli 2026, 11:38 PDT
 
-Microsoft und Mistral erweitern ihre Partnerschaft um europäische AI-Infrastruktur und die Integration von Mistral-Modellen in Microsoft Foundry und Copilot Studio. Besonders relevant ist der souveräne Betriebsaspekt: Mistral Medium 3.5 und OCR 4 sollen Unternehmen mehr Kontrolle über Deployment, Datenresidenz und regulierte Workloads geben. Für europäische Enterprise-Unternehmen ist dies ein weiterer Baustein im Spannungsfeld zwischen US-Hyperscalern, europäischer Souveränität und produktiver Modellverfügbarkeit.
+AegisAI, gegründet von ehemaligen Google-Sicherheitsmanagern, erhält 36 Millionen US-Dollar Series-A-Finanzierung für KI-Agenten gegen Spear Phishing. Der Kern der Meldung: Regelbasierte E-Mail-Security stößt bei KI-generierten, hochpersonalisierten Angriffen an Grenzen, weshalb AegisAI Nachrichten stärker kontextuell und anomaliebasiert analysieren will. Für Enterprise-Unternehmen ist dies ein Hinweis, dass Security-Kontrollen gegen Social Engineering stärker dynamisch, identitätsbezogen und verhaltensorientiert werden müssen.
 
-## AI Readiness Starts with Data Governance, Not Data Access
+### How AI guardrails are impeding the work of offensive cybersecurity researchers
 
-**Autor:** Sireesha Pulipati  
-**Quelle:** [DATAVERSITY](https://www.dataversity.net/articles/ai-readiness-starts-with-data-governance-not-data-access/)  
-**Datum der Veröffentlichung:** 22. Juli 2026
+Autor: Lorenzo Franceschi-Bicchierai  
+Quelle: [TechCrunch](https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/)  
+Datum der Veröffentlichung: 23. Juli 2026, 18:00 PDT
 
-Der Artikel argumentiert, dass agentische AI-Projekte selten an fehlendem Datenzugriff scheitern, sondern an fehlender Semantik, Ownership und dokumentiertem Geschäftskontext. Für BRMs ist das ein wichtiger Steuerungsimpuls: AI-Readiness gehört nicht nur in Plattform- oder Modellteams, sondern in Data-Governance-, Fachbereichs- und Prozessverantwortung. Agenten benötigen belastbare Definitionen, kanonische Datenquellen und klare Verantwortlichkeiten, sonst steigt das Risiko falscher Entscheidungen trotz technisch funktionierender Pipelines.
+TechCrunch beschreibt, wie Guardrails großer KI-Modelle legitime offensive Sicherheitsforschung behindern können, etwa bei Exploit-Validierung oder Reverse Engineering. Mehrere Sicherheitsforscher berichten, dass sie deshalb auf lokal betriebene offene Modelle ausweichen, um Restriktionen und Datenabflussrisiken zu vermeiden. Für BRM ist die Governance-Spannung zentral: Unternehmen brauchen Schutz vor Missbrauch, dürfen aber defensive Security-Teams nicht so stark einschränken, dass sie gegenüber Angreifern an Geschwindigkeit verlieren.
 
-## Glow emerges from stealth at $1.2B valuation to challenge endpoint security in the AI era
+### Runway launches AI model router as generative media gets crowded
 
-**Autor:** Jagmeet Singh  
-**Quelle:** [TechCrunch](https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/)  
-**Datum der Veröffentlichung:** 22. Juli 2026, 3:00 AM PDT
+Autor: Rebecca Bellan  
+Quelle: [TechCrunch](https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/)  
+Datum der Veröffentlichung: 23. Juli 2026, 10:07 PDT
 
-Glow startet mit einer Bewertung von 1,2 Milliarden US-Dollar und positioniert sich als Endpoint-Security-Plattform für eine Umgebung, in der AI-Agenten, Entwicklerwerkzeuge und generative Angriffe auf Mitarbeitergeräten laufen. Das ist für Enterprise-IT relevant, weil klassische Endpoint-Kontrollen oft nicht auf agentische Tool-Nutzung, lokale Entwicklerumgebungen und Shadow-AI ausgelegt sind. Der Markt bewegt sich damit in Richtung kontinuierlicher Software-, Agenten- und Policy-Überwachung auf Endgeräten.
+Runway startet einen Media Router, der für Bild-, Video- und Audiogenerierung automatisch Modelle nach Prioritäten wie Qualität, Geschwindigkeit oder Kosten auswählt. Damit verschiebt sich Runway vom einzelnen KI-Videoanbieter stärker in Richtung Infrastrukturplattform für generative Medien. Für Enterprise-Teams mit Marketing-, Schulungs- oder Produkt-Workflows ist das relevant, weil Modell-Routing Beschaffung und Betrieb vereinfacht, zugleich aber neue Anforderungen an Provider-Risiko, Herkunft der Modelle, Kostensteuerung und Content-Governance erzeugt.
 
-## Synthesia’s AI training platform is moving beyond videos into live coaching
+### Why Your LLM Needs an Onboarding Program
 
-**Autor:** Rebecca Bellan  
-**Quelle:** [TechCrunch](https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/)  
-**Datum der Veröffentlichung:** 22. Juli 2026, 1:00 AM PDT
+Autor: Dr. Maitreya Natu  
+Quelle: [DATAVERSITY](https://www.dataversity.net/articles/why-your-llm-needs-an-onboarding-program/)  
+Datum der Veröffentlichung: 23. Juli 2026
 
-Synthesia erweitert seine Enterprise-Trainingsplattform um Roleplay Sessions, bei denen Mitarbeitende Gespräche mit AI-Avataren üben und anhand von Rubrics bewertet werden. Damit verschiebt sich AI-Learning von Content-Produktion zu messbarer Verhaltensänderung. Für HR-, Sales-, Service- und Change-Programme ist relevant, dass solche Systeme Trainingsdaten, Bewertungslogiken und Mitarbeiter-Performance stärker miteinander verbinden. Governance-Fragen zu Transparenz, Bias und arbeitsrechtlicher Nutzung sollten früh geklärt werden.
-
-## MIT’s new lidar chip could give self-driving cars a wider view
-
-**Autor:** Adam Zewe, Originalmaterial des Massachusetts Institute of Technology  
-**Quelle:** [ScienceDaily](https://www.sciencedaily.com/releases/2026/07/260722032127.htm)  
-**Datum der Veröffentlichung:** 22. Juli 2026
-
-MIT-Forschende haben einen silicon-photonics-basierten Lidar-Chip entwickelt, der ohne bewegliche Teile ein breiteres Sichtfeld ermöglichen soll. Der technische Kern liegt in Antennenstrukturen, die Interferenzen stark reduzieren und dadurch präzisere Beam-Steering-Systeme erlauben. Für Unternehmen mit Robotics-, Automotive-, Drohnen- oder Industrial-IoT-Bezug ist dies ein Hinweis, dass AI-Fähigkeiten am Edge nicht nur von Modellen, sondern auch von Sensorik, Energieeffizienz und robuster Hardwareintegration abhängen.
+Der Beitrag argumentiert, dass Enterprise-LLMs nicht an mangelnder Modellintelligenz scheitern, sondern an fehlendem organisatorischem Kontext. Statt immer größere Prompts oder Fine-Tuning als Standardlösung zu nutzen, empfiehlt der Autor eine Architektur mit semantischen Wissensstrukturen, rollenbezogener Personalisierung, Feedbacksignalen und Governance. Für BRM ist die Aussage direkt anschlussfähig: Wert entsteht nicht durch den Modellzugang allein, sondern durch strukturiertes Onboarding in Daten, Prozesse, Verantwortlichkeiten und Kontrollmechanismen.
