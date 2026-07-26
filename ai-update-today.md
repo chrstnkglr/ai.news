@@ -1,49 +1,45 @@
-# AI Update vom 25. Juli 2026
+# AI Update vom 26. Juli 2026
 
 ## tl;dr
 
-Im geprüften 24-Stunden-Fenster wurden wenige, aber mehrere Enterprise-relevante KI-Meldungen mit belastbarem Veröffentlichungsdatum gefunden. Anthropic bringt mit Opus 5 ein leistungsfähigeres Modell mit weniger restriktiver Nutzung als Fable 5 und adressiert damit besonders API-, Coding- und Governance-Anforderungen. Parallel formiert sich ein industriepolitischer Konflikt um Open-Weight-Modelle, weil Anbieter wie Microsoft, Meta, Nvidia, Mistral und Hugging Face vor zu breiten US-Beschränkungen warnen. Meta verschiebt seine KI-Assistentenstrategie von Unterhaltung stärker in Richtung Produktivität, Kalenderintegration, Recherche und wiederkehrende Aufgaben. Cognitions Übernahme von Poke zeigt, dass Benutzererlebnis, Persistenz und „Agenten-Persönlichkeit“ zu Differenzierungsmerkmalen für KI-Coding-Agenten werden. Bereits in früheren Repository-Updates behandelte Themen wie ChatGPT Health, OpenAI Presence, AMD Helios, Anthropic Voice Mode und KI-Guardrails wurden nicht erneut aufgenommen.
+In den letzten 24 Stunden wurden mehrere quellenvalidierte Meldungen mit direkter Relevanz für Enterprise-IT, KI-Governance und Business-Relationship-Management gefunden. TechCrunch berichtet, dass AI-getriebene Restrukturierungen bei Tech-Unternehmen weiter zunehmen, der Kapitalmarkt die Effizienzstory aber nicht durchgängig honoriert. Gleichzeitig zeigt ein Vorfall im PJM-Stromnetz, dass KI-Rechenzentren nicht nur Energieverbraucher, sondern zunehmend operative Stabilitätsrisiken für Netzinfrastruktur werden. AI Magazine verweist auf eine HCLTech-Studie, nach der zwar 90 Prozent der Unternehmen generative und agentische KI als workflow-verändernd einstufen, aber nur 18 Prozent bereits signifikante Umsatzwirkung sehen. Für IT Business Relationship Manager bleibt damit zentral: KI-Initiativen müssen stärker an Wertbeitrag, Betriebsresilienz, Governance und Akzeptanzsteuerung gekoppelt werden.
 
-## Anthropic launches Opus 5
+## Monday.com is the latest tech company to blame AI for layoffs — here are 20 others
 
-Autor: Russell Brandom  
-Quelle: [TechCrunch](https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/)  
-Datum der Veröffentlichung: 24. Juli 2026
+**Autor:** Rebecca Bellan, Connie Loizos  
+**Quelle:** [TechCrunch](https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/)  
+**Veröffentlichung:** 25. Juli 2026, 18:30 PDT
 
-Anthropic hat Opus 5 als neues Schwergewichtsmodell vorgestellt. Laut Bericht soll es günstiger und weniger restriktiv als Fable 5 sein, aber in mehreren Benchmarks sogar darüber liegen. Für Enterprise-Kunden ist vor allem relevant, dass Opus 5 nicht unter die 30-Tage-Datenaufbewahrung fällt, die bei Fable und Mythos Kritik ausgelöst hatte. Gleichzeitig bleiben Sicherheitsklassifizierungen für Cybersecurity-Aufgaben aktiv, etwa bei Exploit-Generierung und Penetration-Testing.
+TechCrunch ordnet Monday.com in eine wachsende Liste von Technologieunternehmen ein, die Restrukturierungen zumindest teilweise mit KI-Transformation, schlankeren Betriebsmodellen oder veränderten Kompetenzprofilen begründen. Besonders relevant ist die Gegenüberstellung von Kostensenkungsnarrativen und Marktreaktion: Laut Artikel haben Unternehmen, die KI als Faktor bei Stellenabbau nennen, in den 30 Handelstagen nach ihren Ankündigungen gegenüber dem Nasdaq underperformt.
 
-Für IT Business Relationship Manager ist die Meldung ein Signal, Modellportfolios nicht nur nach Benchmark-Leistung zu bewerten. Wichtiger werden Kombinationen aus Kosten, Retention-Policy, Sicherheitsklassifikatoren, API-Verhalten und Fallback-Mechanismen. Anthropic führt zudem „Automatic Fallbacks“ ein, damit Anfragen bei ausgelösten Schutzmechanismen auf weniger leistungsfähige Modelle umgeleitet werden können, statt mit Fehlern abzubrechen. Das kann Produktionsprozesse robuster machen, erhöht aber den Bedarf an Monitoring, Auditierung und klaren Modellfreigaben.
+Für Enterprise-BRMs ist die Meldung ein Hinweis, KI-Programme nicht allein als Automatisierungs- oder Headcount-Thema zu rahmen. Entscheidend werden belastbare Workforce-Pläne, Skill-Transition, Betriebsmodelle und Business-KPIs, die zeigen, welche Funktionen tatsächlich produktiver werden und wo neue Rollen entstehen.
 
-## As US weighs response to Chinese AI, industry urges against broad open-weight restrictions
+## One fallen power line exposed a growing AI data center problem. Here’s how to fix it.
 
-Autor: Rebecca Bellan  
-Quelle: [TechCrunch](https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/)  
-Datum der Veröffentlichung: 24. Juli 2026
+**Autor:** Tim De Chant  
+**Quelle:** [TechCrunch](https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/)  
+**Veröffentlichung:** 25. Juli 2026, 06:05 PDT
 
-Mehrere große KI- und Infrastrukturunternehmen, darunter Hugging Face, Meta, Microsoft, Mistral und Nvidia, haben US-Politiker in einem offenen Brief vor pauschalen Beschränkungen für Open-Weight-Modelle gewarnt. Hintergrund ist die Debatte über mögliche US-Maßnahmen gegen chinesische KI-Anbieter und mutmaßliche Modelldistillation. Die Unterzeichner argumentieren, offene Modelle seien für Wettbewerb, Transparenz, defensive Cybersecurity und technologische Souveränität wichtig.
+Ein Ausfall einer Stromleitung im Umfeld von Washington, DC führte laut TechCrunch dazu, dass mehr als 3 Gigawatt Rechenzentrums-Last nahezu gleichzeitig vom PJM-Netz getrennt wurden. Das Netz stabilisierte sich erst nach mehr als zehn Minuten. Der Artikel macht deutlich, dass KI-Rechenzentren bei Störungen nicht nur passiv betroffen sind, sondern durch abruptes Lastverhalten selbst Netzinstabilität verstärken können.
 
-Für Unternehmen ist die Debatte direkt beschaffungsrelevant. Ein restriktiverer Regulierungsrahmen könnte den Zugang zu offenen Modellen, On-Premise-Betrieb, souveränen Deployments und kostenoptimierten Alternativen zu geschlossenen APIs beeinflussen. Gleichzeitig zeigt der Konflikt, dass Open-Weight-Strategien nicht automatisch risikofrei sind: IP-Herkunft, Modellherkunft, Sicherheitsfähigkeit und Compliance-Nachweise müssen in Vendor- und Architekturentscheidungen stärker dokumentiert werden.
+Für Enterprise-IT und Standortstrategie ist das relevant, weil AI-Capacity-Planung künftig enger mit Energiearchitektur, Backup-Konzepten, Laststeuerung und regulatorischer Infrastrukturplanung verzahnt werden muss. BRMs sollten bei KI-Plattform-Roadmaps nicht nur Cloud-Kapazität und Modellkosten, sondern auch Resilienz, geografische Konzentrationsrisiken und Nachhaltigkeitsanforderungen adressieren.
 
-## Meta is making its AI chatbot more like an assistant
+## Librarians are hosting viral ‘Avoiding AI’ workshops for people who are fed up with Big Tech
 
-Autor: Emma Roth  
-Quelle: [The Verge](https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update)  
-Datum der Veröffentlichung: 24. Juli 2026
+**Autor:** Amanda Silberling  
+**Quelle:** [TechCrunch](https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/)  
+**Veröffentlichung:** 25. Juli 2026, 09:00 PDT
 
-Meta erweitert seinen KI-Chatbot um produktivitätsorientierte Funktionen. Der Assistent soll Kalenderdaten nutzen, Tagesbriefings erstellen, Ereignisse planen, tiefere Recherchen durchführen und wiederkehrende Aufgaben wie Wochenpläne oder Produktbenachrichtigungen übernehmen. Technisch stützt Meta das Update auf das Modell Muse Spark 1.1. Der Rollout startet zunächst in ausgewählten Märkten über die Meta-AI-App und das Web, weitere Plattformen wie WhatsApp sollen folgen.
+TechCrunch beschreibt eine wachsende Nachfrage nach Workshops, in denen Bibliotheken Nutzern zeigen, wie sie KI-Funktionen in Alltagssoftware deaktivieren oder bewusster nutzen können. Der Kern ist nicht pauschale Technologieablehnung, sondern Kontrollverlust: Anwender empfinden KI-Funktionen zunehmend als aufgezwungen, schwer abschaltbar oder intransparent.
 
-Für Enterprise-Umfelder ist relevant, dass Meta damit stärker in den Markt für persönliche und arbeitsnahe KI-Assistenten drängt. Die Integration in Kalender, Web-Recherche und perspektivisch Messaging-Kanäle erhöht den Druck auf bestehende Kollaborations- und Productivity-Suiten. Gleichzeitig entstehen typische Governance-Fragen: Welche Datenquellen darf ein Assistent nutzen, wie werden wiederkehrende Aufgaben freigegeben, und wie lassen sich private, soziale und berufliche Kontexte sauber trennen?
+Für Unternehmen ist das ein wichtiges Signal für Change Management. KI-Einführungen sollten Wahlmöglichkeiten, klare Datenhinweise, Opt-in-Mechanismen, Schulung und transparente Nutzenkommunikation enthalten. Andernfalls steigt das Risiko von Ablehnung, Schattenprozessen und Vertrauensverlust gegenüber zentral bereitgestellten KI-Werkzeugen.
 
-## Why Cognition bought Poke: AI personality is becoming a competitive advantage
+## HCLTech Study: How Businesses Drive Revenue Impact with AI
 
-Autor: Sarah Perez  
-Quelle: [TechCrunch](https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/)  
-Datum der Veröffentlichung: 24. Juli 2026
+**Autor:** Diya Joseph  
+**Quelle:** [AI Magazine](https://aimagazine.com/news/hcltech-study-how-businesses-drive-revenue-impact-with-ai)  
+**Veröffentlichung:** 25. Juli 2026
 
-Cognition übernimmt Poke, einen textbasierten KI-Assistenten, dessen Interaktionsmodell stärker auf Vertrautheit, Persistenz und Alltagstauglichkeit ausgelegt ist. Der Deal bewertet das Startup laut Bericht im niedrigen neunstelligen Bereich. Cognition will Pokes Interaktionsdesign und „Persönlichkeit“ in den Coding-Agenten Devin einbringen, während Poke von Cognitions Modellen und Infrastruktur profitieren soll.
+AI Magazine berichtet über HCLTechs Studie „The Blueprint for AI Leadership“, basierend auf 500 befragten Business- und IT-Führungskräften. Demnach sehen 90 Prozent der Organisationen generative und agentische KI als transformativ für Arbeitsabläufe, aber nur 18 Prozent berichten bereits signifikante Umsatzwirkung. Erfolgreichere „AI Leaders“ unterscheiden sich laut Studie durch stärkere Integration in die Geschäftsstrategie, höhere Datenreife, Sponsorship durch Führungskräfte und systematische Weiterbildung.
 
-Für Enterprise-IT ist die Übernahme ein Hinweis darauf, dass Agenten nicht nur über Modellleistung konkurrieren. Akzeptanz, Vertrauen, Kontextgedächtnis, Orchestrierung mehrerer Sessions und die Fähigkeit, wie ein dauerhafter digitaler Kollege zu wirken, werden zu Produktmerkmalen. Für BRMs bedeutet das: Bei der Einführung von Coding- oder Workflow-Agenten sollten Nutzerführung, Eskalationslogik, Arbeitsstil und Veränderungsmanagement genauso geprüft werden wie technische Benchmark-Werte.
-
-## Ergebnis der Quellen- und Dublettenprüfung
-
-Geprüft wurden die vorhandenen Markdown-Dateien im Repository, insbesondere `ai-update-2026-07-24.md` sowie frühere `ai-update-*.md`. Bereits enthaltene URLs und inhaltlich behandelte Themen wurden ausgeschlossen. Deshalb wurden unter anderem ChatGPT Health, OpenAI Presence, AMD Helios, Anthropic Voice Mode, Runway Model Routing, AegisAI und KI-Guardrails für offensive Sicherheitsforschung nicht erneut aufgenommen.
+Für BRMs bestätigt die Studie, dass KI-Wertbeitrag nicht aus Tool-Rollouts allein entsteht. Relevanter sind priorisierte Use Cases mit P&L-Bezug, belastbare Datenfundamente, Governance für agentische Workflows und ein messbares Enablement-Modell für Fachbereiche.
