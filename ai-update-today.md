@@ -1,45 +1,25 @@
-# AI Update vom 26. Juli 2026
+# AI Update vom 27. Juli 2026
 
 ## tl;dr
 
-In den letzten 24 Stunden wurden mehrere quellenvalidierte Meldungen mit direkter Relevanz für Enterprise-IT, KI-Governance und Business-Relationship-Management gefunden. TechCrunch berichtet, dass AI-getriebene Restrukturierungen bei Tech-Unternehmen weiter zunehmen, der Kapitalmarkt die Effizienzstory aber nicht durchgängig honoriert. Gleichzeitig zeigt ein Vorfall im PJM-Stromnetz, dass KI-Rechenzentren nicht nur Energieverbraucher, sondern zunehmend operative Stabilitätsrisiken für Netzinfrastruktur werden. AI Magazine verweist auf eine HCLTech-Studie, nach der zwar 90 Prozent der Unternehmen generative und agentische KI als workflow-verändernd einstufen, aber nur 18 Prozent bereits signifikante Umsatzwirkung sehen. Für IT Business Relationship Manager bleibt damit zentral: KI-Initiativen müssen stärker an Wertbeitrag, Betriebsresilienz, Governance und Akzeptanzsteuerung gekoppelt werden.
+Im geprüften 24-Stunden-Fenster wurden zwei neue, belastbar datierte und nicht bereits behandelte AI-News-Artikel aus den zugelassenen Quellen aufgenommen. Der wichtigste Enterprise-Trend ist die weitere Verlagerung von KI aus reinen Software-Workflows in physische Arbeitsumgebungen: Robotik-Anbieter experimentieren mit Brainwave- und Muskel-Sensordaten, um Trainingsdaten für Manipulationsaufgaben zu verbessern. Parallel zeigt Apples erwartete Smart-Glasses-Strategie, dass KI-Hardware im Arbeitsumfeld nur mit klarer Datenschutzarchitektur, lokaler Verarbeitung und transparenten Aufzeichnungsregeln skalierbar wird. Nicht erneut aufgenommen wurden Nachmeldungen zum OpenAI-Hugging-Face-Sicherheitsvorfall sowie zur Debatte um chinesische Open-Weight-Modelle, da diese Themen bereits in früheren Updates behandelt wurden.
 
-## Monday.com is the latest tech company to blame AI for layoffs — here are 20 others
+## Are brain waves the next unlock for physical AI? (Sind Gehirnwellen der nächste Schlüssel für Physical AI?)
 
-**Autor:** Rebecca Bellan, Connie Loizos  
-**Quelle:** [TechCrunch](https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/)  
-**Veröffentlichung:** 25. Juli 2026, 18:30 PDT
+Autor: Tim Fernholz  
+Quelle: [TechCrunch](https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/)  
+Datum der Veröffentlichung: 26. Juli 2026, 17:19 PDT
 
-TechCrunch ordnet Monday.com in eine wachsende Liste von Technologieunternehmen ein, die Restrukturierungen zumindest teilweise mit KI-Transformation, schlankeren Betriebsmodellen oder veränderten Kompetenzprofilen begründen. Besonders relevant ist die Gegenüberstellung von Kostensenkungsnarrativen und Marktreaktion: Laut Artikel haben Unternehmen, die KI als Faktor bei Stellenabbau nennen, in den 30 Handelstagen nach ihren Ankündigungen gegenüber dem Nasdaq underperformt.
+TechCrunch beschreibt, wie Encord gemeinsam mit dem deutschen Neuroscience-Startup Zander Labs testet, ob Brainwave-Daten menschlicher Trainer die Qualität von Robotik-Trainingsdaten verbessern können. Der Ansatz zielt auf einen zentralen Engpass bei humanoider Robotik und Warehouse-Automation: Es fehlen ausreichend hochwertige, reale Daten für feinmotorische Manipulationsaufgaben. Für Enterprise-Unternehmen ist relevant, dass sich Physical-AI-Projekte zunehmend von Modell- und Hardware-Fragen hin zu Datenproduktions-, Annotation- und Governance-Fragen verschieben. Business Relationship Manager sollten bei Robotik-Initiativen deshalb nicht nur den Automatisierungs-Use-Case bewerten, sondern auch Datenschutz, Arbeitsschutz, Einwilligung, Datenqualität und die Wiederverwendbarkeit solcher Sensordaten in der Lieferantenarchitektur prüfen.
 
-Für Enterprise-BRMs ist die Meldung ein Hinweis, KI-Programme nicht allein als Automatisierungs- oder Headcount-Thema zu rahmen. Entscheidend werden belastbare Workforce-Pläne, Skill-Transition, Betriebsmodelle und Business-KPIs, die zeigen, welche Funktionen tatsächlich produktiver werden und wo neue Rollen entstehen.
+## Can Apple make smart glasses that aren’t a constant privacy threat? (Kann Apple Smart Glasses bauen, die kein dauerhaftes Datenschutzrisiko sind?)
 
-## One fallen power line exposed a growing AI data center problem. Here’s how to fix it.
+Autor: Anthony Ha  
+Quelle: [TechCrunch](https://techcrunch.com/2026/07/26/can-apple-make-smart-glasses-that-arent-a-constant-privacy-threat/)  
+Datum der Veröffentlichung: 26. Juli 2026, 14:06 PDT
 
-**Autor:** Tim De Chant  
-**Quelle:** [TechCrunch](https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/)  
-**Veröffentlichung:** 25. Juli 2026, 06:05 PDT
+Der Artikel ordnet Berichte ein, wonach Apple seine ersten Smart Glasses nun für eine Vorstellung auf der WWDC im Juni 2027 und eine Verfügbarkeit bis Ende 2027 vorbereitet. Im Mittelpunkt steht weniger die Hardware selbst als die Frage, wie Apple Datenschutzbedenken adressiert, etwa durch On-Device-Verarbeitung, den Verzicht auf Gesichtserkennung und eine vorsichtige Nutzung von Kundenvideos für KI-Training. Für Unternehmen ist das ein Signal, dass KI-Wearables mittelfristig in Meeting-, Field-Service-, Support- und Dokumentationsprozesse hineinwachsen könnten. Vor einer Enterprise-Einführung wären klare Policies für Aufzeichnung, Consent Management, Betriebsratsbeteiligung, Datenklassifizierung und Integration in Mobile-Device-Management notwendig.
 
-Ein Ausfall einer Stromleitung im Umfeld von Washington, DC führte laut TechCrunch dazu, dass mehr als 3 Gigawatt Rechenzentrums-Last nahezu gleichzeitig vom PJM-Netz getrennt wurden. Das Netz stabilisierte sich erst nach mehr als zehn Minuten. Der Artikel macht deutlich, dass KI-Rechenzentren bei Störungen nicht nur passiv betroffen sind, sondern durch abruptes Lastverhalten selbst Netzinstabilität verstärken können.
+## Ergebnis der Quellen- und Dublettenprüfung
 
-Für Enterprise-IT und Standortstrategie ist das relevant, weil AI-Capacity-Planung künftig enger mit Energiearchitektur, Backup-Konzepten, Laststeuerung und regulatorischer Infrastrukturplanung verzahnt werden muss. BRMs sollten bei KI-Plattform-Roadmaps nicht nur Cloud-Kapazität und Modellkosten, sondern auch Resilienz, geografische Konzentrationsrisiken und Nachhaltigkeitsanforderungen adressieren.
-
-## Librarians are hosting viral ‘Avoiding AI’ workshops for people who are fed up with Big Tech
-
-**Autor:** Amanda Silberling  
-**Quelle:** [TechCrunch](https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/)  
-**Veröffentlichung:** 25. Juli 2026, 09:00 PDT
-
-TechCrunch beschreibt eine wachsende Nachfrage nach Workshops, in denen Bibliotheken Nutzern zeigen, wie sie KI-Funktionen in Alltagssoftware deaktivieren oder bewusster nutzen können. Der Kern ist nicht pauschale Technologieablehnung, sondern Kontrollverlust: Anwender empfinden KI-Funktionen zunehmend als aufgezwungen, schwer abschaltbar oder intransparent.
-
-Für Unternehmen ist das ein wichtiges Signal für Change Management. KI-Einführungen sollten Wahlmöglichkeiten, klare Datenhinweise, Opt-in-Mechanismen, Schulung und transparente Nutzenkommunikation enthalten. Andernfalls steigt das Risiko von Ablehnung, Schattenprozessen und Vertrauensverlust gegenüber zentral bereitgestellten KI-Werkzeugen.
-
-## HCLTech Study: How Businesses Drive Revenue Impact with AI
-
-**Autor:** Diya Joseph  
-**Quelle:** [AI Magazine](https://aimagazine.com/news/hcltech-study-how-businesses-drive-revenue-impact-with-ai)  
-**Veröffentlichung:** 25. Juli 2026
-
-AI Magazine berichtet über HCLTechs Studie „The Blueprint for AI Leadership“, basierend auf 500 befragten Business- und IT-Führungskräften. Demnach sehen 90 Prozent der Organisationen generative und agentische KI als transformativ für Arbeitsabläufe, aber nur 18 Prozent berichten bereits signifikante Umsatzwirkung. Erfolgreichere „AI Leaders“ unterscheiden sich laut Studie durch stärkere Integration in die Geschäftsstrategie, höhere Datenreife, Sponsorship durch Führungskräfte und systematische Weiterbildung.
-
-Für BRMs bestätigt die Studie, dass KI-Wertbeitrag nicht aus Tool-Rollouts allein entsteht. Relevanter sind priorisierte Use Cases mit P&L-Bezug, belastbare Datenfundamente, Governance für agentische Workflows und ein messbares Enablement-Modell für Fachbereiche.
+Geprüft wurden die vorhandenen Markdown-Updates im Repository, insbesondere `ai-update-2026-07-24.md`, `ai-update-2026-07-25.md` und `ai-update-2026-07-26.md`. Bereits enthaltene URLs und inhaltlich behandelte Themen wurden ausgeschlossen. Keine der oben aufgenommenen URLs war in den bestehenden Markdown-Dateien enthalten.
