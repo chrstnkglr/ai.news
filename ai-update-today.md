@@ -1,25 +1,65 @@
-# AI Update vom 27. Juli 2026
+# AI Update vom 28. Juli 2026
 
 ## tl;dr
 
-Im geprüften 24-Stunden-Fenster wurden zwei neue, belastbar datierte und nicht bereits behandelte AI-News-Artikel aus den zugelassenen Quellen aufgenommen. Der wichtigste Enterprise-Trend ist die weitere Verlagerung von KI aus reinen Software-Workflows in physische Arbeitsumgebungen: Robotik-Anbieter experimentieren mit Brainwave- und Muskel-Sensordaten, um Trainingsdaten für Manipulationsaufgaben zu verbessern. Parallel zeigt Apples erwartete Smart-Glasses-Strategie, dass KI-Hardware im Arbeitsumfeld nur mit klarer Datenschutzarchitektur, lokaler Verarbeitung und transparenten Aufzeichnungsregeln skalierbar wird. Nicht erneut aufgenommen wurden Nachmeldungen zum OpenAI-Hugging-Face-Sicherheitsvorfall sowie zur Debatte um chinesische Open-Weight-Modelle, da diese Themen bereits in früheren Updates behandelt wurden.
+Die wichtigsten neuen Meldungen im 24-Stunden-Fenster betreffen Enterprise-KI-Governance, Cybersecurity, Arbeitsorganisation, KI-Suche und Physical AI. OpenAI liefert neue Nutzungsdaten, die zeigen, dass KI Aufgaben über klassische Rollen- und Funktionsgrenzen hinweg verschiebt. Microsoft positioniert sich mit einem spezialisierten Cybersecurity-Modell und agentischen Security-Workflows stärker gegen OpenAI, Anthropic und Google. Gleichzeitig warnt Satya Nadella vor zu starker Abhängigkeit von einzelnen Modellanbietern, was für Enterprise-Architekturen ein klares Signal in Richtung Modellportabilität, AI-Gateways und eigener Kontextkontrolle ist. TechCrunch berichtet zudem über öffentlich auffindbare geteilte Claude-Chats, was die Bedeutung von Freigabeprozessen, Indexierungskontrolle und Datenklassifizierung bei GenAI-Tools unterstreicht. Bei Google zeigt eine neue Analyse, dass AI Overviews in der Suche massiv an Sichtbarkeit gewinnen, was Auswirkungen auf digitale Kanäle, Content-Strategie und Knowledge-Management hat. Im Bereich Physical AI sammelt Enigma 71 Millionen US-Dollar ein, um Mensch-Roboter-Interaktion datengetrieben zu verbessern. Ilya Sutskevers Safe Superintelligence erhält über eine Nvidia-Partnerschaft deutlich mehr Rechenkapazität, was den anhaltenden Wettbewerb um Compute für Frontier-Forschung zeigt.
 
-## Are brain waves the next unlock for physical AI? (Sind Gehirnwellen der nächste Schlüssel für Physical AI?)
+## How AI is expanding what people do at work (Wie KI Tätigkeitsgrenzen in der Arbeit verschiebt)
 
-Autor: Tim Fernholz  
-Quelle: [TechCrunch](https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/)  
-Datum der Veröffentlichung: 26. Juli 2026, 17:19 PDT
+Autor: OpenAI  
+Quelle: [OpenAI](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/)  
+Datum der Veröffentlichung: 27. Juli 2026
 
-TechCrunch beschreibt, wie Encord gemeinsam mit dem deutschen Neuroscience-Startup Zander Labs testet, ob Brainwave-Daten menschlicher Trainer die Qualität von Robotik-Trainingsdaten verbessern können. Der Ansatz zielt auf einen zentralen Engpass bei humanoider Robotik und Warehouse-Automation: Es fehlen ausreichend hochwertige, reale Daten für feinmotorische Manipulationsaufgaben. Für Enterprise-Unternehmen ist relevant, dass sich Physical-AI-Projekte zunehmend von Modell- und Hardware-Fragen hin zu Datenproduktions-, Annotation- und Governance-Fragen verschieben. Business Relationship Manager sollten bei Robotik-Initiativen deshalb nicht nur den Automatisierungs-Use-Case bewerten, sondern auch Datenschutz, Arbeitsschutz, Einwilligung, Datenqualität und die Wiederverwendbarkeit solcher Sensordaten in der Lieferantenarchitektur prüfen.
+OpenAI analysiert mehr als 800.000 arbeitsbezogene ChatGPT-Nachrichten aus den USA und beschreibt ein Muster namens „task crossover“: Beschäftigte nutzen KI zunehmend für Aufgaben, die traditionell anderen Rollen zugeordnet waren. Besonders relevant für Enterprise-Unternehmen ist der Befund, dass 43,5 Prozent der berufsbezogenen, nicht generischen Nachrichten außerhalb der eigenen Berufsrolle liegen. Für IT Business Relationship Manager ist das ein Signal, AI-Adoption nicht nur als Tool-Einführung, sondern als Organisationsveränderung zu betrachten. Rollen, Prozessschnittstellen, Skills, Berechtigungen und Verantwortlichkeiten werden sich verschieben, bevor Stellenprofile dies formal abbilden.
 
-## Can Apple make smart glasses that aren’t a constant privacy threat? (Kann Apple Smart Glasses bauen, die kein dauerhaftes Datenschutzrisiko sind?)
+## Satya Nadella says companies that trust one AI for everything may not survive (Satya Nadella warnt vor Abhängigkeit von einem KI-Anbieter)
 
-Autor: Anthony Ha  
-Quelle: [TechCrunch](https://techcrunch.com/2026/07/26/can-apple-make-smart-glasses-that-arent-a-constant-privacy-threat/)  
-Datum der Veröffentlichung: 26. Juli 2026, 14:06 PDT
+Autor: Julie Bort  
+Quelle: [TechCrunch](https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/)  
+Datum der Veröffentlichung: 27. Juli 2026, 2:17 PM PDT
 
-Der Artikel ordnet Berichte ein, wonach Apple seine ersten Smart Glasses nun für eine Vorstellung auf der WWDC im Juni 2027 und eine Verfügbarkeit bis Ende 2027 vorbereitet. Im Mittelpunkt steht weniger die Hardware selbst als die Frage, wie Apple Datenschutzbedenken adressiert, etwa durch On-Device-Verarbeitung, den Verzicht auf Gesichtserkennung und eine vorsichtige Nutzung von Kundenvideos für KI-Training. Für Unternehmen ist das ein Signal, dass KI-Wearables mittelfristig in Meeting-, Field-Service-, Support- und Dokumentationsprozesse hineinwachsen könnten. Vor einer Enterprise-Einführung wären klare Policies für Aufzeichnung, Consent Management, Betriebsratsbeteiligung, Datenklassifizierung und Integration in Mobile-Device-Management notwendig.
+Microsoft-CEO Satya Nadella argumentiert, Unternehmen müssten Kontext, Prompts, Metadaten und Modellnutzung stärker selbst kontrollieren, statt ihre KI-Strategie vollständig an proprietäre Modellanbieter auszulagern. Er spricht sich für getrennte Ebenen aus: Modelle, Harnesses, Kontext, Memory und Governance sollten austauschbar bleiben. Für Enterprise-IT ist das eine klare Architekturperspektive: Multi-Modell-Strategien, AI-Gateways, eigene Telemetrie und saubere Datenhoheit werden zu strategischen Fähigkeiten. Business Relationship Manager sollten diese Debatte in Vendor-Management, Plattformstrategie und Risikoarchitektur einbringen.
+
+## Microsoft launches its first cybersecurity model, plus a new agentic cybersecurity system (Microsoft startet erstes Cybersecurity-Modell und agentisches Security-System)
+
+Autor: Lucas Ropek  
+Quelle: [TechCrunch](https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/)  
+Datum der Veröffentlichung: 27. Juli 2026, 11:32 AM PDT
+
+Microsoft stellt mit MAI-Cyber-1-Flash ein spezialisiertes Cybersecurity-Modell vor, das Schwachstellen in komplexen Codebasen identifizieren soll. Ergänzend bringt Microsoft mit Perception eine Plattform, die Teams von Agenten für Security-Workflows wie Bug-Finding und Remediation einsetzen soll. Für Unternehmen ist die Meldung relevant, weil Cybersecurity zunehmend zu einem frühen produktiven Einsatzfeld agentischer KI wird. Gleichzeitig steigen Anforderungen an Nachvollziehbarkeit, Tool-Berechtigungen, Kontrollpunkte und Integration in bestehende Security-Operations-Prozesse.
+
+## PSA: Your Claude shared chats and Artifacts may have ended up on Google (Geteilte Claude-Chats und Artifacts könnten bei Google auffindbar gewesen sein)
+
+Autor: Lorenzo Franceschi-Bicchierai  
+Quelle: [TechCrunch](https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/)  
+Datum der Veröffentlichung: 27. Juli 2026, 1:19 PM PDT
+
+TechCrunch berichtet, dass öffentlich geteilte Claude-Chats und Artifacts über Google auffindbar waren, nachdem Nutzer Suchoperatoren wie `site:claude.ai/share` verwendet hatten. Laut Bericht sollen darunter teils sensible Inhalte wie Gesundheitsdaten, Unternehmensdokumente sowie Namen und Telefonnummern von Kindern gewesen sein. Für Enterprise-Umgebungen zeigt der Vorfall, dass „Share by link“ bei GenAI-Tools nicht als harmlose Kollaborationsfunktion behandelt werden sollte. Notwendig sind klare Default-Einstellungen, Indexierungsregeln, Data-Loss-Prevention, Awareness und Richtlinien für das Teilen KI-generierter Artefakte.
+
+## Google’s AI search is rapidly becoming the default, new data shows (Googles KI-Suche wird zunehmend zum Standard)
+
+Autor: Sarah Perez  
+Quelle: [TechCrunch](https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/)  
+Datum der Veröffentlichung: 27. Juli 2026, 8:57 AM PDT
+
+Eine von TechCrunch aufgegriffene Similarweb-Analyse zeigt, dass Googles AI Overviews innerhalb eines Jahres von 15 Prozent auf 43 Prozent der Suchanfragen gestiegen sind. Parallel stiegen Besuche im AI Mode deutlich. Für Unternehmen verändert das die Logik digitaler Auffindbarkeit: Nutzer landen häufiger direkt in KI-generierten Antwortflächen statt auf klassischen Webseiten. BRMs sollten die Auswirkungen auf Marketing, Service-Portale, Knowledge Bases, SEO, Content Governance und Messbarkeit digitaler Kanäle mit Fachbereichen besprechen.
+
+## Ilya Sutskever’s Safe Superintelligence partners with Nvidia to scale its AI research (Safe Superintelligence kooperiert mit Nvidia zur Skalierung der KI-Forschung)
+
+Autor: Rebecca Bellan  
+Quelle: [TechCrunch](https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/)  
+Datum der Veröffentlichung: 27. Juli 2026, 8:01 AM PDT
+
+Safe Superintelligence, das KI-Labor von Ilya Sutskever, geht eine langfristige Partnerschaft mit Nvidia ein und erhält Zugang zur Vera-Rubin-GPU-Plattform. Laut TechCrunch soll die Kooperation die Compute-Ressourcen des Unternehmens um eine Größenordnung erhöhen; die Investition wird als mehrmilliardenschwer beschrieben. Für Enterprise-Entscheider ist dies ein weiteres Signal, dass Rechenkapazität, GPU-Zugang und Infrastrukturpartnerschaften zentrale Wettbewerbsfaktoren im Frontier-AI-Markt bleiben. Dies wirkt mittelbar auf Preise, Modellverfügbarkeit und Abhängigkeiten in der Lieferkette.
+
+## Enigma raises $71M to make controlling a robot as easy as adjusting the volume (Enigma sammelt 71 Millionen US-Dollar für intuitivere Robotersteuerung ein)
+
+Autor: Marina Temkin  
+Quelle: [TechCrunch](https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/)  
+Datum der Veröffentlichung: 27. Juli 2026, 6:00 AM PDT
+
+Das Robotics-Startup Enigma sammelt 71 Millionen US-Dollar ein, um die Interaktion zwischen Menschen und KI-gesteuerten Robotern zu verbessern. Statt nur auf Modellfähigkeiten zu setzen, will Enigma erforschen, welche Bedienlogik Menschen für Roboter tatsächlich intuitiv finden. Das Unternehmen testet dafür über 100 eigene Roboter, die online gesteuert werden können, und arbeitet laut Bericht bereits mit Partnern aus Healthcare, Logistik und Entertainment. Für Enterprise-Unternehmen ist die Meldung relevant, weil Physical AI nicht nur Modell- oder Hardwareproblem ist, sondern stark von UX, Prozessintegration und Bedienbarkeit abhängt.
 
 ## Ergebnis der Quellen- und Dublettenprüfung
 
-Geprüft wurden die vorhandenen Markdown-Updates im Repository, insbesondere `ai-update-2026-07-24.md`, `ai-update-2026-07-25.md` und `ai-update-2026-07-26.md`. Bereits enthaltene URLs und inhaltlich behandelte Themen wurden ausgeschlossen. Keine der oben aufgenommenen URLs war in den bestehenden Markdown-Dateien enthalten.
+Vor der Auswahl wurden vorhandene Markdown-Updates im Repository einschließlich `ai-update-today.md` und `ai-update-*.md` geprüft. Bereits enthaltene URLs sowie inhaltlich behandelte Meldungen wurden nicht erneut aufgenommen. Weitere gelistete Quellen wurden geprüft; im belastbaren 24-Stunden-Fenster wurden dort keine relevanteren, eindeutig datierten und nicht bereits behandelten Artikel identifiziert.
