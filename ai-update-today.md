@@ -1,49 +1,79 @@
-# AI Update vom 15. September 2026
+# AI Update vom 16. September 2026
 
 ## tl;dr
 
-In den letzten 24 Stunden dominierten drei Themen: KI-Governance, Enterprise-Agenten und die Infrastruktur hinter skalierbarer KI. Microsofts neuer Humanist AI Code of Conduct konkretisiert Sicherheitsgrenzen für Frontier-Modelle und passt in die breitere Debatte über menschliche Kontrolle, Auditierbarkeit und Agentenrisiken. MITs HardFlow-Ansatz ist für sicherheitskritische Anwendungen relevant, weil er harte Constraints bei vortrainierten generativen Modellen zur Laufzeit durchsetzen soll. Auf der Infrastrukturseite zeigt Cornelis’ Finanzierungsrunde, dass Enterprise-Kunden Alternativen zu geschlossenen Nvidia-Stacks suchen. OpenAIs gemeldete Übernahme von Glass Imaging deutet auf eine stärkere Hardware- und multimodale Geräteambition hin. Superhumans Fathom-Übernahme bestätigt, dass Meeting-Kontext zu einem wichtigen Datenrohstoff für agentische Produktivitätsplattformen wird.
+Frontier-KI-Anbieter bewegen sich in Richtung gemeinsamer Sicherheitsstandards, was für Unternehmen zugleich mehr Orientierung und neue Abhängigkeiten von Regulierung, Audits und Modellverfügbarkeit bedeuten kann. Parallel zeigt sich, dass Enterprise-KI nicht nur an Modellleistung hängt, sondern an Governance, Code-Review, Datenkontext und kontrollierbaren Agenten-Workflows. AI-Coding skaliert stark, verschiebt den Engpass aber von der Code-Erstellung zur Validierung, Sicherheit und technischen Verantwortung. Neue Daten- und Ontologie-Ansätze wie KeewanoDB und G5 adressieren genau diese Lücke: Agenten brauchen nachvollziehbaren Kontext, klare Semantik und überprüfbare Zielzustände. Sicherheitsseitig rücken Software-Lieferketten, CI/CD-Pipelines und Agenten-Tooling stärker in den Fokus, weil KI die Angriffskosten senken kann. In der physischen KI zeigt Pony.ai, dass autonome Logistiksysteme reifer und kostensensitiver werden, was für Supply-Chain- und Operations-Bereiche relevant ist.
 
-## Microsoft AI opens review on Humanist AI Code of Conduct
+## OpenAI, Anthropic, Google have been in talks on AI safety for weeks
 
-**Autor:** Ryan Daws  
-**Quelle:** [AI News](https://www.artificialintelligence-news.com/news/microsoft-ai-opens-review-humanist-ai-code-of-conduct/)  
-**Datum der Veröffentlichung:** 14. September 2026
+Autor: Rebecca Bellan  
+Quelle: [TechCrunch](https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/)  
+Datum der Veröffentlichung: 15. September 2026
 
-Microsoft AI hat einen Entwurf für einen Humanist AI Code of Conduct veröffentlicht und eine sechswöchige öffentliche Konsultation gestartet. Der Entwurf beschreibt operative Grenzen für Frontier-Modelle, darunter menschliche Unterordnung, Auditierbarkeit, Unterbrechbarkeit und Verbote gegen verdeckte Agentenkommunikation oder eigenmächtige Zielausweitung. Für IT Business Relationship Manager ist das relevant, weil Governance-Anforderungen für agentische Systeme zunehmend von abstrakten Prinzipien zu überprüfbaren Architektur- und Betriebsregeln werden. Bei Enterprise-Rollouts sollten BRMs deshalb stärker nach Modellkontrollen, Eskalationspfaden, Audit-Logs und Abschaltmechanismen fragen.
+TechCrunch berichtet, dass OpenAI, Anthropic und Google DeepMind seit mehreren Wochen Gespräche über KI-Sicherheit führen. Im Mittelpunkt stehen mögliche Standards, unabhängige Verifikation und die Frage, ob Frontier-Labs Sicherheitskoordination betreiben können, ohne wettbewerbsrechtliche Probleme auszulösen.
 
-## New method enables AI for safety-critical situations
+Für IT Business Relationship Manager ist relevant, dass sich die Anbieterlandschaft nicht nur technisch, sondern auch regulatorisch und organisatorisch verändert. Wenn unabhängige Prüforganisationen, Safety-Gates oder industryweite Standards verbindlicher werden, sollten Enterprise-Roadmaps für GenAI und Agenten frühzeitig Abhängigkeiten von Modellfreigaben, Auditierbarkeit und Anbieterpolitik berücksichtigen.
 
-**Autor:** Adam Zewe  
-**Quelle:** [MIT News](https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914)  
-**Datum der Veröffentlichung:** 14. September 2026
+## Enterprises in Shaky Spot Amid Calls for an AI Slowdown
 
-MIT-Forschende stellen mit HardFlow eine Methode vor, mit der generative Modelle harte Anforderungen in sicherheitskritischen Szenarien besser erfüllen können, ohne neu trainiert zu werden. Der Ansatz setzt Constraints nicht bei jedem Zwischenschritt, sondern am finalen Output durch und nutzt Trajektorienoptimierung, um Qualität und Regelkonformität zu verbinden. Beispiele umfassen Robotik, Steuerung physischer Systeme und Computer Vision. Für Unternehmen ist der Ansatz interessant, wenn generative KI in OT-, Fertigungs-, Logistik- oder Safety-Prozesse eingebettet wird, in denen „fast richtig“ nicht ausreicht.
+Autor: Esther Shittu  
+Quelle: [AI Business](https://aibusiness.com/ai-policy/enterprises-shaky-spot-amid-calls-ai-slowdown)  
+Datum der Veröffentlichung: 15. September 2026
 
-## AI infrastructure company Cornelis raises $205M to chip away at Nvidia’s dominance
+AI Business ordnet die Debatte um ein mögliches Abbremsen der Frontier-KI aus Unternehmenssicht ein. Der Artikel hebt hervor, dass Unternehmen derzeit Plattformen, Architekturen, Skills und Betriebsmodelle auswählen müssen, während offen ist, ob Regulierung, Open-Weight-Modelle oder geopolitische Beschränkungen die Verfügbarkeit und Wirtschaftlichkeit einzelner Modellklassen verändern.
 
-**Autor:** Dominic-Madori Davis  
-**Quelle:** [TechCrunch](https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance/)  
-**Datum der Veröffentlichung:** 14. September 2026, 1:07 PM PDT
+Die zentrale Implikation: AI Governance darf nicht als statisches Richtliniendokument behandelt werden. Für BRMs heißt das, Fachbereiche stärker auf Szenarien vorzubereiten: Was passiert, wenn bevorzugte Modelle eingeschränkt werden, wenn Kostenstrukturen kippen oder wenn Sicherheitsanforderungen für autonome Agenten steigen?
 
-Cornelis hat 205 Millionen US-Dollar aufgenommen, um seine Active Compute Fabric weiter auszubauen. Die Netzwerktechnologie soll GPU- und Accelerator-Kommunikation effizienter machen und Leerlaufzeiten reduzieren, wenn Chips auf Daten warten. Strategisch zielt Cornelis auf eine offenere Infrastrukturarchitektur, die nicht so stark an Nvidias Komplett-Stack gebunden ist. Für Enterprise-Architekturteams ist das ein Signal, Interconnects, Netzwerktopologien und Accelerator-Portabilität stärker in Beschaffungs- und Cloud-Strategien einzubeziehen.
+## The share of developers using AI to write half or more code jumped from 12% to 42% YOY in latest BairesDev survey
 
-## OpenAI buys smartphone camera maker Glass Imaging for $300 million, report says
+Autor: Carl Franzen  
+Quelle: [VentureBeat](https://venturebeat.com/data/the-share-of-developers-using-ai-to-write-half-or-more-code-jumped-from-12-to-42-yoy-in-latest-bairesdev-survey)  
+Datum der Veröffentlichung: 15. September 2026
 
-**Autor:** Amanda Silberling  
-**Quelle:** [TechCrunch](https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says/)  
-**Datum der Veröffentlichung:** 14. September 2026, 1:44 PM PDT
+Laut VentureBeat zeigt der BairesDev Dev Barometer, dass 42 Prozent der befragten Entwickler angeben, KI schreibe mindestens die Hälfte ihres Codes; ein Jahr zuvor waren es 12 Prozent. Gleichzeitig steigen Aufwand und Bedeutung für Review, Debugging, Security und Tool-Kompetenz.
 
-TechCrunch berichtet unter Verweis auf das Wall Street Journal, dass OpenAI den Smartphone-Kameraanbieter Glass Imaging für über 300 Millionen US-Dollar übernommen hat. Glass Imaging nutzt neuronale Netze, um Bildqualität direkt aus spezifischen Kamerasystemen heraus zu verbessern, statt nur nachträglich Fotos zu bearbeiten. Die Meldung passt zu OpenAIs breiteren Hardware-Ambitionen rund um KI-Geräte. Für Enterprise-Entscheider ist vor allem die Richtung relevant: KI-Anbieter verschieben sich von reinen Software- und Modellplattformen hin zu kontrollierten End-to-End-Erfahrungen mit eigener Hardware- und Sensorik-Kompetenz.
+Für Enterprise-IT ist das ein klares Signal: Produktivität durch AI-Coding entsteht nicht automatisch als freie Kapazität. Der Wert verschiebt sich zu Architekturentscheidungen, Validierung, Security Reviews und Nachvollziehbarkeit. BRMs sollten AI-Coding daher nicht nur als Effizienzinitiative positionieren, sondern als Veränderung im Software-Lifecycle mit neuen Kontrollpunkten.
 
-## Superhuman acquires YC-backed notetaker Fathom as productivity platforms push for agentic work
+## Every user, device and agent gets its own table in KeewanoDB, and queries never join across them
 
-**Autor:** Ivan Mehta  
-**Quelle:** [TechCrunch](https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/)  
-**Datum der Veröffentlichung:** 14. September 2026, 7:45 AM PDT
+Autor: Sean Michael Kerner  
+Quelle: [VentureBeat](https://venturebeat.com/data/every-user-device-and-agent-gets-its-own-table-in-keewanodb-and-queries-never-join-across-them)  
+Datum der Veröffentlichung: 15. September 2026
 
-Superhuman übernimmt den KI-Meeting-Notetaker Fathom, statt eine eigene Lösung von Grund auf zu entwickeln. Der Hintergrund ist strategisch: Meeting-Mitschriften, Action Items und Kontextsignale werden zur Grundlage für proaktivere Produktivitätsagenten. Fathom bringt laut Bericht über 400.000 monatlich aktive Nutzer und mehr als eine Million aufgezeichnete Meetings mit. Für BRMs zeigt die Übernahme, dass Collaboration-Daten zunehmend in agentische Workflows einfließen; Datenschutz, Aufbewahrung, Zugriffskontrolle und Betriebsratsfähigkeit sollten daher früh in die Bewertung solcher Tools einbezogen werden.
+VentureBeat beschreibt KeewanoDB als Event-Series-Datenbank, die Ereignisverläufe pro Entität speichert, statt Kontext über Joins und nachträgliche Rekonstruktion aus Data Warehouses zusammenzusetzen. Ziel ist, Agenten direkten Zugriff auf vollständige Sequenzen und kausale Zusammenhänge zu geben.
+
+Für Unternehmen ist das Thema strategisch, weil viele Agentenprojekte nicht am Modell, sondern an unvollständigem Geschäftskontext scheitern. BRMs sollten bei Agenteninitiativen gezielt prüfen, ob Datenarchitekturen Ereignishistorie, Semantik, Berechtigungen und Erklärbarkeit ausreichend unterstützen.
+
+## Should all enterprise code and workflows become natural language? G5 Labs thinks so, and its new G5 platform does it for you
+
+Autor: Carl Franzen  
+Quelle: [VentureBeat](https://venturebeat.com/technology/should-all-enterprise-code-and-workflows-become-natural-language-g5-labs-thinks-so-and-its-new-g5-platform-does-it-for-you)  
+Datum der Veröffentlichung: 15. September 2026
+
+G5 Labs, gegründet von MIT-Professor Tim Kraska, startet mit einer Plattform, die Geschäftsanforderungen, Architekturentscheidungen und Policies in eine strukturierte System-Ontologie überführt. Diese soll Menschen und KI-Agenten einen gemeinsamen Ziel- und Kontextlayer geben, aus dem Implementierungen kontrollierter abgeleitet werden können.
+
+Die Nachricht ist relevant, weil sie den nächsten Reifegrad von AI-Coding adressiert: Nicht mehr nur Code generieren, sondern Absichten, Regeln und Architekturentscheidungen maschinenlesbar operationalisieren. Für BRMs ist das ein Hinweis, dass Fachanforderungen künftig stärker als ausführbare, prüfbare Spezifikationen modelliert werden könnten.
+
+## AI is changing the economics of software supply chain attacks
+
+Autor: VB Staff  
+Quelle: [VentureBeat](https://venturebeat.com/security/ai-is-changing-the-economics-of-software-supply-chain-attacks)  
+Datum der Veröffentlichung: 15. September 2026
+
+Der VentureBeat-Beitrag beschreibt, wie Angreifer stärker auf Build-Systeme, CI/CD-Pipelines, Paketregistries, GitHub Actions und Agenten-Tooling zielen. KI senkt dabei die Kosten für Skalierung, Reconnaissance und Folgeangriffe in Software-Lieferketten.
+
+Für Enterprise-IT bedeutet das: Klassische AppSec-Kontrollen reichen nicht aus, wenn Build Runner, Signierschlüssel, Registry-Credentials und Agenten-Integrationen unzureichend geschützt sind. BRMs sollten Security-Anforderungen bei AI-Coding und Agentenplattformen früh in Lieferanten-, DevSecOps- und Architekturgespräche einbringen.
+
+## Pony.ai unveils autonomous electric truck for logistics fleets
+
+Autor: Ryan Daws  
+Quelle: [AI News](https://www.artificialintelligence-news.com/news/pony-ai-autonomous-electric-truck-for-logistics-fleets/)  
+Datum der Veröffentlichung: 15. September 2026
+
+Pony.ai stellt gemeinsam mit GAC Commercial Vehicle einen autonomen elektrischen Lkw für Logistikflotten vor. Der Level-4-Truck basiert auf der vierten Generation der Robotruck-Plattform, soll in die Serienproduktion gehen und adressiert zunächst Langstreckenfracht, dedizierte Logistikkorridore und Hafentransporte.
+
+Für Enterprise-Unternehmen mit Logistik-, Fertigungs- oder Handelsbezug ist die Meldung ein weiteres Signal, dass Physical AI aus Pilotumgebungen in industrielle Betriebsmodelle wandert. Relevant sind neben Effizienzgewinnen vor allem Fragen zu Betriebshaftung, Flottenintegration, Cybersecurity, Datenanbindung und regulatorischer Freigabe.
 
 ## Ergebnis der Quellen- und Dublettenprüfung
 
-Geprüft wurden vorhandene Markdown-Dateien im Repository einschließlich `ai-update-today.md`- und `ai-update-*.md`-Mustern. Die ausgewählten URLs waren dort nicht enthalten. Bereits behandelte Themen wie der generelle Amodei-Slowdown-Vorschlag, Obamas Forderung nach KI-Schutzmaßnahmen und der Energiebedarf von KI-Agenten wurden nicht erneut als eigenständige Meldungen aufgenommen.
+Vorhandene Markdown-Dateien im Repository, insbesondere `ai-update-today.md` und `ai-update-*.md`, wurden gegen die aufgenommenen URLs und Meldungsthemen geprüft. Keine der oben aufgenommenen Artikel-URLs war bereits enthalten, und keine der ausgewählten Meldungen war inhaltlich bereits in einem früheren Update abgedeckt.
