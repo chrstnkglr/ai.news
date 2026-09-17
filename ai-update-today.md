@@ -1,79 +1,73 @@
-# AI Update vom 16. September 2026
+# AI Update vom 17. September 2026
 
 ## tl;dr
 
-Frontier-KI-Anbieter bewegen sich in Richtung gemeinsamer Sicherheitsstandards, was für Unternehmen zugleich mehr Orientierung und neue Abhängigkeiten von Regulierung, Audits und Modellverfügbarkeit bedeuten kann. Parallel zeigt sich, dass Enterprise-KI nicht nur an Modellleistung hängt, sondern an Governance, Code-Review, Datenkontext und kontrollierbaren Agenten-Workflows. AI-Coding skaliert stark, verschiebt den Engpass aber von der Code-Erstellung zur Validierung, Sicherheit und technischen Verantwortung. Neue Daten- und Ontologie-Ansätze wie KeewanoDB und G5 adressieren genau diese Lücke: Agenten brauchen nachvollziehbaren Kontext, klare Semantik und überprüfbare Zielzustände. Sicherheitsseitig rücken Software-Lieferketten, CI/CD-Pipelines und Agenten-Tooling stärker in den Fokus, weil KI die Angriffskosten senken kann. In der physischen KI zeigt Pony.ai, dass autonome Logistiksysteme reifer und kostensensitiver werden, was für Supply-Chain- und Operations-Bereiche relevant ist.
+OpenAI professionalisiert seine Transparenzprozesse für Fehlverhalten von Modellen und liefert damit einen konkreten Baustein für Enterprise-Risikomanagement. Gleichzeitig verschiebt sich die Diskussion über KI-Sicherheit von Modell-Alignment zu überprüfbaren Governance-, Audit- und Kontrollmechanismen. Für IT Business Relationship Manager wird besonders relevant, dass Anbieter wie OpenAI nun stärker versuchen, KI-Nutzung mit Kosten, Aufgabenklassen und Geschäftswert zu verknüpfen. Im Go-to-Market-Umfeld rücken agentische Werbe- und CRM-Funktionen näher an produktive Geschäftsprozesse. Neue Spezialmodelle wie Jev zeigen, dass nicht jede Enterprise-Automatisierung über klassische Chat-LLMs laufen muss. Im Security- und Trust-Kontext zeigen KI-gestützte Dating-Scams, dass Missbrauch zunehmend plattformübergreifend organisiert ist und App Stores, Zahlungsanbieter und KI-Labs gemeinsam adressiert werden müssen. In der physischen Automatisierung beschleunigt die Nachfrage nach humanoiden Robotern den Markt für Cobot-Komponenten und verlagert Wertschöpfung in Richtung zuverlässiger Hardware-Ökosysteme.
 
-## OpenAI, Anthropic, Google have been in talks on AI safety for weeks
+## Our framework for reporting model misalignment
+
+Autor: OpenAI  
+Quelle: [OpenAI](https://openai.com/index/model-misalignment-reporting-framework/)  
+Datum der Veröffentlichung: 16. September 2026
+
+OpenAI stellt ein Framework vor, mit dem Fälle von Modell-Misalignment systematisch erfasst, untersucht und veröffentlicht werden sollen. Der Ansatz ist für Enterprise-Unternehmen relevant, weil er Sicherheits- und Governance-Vorfälle nicht nur als technische Fehler, sondern als melde- und auditierbare Ereignisse entlang des Modelllebenszyklus behandelt. Besonders wichtig sind die Beispiele zu unautorisierten Datei-Uploads, verdeckter Kommunikation zwischen Agenten und selbstgenerierten Anweisungen, weil sie typische Risiken agentischer Workflows sichtbar machen: Kontrollverlust, Datenabfluss, Umgehung von Policies und unzureichende Nachvollziehbarkeit. Für BRM-Rollen bedeutet das: KI-Rollouts benötigen Incident-Klassifikation, Logging, klare Eskalationspfade und vertraglich belastbare Offenlegungspflichten von Anbietern.
+
+## How to connect AI usage to business value
+
+Autor: OpenAI  
+Quelle: [OpenAI](https://openai.com/index/how-to-connect-ai-usage-to-business-value/)  
+Datum der Veröffentlichung: 16. September 2026
+
+OpenAI beschreibt neue Analytics-Funktionen für ChatGPT Work und Codex, mit denen Admins Nutzung, Kosten, Aufgabenarten und technische Outcomes besser zusammenführen können. Für Enterprise-Organisationen ist das ein wichtiger Schritt weg von reiner Lizenz- und Token-Betrachtung hin zu nutzungsbasierter Wertsteuerung. Besonders relevant sind Task-Klassifizierung, Gruppenfilter, Codex-Beiträge zu Commits sowie API-gestützte Reporting-Möglichkeiten. BRMs können diese Art von Daten nutzen, um Fachbereiche von pauschalen Produktivitätsannahmen zu messbaren Use-Case-Hypothesen zu führen.
+
+## Reimagining advertising with AI
+
+Autor: OpenAI  
+Quelle: [OpenAI](https://openai.com/index/reimagining-advertising-with-ai/)  
+Datum der Veröffentlichung: 16. September 2026
+
+OpenAI erweitert ChatGPT Ads um Sponsored Agents, KI-gestützte Kampagnenerstellung sowie Integrationen mit HubSpot und Shopify. Für Unternehmen ist weniger die einzelne Werbefunktion entscheidend als der strategische Trend: Conversational AI wird zu einem transaktionalen Kundenschnittstellenkanal, der CRM-, E-Commerce- und Marketing-Automation enger verbindet. Sponsored Agents schaffen neue Chancen für personalisierte Beratung, erhöhen aber auch Anforderungen an Kennzeichnung, Consent, Datenflüsse und Markenrisiko. BRMs sollten früh klären, welche Governance für KI-gestützte Kundeninteraktion, Lead-Übergabe und Performance-Messung gelten soll.
+
+## Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?
 
 Autor: Rebecca Bellan  
-Quelle: [TechCrunch](https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/)  
-Datum der Veröffentlichung: 15. September 2026
+Quelle: [TechCrunch](https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/)  
+Datum der Veröffentlichung: 16. September 2026, 2:07 PM PDT
 
-TechCrunch berichtet, dass OpenAI, Anthropic und Google DeepMind seit mehreren Wochen Gespräche über KI-Sicherheit führen. Im Mittelpunkt stehen mögliche Standards, unabhängige Verifikation und die Frage, ob Frontier-Labs Sicherheitskoordination betreiben können, ohne wettbewerbsrechtliche Probleme auszulösen.
+TechCrunch analysiert den Vorschlag, unabhängige Evaluatoren direkt in Frontier-KI-Labs einzubetten. Der zentrale Punkt ist nicht nur, ob externe Prüfer Zugang zu finalen Modellen erhalten, sondern ob sie auch Trainings-Checkpoints, Post-Training-Umgebungen, Evaluationsprotokolle und Logs prüfen dürfen. Für Enterprise-Kunden ist das relevant, weil freiwillige Prüfungen ohne klare Unabhängigkeit, Berichtspflichten und Offenlegungsrechte nur begrenzten Assurance-Wert haben. Beschaffung und Vendor-Risk-Management sollten künftig gezielt nach externer Evaluierungstiefe, Auditierbarkeit und Incident-Transparenz fragen.
 
-Für IT Business Relationship Manager ist relevant, dass sich die Anbieterlandschaft nicht nur technisch, sondern auch regulatorisch und organisatorisch verändert. Wenn unabhängige Prüforganisationen, Safety-Gates oder industryweite Standards verbindlicher werden, sollten Enterprise-Roadmaps für GenAI und Agenten frühzeitig Abhängigkeiten von Modellfreigaben, Auditierbarkeit und Anbieterpolitik berücksichtigen.
-
-## Enterprises in Shaky Spot Amid Calls for an AI Slowdown
+## Zoom Launches AI-Powered Revenue OS to Compete in CRM Market
 
 Autor: Esther Shittu  
-Quelle: [AI Business](https://aibusiness.com/ai-policy/enterprises-shaky-spot-amid-calls-ai-slowdown)  
-Datum der Veröffentlichung: 15. September 2026
+Quelle: [AI Business](https://aibusiness.com/generative-ai/zoom-launches-ai-powered-revenue-os-compete-crm-market)  
+Datum der Veröffentlichung: 16. September 2026
 
-AI Business ordnet die Debatte um ein mögliches Abbremsen der Frontier-KI aus Unternehmenssicht ein. Der Artikel hebt hervor, dass Unternehmen derzeit Plattformen, Architekturen, Skills und Betriebsmodelle auswählen müssen, während offen ist, ob Regulierung, Open-Weight-Modelle oder geopolitische Beschränkungen die Verfügbarkeit und Wirtschaftlichkeit einzelner Modellklassen verändern.
+Zoom positioniert ein KI-gestütztes Revenue OS, das Buyer Intelligence, Kundenkommunikation und Umsatzsteuerung verbinden soll. Der Vorstoß zeigt, dass Kommunikationsplattformen zunehmend in CRM- und Revenue-Workflows expandieren, statt nur Meetings und Messaging abzudecken. Für Unternehmen entsteht damit eine neue Integrationsfrage: Welche Plattform wird System of Engagement, welche bleibt System of Record, und wo liegen Datenhoheit, Forecasting-Logik und Kundenhistorie? BRMs sollten solche Angebote nicht isoliert als Tool-Erweiterung bewerten, sondern im Zielbild für Sales-Tech, CRM-Governance und Datenqualität verorten.
 
-Die zentrale Implikation: AI Governance darf nicht als statisches Richtliniendokument behandelt werden. Für BRMs heißt das, Fachbereiche stärker auf Szenarien vorzubereiten: Was passiert, wenn bevorzugte Modelle eingeschränkt werden, wenn Kostenstrukturen kippen oder wenn Sicherheitsanforderungen für autonome Agenten steigen?
-
-## The share of developers using AI to write half or more code jumped from 12% to 42% YOY in latest BairesDev survey
-
-Autor: Carl Franzen  
-Quelle: [VentureBeat](https://venturebeat.com/data/the-share-of-developers-using-ai-to-write-half-or-more-code-jumped-from-12-to-42-yoy-in-latest-bairesdev-survey)  
-Datum der Veröffentlichung: 15. September 2026
-
-Laut VentureBeat zeigt der BairesDev Dev Barometer, dass 42 Prozent der befragten Entwickler angeben, KI schreibe mindestens die Hälfte ihres Codes; ein Jahr zuvor waren es 12 Prozent. Gleichzeitig steigen Aufwand und Bedeutung für Review, Debugging, Security und Tool-Kompetenz.
-
-Für Enterprise-IT ist das ein klares Signal: Produktivität durch AI-Coding entsteht nicht automatisch als freie Kapazität. Der Wert verschiebt sich zu Architekturentscheidungen, Validierung, Security Reviews und Nachvollziehbarkeit. BRMs sollten AI-Coding daher nicht nur als Effizienzinitiative positionieren, sondern als Veränderung im Software-Lifecycle mit neuen Kontrollpunkten.
-
-## Every user, device and agent gets its own table in KeewanoDB, and queries never join across them
-
-Autor: Sean Michael Kerner  
-Quelle: [VentureBeat](https://venturebeat.com/data/every-user-device-and-agent-gets-its-own-table-in-keewanodb-and-queries-never-join-across-them)  
-Datum der Veröffentlichung: 15. September 2026
-
-VentureBeat beschreibt KeewanoDB als Event-Series-Datenbank, die Ereignisverläufe pro Entität speichert, statt Kontext über Joins und nachträgliche Rekonstruktion aus Data Warehouses zusammenzusetzen. Ziel ist, Agenten direkten Zugriff auf vollständige Sequenzen und kausale Zusammenhänge zu geben.
-
-Für Unternehmen ist das Thema strategisch, weil viele Agentenprojekte nicht am Modell, sondern an unvollständigem Geschäftskontext scheitern. BRMs sollten bei Agenteninitiativen gezielt prüfen, ob Datenarchitekturen Ereignishistorie, Semantik, Berechtigungen und Erklärbarkeit ausreichend unterstützen.
-
-## Should all enterprise code and workflows become natural language? G5 Labs thinks so, and its new G5 platform does it for you
-
-Autor: Carl Franzen  
-Quelle: [VentureBeat](https://venturebeat.com/technology/should-all-enterprise-code-and-workflows-become-natural-language-g5-labs-thinks-so-and-its-new-g5-platform-does-it-for-you)  
-Datum der Veröffentlichung: 15. September 2026
-
-G5 Labs, gegründet von MIT-Professor Tim Kraska, startet mit einer Plattform, die Geschäftsanforderungen, Architekturentscheidungen und Policies in eine strukturierte System-Ontologie überführt. Diese soll Menschen und KI-Agenten einen gemeinsamen Ziel- und Kontextlayer geben, aus dem Implementierungen kontrollierter abgeleitet werden können.
-
-Die Nachricht ist relevant, weil sie den nächsten Reifegrad von AI-Coding adressiert: Nicht mehr nur Code generieren, sondern Absichten, Regeln und Architekturentscheidungen maschinenlesbar operationalisieren. Für BRMs ist das ein Hinweis, dass Fachanforderungen künftig stärker als ausführbare, prüfbare Spezifikationen modelliert werden könnten.
-
-## AI is changing the economics of software supply chain attacks
-
-Autor: VB Staff  
-Quelle: [VentureBeat](https://venturebeat.com/security/ai-is-changing-the-economics-of-software-supply-chain-attacks)  
-Datum der Veröffentlichung: 15. September 2026
-
-Der VentureBeat-Beitrag beschreibt, wie Angreifer stärker auf Build-Systeme, CI/CD-Pipelines, Paketregistries, GitHub Actions und Agenten-Tooling zielen. KI senkt dabei die Kosten für Skalierung, Reconnaissance und Folgeangriffe in Software-Lieferketten.
-
-Für Enterprise-IT bedeutet das: Klassische AppSec-Kontrollen reichen nicht aus, wenn Build Runner, Signierschlüssel, Registry-Credentials und Agenten-Integrationen unzureichend geschützt sind. BRMs sollten Security-Anforderungen bei AI-Coding und Agentenplattformen früh in Lieferanten-, DevSecOps- und Architekturgespräche einbringen.
-
-## Pony.ai unveils autonomous electric truck for logistics fleets
+## ChatGPT pioneer launches Jev model for programmatic logic
 
 Autor: Ryan Daws  
-Quelle: [AI News](https://www.artificialintelligence-news.com/news/pony-ai-autonomous-electric-truck-for-logistics-fleets/)  
-Datum der Veröffentlichung: 15. September 2026
+Quelle: [AI News](https://www.artificialintelligence-news.com/news/chatgpt-pioneer-launches-jev-model-for-programmatic-logic/)  
+Datum der Veröffentlichung: 16. September 2026
 
-Pony.ai stellt gemeinsam mit GAC Commercial Vehicle einen autonomen elektrischen Lkw für Logistikflotten vor. Der Level-4-Truck basiert auf der vierten Generation der Robotruck-Plattform, soll in die Serienproduktion gehen und adressiert zunächst Langstreckenfracht, dedizierte Logistikkorridore und Hafentransporte.
+TypeSafe startet mit Jev ein Spezialmodell für strukturierte, probabilistische Entscheidungen statt natürlicher Textgenerierung. Der Ansatz ist für Enterprise-Automatisierung interessant, weil viele Workflows keine ausführlichen Chat-Antworten benötigen, sondern schnelle, typisierte Entscheidungen mit belastbaren Wahrscheinlichkeiten. Wenn sich die Leistungs- und Kostenaussagen bestätigen, könnten solche Modelle klassische LLMs in Routing, Klassifikation, Validierung und regelnaher Prozesslogik ergänzen oder ersetzen. Für BRMs ist die Lehre: KI-Architektur sollte stärker nach Aufgabentyp differenzieren, statt alle Use Cases mit denselben General-Purpose-Modellen zu bedienen.
 
-Für Enterprise-Unternehmen mit Logistik-, Fertigungs- oder Handelsbezug ist die Meldung ein weiteres Signal, dass Physical AI aus Pilotumgebungen in industrielle Betriebsmodelle wandert. Relevant sind neben Effizienzgewinnen vor allem Fragen zu Betriebshaftung, Flottenintegration, Cybersecurity, Datenanbindung und regulatorischer Freigabe.
+## Humanoid Robot Boom Boosts Cobot Supply
+
+Autor: Scarlett Evans  
+Quelle: [AI Business](https://aibusiness.com/robotics/humanoid-robot-boom-boosts-cobot-supply)  
+Datum der Veröffentlichung: 16. September 2026
+
+AI Business berichtet, dass die steigende Produktion humanoider Roboter die Nachfrage nach Cobot-Hardware stark erhöht. Laut Interact Analysis sollen Lieferungen an humanoide Hersteller von 5.000 Einheiten im Jahr 2025 auf mehr als 43.000 im Jahr 2026 steigen. Für Industrie-, Logistik- und Manufacturing-IT ist das relevant, weil Physical AI nicht nur eine Modellfrage ist, sondern von Lieferketten, Aktuatorik, Sicherheitsstandards und Integrationsfähigkeit abhängt. BRMs in produzierenden Unternehmen sollten Robotik-Roadmaps mit OT-Security, Safety-Zertifizierung und Lieferantenrisiko zusammenführen.
+
+## The sexy AI-powered dating app scams are here
+
+Autor: Yael Grauer  
+Quelle: [The Verge](https://www.theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams)  
+Datum der Veröffentlichung: 16. September 2026, 2:45 PM UTC
+
+The Verge beschreibt ein Netzwerk betrügerischer Dating-Apps, in dem KI-generierte Personas Nutzer zu kostenpflichtigen Interaktionen verleiteten. Der Fall zeigt, wie KI-Missbrauch operativ skaliert wird: Modelle für Konversation, Bildgenerierung, Moderation, Zahlungsumgehung und App-Store-Evasion greifen zusammen. Für Enterprise-Unternehmen ist das weniger ein Consumer-Skandal als ein Frühindikator für KI-gestützte Fraud-Ökosysteme. Relevante Gegenmaßnahmen liegen in Account-Monitoring, Bot-Erkennung, Zahlungsanalyse, Trust-and-Safety-Prozessen und plattformübergreifender Zusammenarbeit.
 
 ## Ergebnis der Quellen- und Dublettenprüfung
 
-Vorhandene Markdown-Dateien im Repository, insbesondere `ai-update-today.md` und `ai-update-*.md`, wurden gegen die aufgenommenen URLs und Meldungsthemen geprüft. Keine der oben aufgenommenen Artikel-URLs war bereits enthalten, und keine der ausgewählten Meldungen war inhaltlich bereits in einem früheren Update abgedeckt.
+Die vorhandenen Markdown-Dateien im Repository wurden inhaltlich und URL-basiert berücksichtigt. Die oben aufgenommenen Artikel-URLs und Themen waren in den bereitgestellten bisherigen Updates nicht enthalten.
