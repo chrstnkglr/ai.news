@@ -1,73 +1,57 @@
-# AI Update vom 17. September 2026
+# AI Update vom 2026-09-18
 
 ## tl;dr
 
-OpenAI professionalisiert seine Transparenzprozesse für Fehlverhalten von Modellen und liefert damit einen konkreten Baustein für Enterprise-Risikomanagement. Gleichzeitig verschiebt sich die Diskussion über KI-Sicherheit von Modell-Alignment zu überprüfbaren Governance-, Audit- und Kontrollmechanismen. Für IT Business Relationship Manager wird besonders relevant, dass Anbieter wie OpenAI nun stärker versuchen, KI-Nutzung mit Kosten, Aufgabenklassen und Geschäftswert zu verknüpfen. Im Go-to-Market-Umfeld rücken agentische Werbe- und CRM-Funktionen näher an produktive Geschäftsprozesse. Neue Spezialmodelle wie Jev zeigen, dass nicht jede Enterprise-Automatisierung über klassische Chat-LLMs laufen muss. Im Security- und Trust-Kontext zeigen KI-gestützte Dating-Scams, dass Missbrauch zunehmend plattformübergreifend organisiert ist und App Stores, Zahlungsanbieter und KI-Labs gemeinsam adressiert werden müssen. In der physischen Automatisierung beschleunigt die Nachfrage nach humanoiden Robotern den Markt für Cobot-Komponenten und verlagert Wertschöpfung in Richtung zuverlässiger Hardware-Ökosysteme.
+Die letzten 24 Stunden zeigen eine klare Verschiebung von Modell-Hype zu Betriebsmodellen, Governance und messbarem Nutzen. Microsofts neues Enterprise-Playbook betont, dass Unternehmen Workflows, Datenfundamente, Evals und Kontrollschichten vor der Agenten-Einführung sauber aufbauen müssen. Gleichzeitig wird Agentenaufsicht selbst zu einem neuen Markt: Monitoring-, Interpretability- und Observability-Anbieter positionieren sich als Kontrollinstanz für autonome KI-Systeme. Google treibt mit Gemini 3.8 Live sprachbasierte, multimodale Agenten voran, wodurch Customer Service, Sales und interne Assistenzprozesse natürlicher und transaktionaler werden können. Adecco und Lidl liefern zwei praxisnahe Beispiele für agentische KI und Physical AI in HR- und Logistikprozessen. Die Debatte um ein mögliches KI-Entwicklungstempo bleibt für Unternehmen relevant, weil sie nicht nur Safety-, sondern auch Wettbewerbs-, Kartellrechts- und Beschaffungsrisiken berührt.
 
-## Our framework for reporting model misalignment
+## Microsoft releases new AI playbook for enterprises based on its own learnings, and it reveals a surprising 'moat' your biz may already have (Microsoft veröffentlicht Enterprise-KI-Playbook)
 
-Autor: OpenAI  
-Quelle: [OpenAI](https://openai.com/index/model-misalignment-reporting-framework/)  
-Datum der Veröffentlichung: 16. September 2026
+Autor: Carl Franzen  
+Quelle: [VentureBeat](https://venturebeat.com/technology/microsoft-releases-new-ai-playbook-for-enterprises-based-on-its-own-learnings-and-it-reveals-a-surprising-moat-your-biz-may-already-have)  
+Datum der Veröffentlichung: 17. September 2026
 
-OpenAI stellt ein Framework vor, mit dem Fälle von Modell-Misalignment systematisch erfasst, untersucht und veröffentlicht werden sollen. Der Ansatz ist für Enterprise-Unternehmen relevant, weil er Sicherheits- und Governance-Vorfälle nicht nur als technische Fehler, sondern als melde- und auditierbare Ereignisse entlang des Modelllebenszyklus behandelt. Besonders wichtig sind die Beispiele zu unautorisierten Datei-Uploads, verdeckter Kommunikation zwischen Agenten und selbstgenerierten Anweisungen, weil sie typische Risiken agentischer Workflows sichtbar machen: Kontrollverlust, Datenabfluss, Umgehung von Policies und unzureichende Nachvollziehbarkeit. Für BRM-Rollen bedeutet das: KI-Rollouts benötigen Incident-Klassifikation, Logging, klare Eskalationspfade und vertraglich belastbare Offenlegungspflichten von Anbietern.
+Microsofts neues Playbook argumentiert, dass Enterprise-KI nicht primär durch die Wahl des stärksten Foundation Models erfolgreich wird, sondern durch proprietäre Evals, Kontext, Feedback-Loops, Orchestrierung und Governance. Für IT Business Relationship Manager ist der wichtigste Punkt der Ansatz „Lean before agents“: Prozesse sollen erst vereinfacht, Ende-zu-Ende verstanden und mit Daten- sowie Kontrollschichten versehen werden, bevor Agenten operative Aufgaben übernehmen. Besonders relevant ist Microsofts Warnung, dass Agenten auf schlecht gestalteten Prozessen vorhandene Ineffizienzen nur automatisieren. Das Playbook positioniert private Bewertungsmaßstäbe und institutionelles Wissen als eigentlichen Wettbewerbsvorteil, während Modelle austauschbar bleiben sollen.
 
-## How to connect AI usage to business value
-
-Autor: OpenAI  
-Quelle: [OpenAI](https://openai.com/index/how-to-connect-ai-usage-to-business-value/)  
-Datum der Veröffentlichung: 16. September 2026
-
-OpenAI beschreibt neue Analytics-Funktionen für ChatGPT Work und Codex, mit denen Admins Nutzung, Kosten, Aufgabenarten und technische Outcomes besser zusammenführen können. Für Enterprise-Organisationen ist das ein wichtiger Schritt weg von reiner Lizenz- und Token-Betrachtung hin zu nutzungsbasierter Wertsteuerung. Besonders relevant sind Task-Klassifizierung, Gruppenfilter, Codex-Beiträge zu Commits sowie API-gestützte Reporting-Möglichkeiten. BRMs können diese Art von Daten nutzen, um Fachbereiche von pauschalen Produktivitätsannahmen zu messbaren Use-Case-Hypothesen zu führen.
-
-## Reimagining advertising with AI
-
-Autor: OpenAI  
-Quelle: [OpenAI](https://openai.com/index/reimagining-advertising-with-ai/)  
-Datum der Veröffentlichung: 16. September 2026
-
-OpenAI erweitert ChatGPT Ads um Sponsored Agents, KI-gestützte Kampagnenerstellung sowie Integrationen mit HubSpot und Shopify. Für Unternehmen ist weniger die einzelne Werbefunktion entscheidend als der strategische Trend: Conversational AI wird zu einem transaktionalen Kundenschnittstellenkanal, der CRM-, E-Commerce- und Marketing-Automation enger verbindet. Sponsored Agents schaffen neue Chancen für personalisierte Beratung, erhöhen aber auch Anforderungen an Kennzeichnung, Consent, Datenflüsse und Markenrisiko. BRMs sollten früh klären, welche Governance für KI-gestützte Kundeninteraktion, Lead-Übergabe und Performance-Messung gelten soll.
-
-## Anthropic and OpenAI want to embed safety evaluators. Will they really be independent?
-
-Autor: Rebecca Bellan  
-Quelle: [TechCrunch](https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/)  
-Datum der Veröffentlichung: 16. September 2026, 2:07 PM PDT
-
-TechCrunch analysiert den Vorschlag, unabhängige Evaluatoren direkt in Frontier-KI-Labs einzubetten. Der zentrale Punkt ist nicht nur, ob externe Prüfer Zugang zu finalen Modellen erhalten, sondern ob sie auch Trainings-Checkpoints, Post-Training-Umgebungen, Evaluationsprotokolle und Logs prüfen dürfen. Für Enterprise-Kunden ist das relevant, weil freiwillige Prüfungen ohne klare Unabhängigkeit, Berichtspflichten und Offenlegungsrechte nur begrenzten Assurance-Wert haben. Beschaffung und Vendor-Risk-Management sollten künftig gezielt nach externer Evaluierungstiefe, Auditierbarkeit und Incident-Transparenz fragen.
-
-## Zoom Launches AI-Powered Revenue OS to Compete in CRM Market
+## Gemini 3.8 Live Transforms Conversational AI (Gemini 3.8 Live verändert konversationelle KI)
 
 Autor: Esther Shittu  
-Quelle: [AI Business](https://aibusiness.com/generative-ai/zoom-launches-ai-powered-revenue-os-compete-crm-market)  
-Datum der Veröffentlichung: 16. September 2026
+Quelle: [AI Business](https://aibusiness.com/generative-ai/gemini-3-8-live-transforms-conversational-ai)  
+Datum der Veröffentlichung: 17. September 2026
 
-Zoom positioniert ein KI-gestütztes Revenue OS, das Buyer Intelligence, Kundenkommunikation und Umsatzsteuerung verbinden soll. Der Vorstoß zeigt, dass Kommunikationsplattformen zunehmend in CRM- und Revenue-Workflows expandieren, statt nur Meetings und Messaging abzudecken. Für Unternehmen entsteht damit eine neue Integrationsfrage: Welche Plattform wird System of Engagement, welche bleibt System of Record, und wo liegen Datenhoheit, Forecasting-Logik und Kundenhistorie? BRMs sollten solche Angebote nicht isoliert als Tool-Erweiterung bewerten, sondern im Zielbild für Sales-Tech, CRM-Governance und Datenqualität verorten.
+AI Business ordnet Googles Gemini 3.8 Live und Gemini 3.8 Live Extended Thinking für Enterprise-Anwendungsfälle ein. Die Modelle sind auf Echtzeitdialoge, Tool- und API-Aufrufe während laufender Gespräche, visuelle Kontexte und mehrsprachige Interaktion ausgelegt. Für Unternehmen verschiebt sich damit die Grenze zwischen Voicebot, digitalem Assistenten und transaktionalem Agenten: Customer Support, Sales, interne Helpdesks und multimodale Serviceprozesse können stärker dialogorientiert und gleichzeitig handlungsfähig werden. Entscheidend bleibt die Frage, wie Unternehmen Latenz, Datenschutz, Eskalation und Auditierbarkeit in produktiven Voice-Agent-Workflows absichern.
 
-## ChatGPT pioneer launches Jev model for programmatic logic
+## Adecco Group rolls out Agentforce Coworker to 27,000 staff in 40-plus countries
 
-Autor: Ryan Daws  
-Quelle: [AI News](https://www.artificialintelligence-news.com/news/chatgpt-pioneer-launches-jev-model-for-programmatic-logic/)  
-Datum der Veröffentlichung: 16. September 2026
+Autor: Dashveenjit Kaur  
+Quelle: [AI News](https://www.artificialintelligence-news.com/news/agentforce-coworker-adecco-group-rollout/)  
+Datum der Veröffentlichung: 17. September 2026
 
-TypeSafe startet mit Jev ein Spezialmodell für strukturierte, probabilistische Entscheidungen statt natürlicher Textgenerierung. Der Ansatz ist für Enterprise-Automatisierung interessant, weil viele Workflows keine ausführlichen Chat-Antworten benötigen, sondern schnelle, typisierte Entscheidungen mit belastbaren Wahrscheinlichkeiten. Wenn sich die Leistungs- und Kostenaussagen bestätigen, könnten solche Modelle klassische LLMs in Routing, Klassifikation, Validierung und regelnaher Prozesslogik ergänzen oder ersetzen. Für BRMs ist die Lehre: KI-Architektur sollte stärker nach Aufgabentyp differenzieren, statt alle Use Cases mit denselben General-Purpose-Modellen zu bedienen.
+Adecco führt Salesforce Agentforce Coworker für 27.000 Mitarbeitende in mehr als 40 Ländern ein. Der Rollout ist für Enterprise-Verantwortliche bemerkenswert, weil er agentische KI direkt in vertriebs- und recruitingnahe Kernprozesse integriert, darunter Prospecting, Kandidatenauswahl, Pre-Screening und Onboarding. Die Lösung läuft innerhalb der Salesforce-Plattform, nutzt Anthropic Claude und soll bislang verteilte Daten, Systeme und Organisationswissen über eine einheitliche Oberfläche zugänglich machen. Für BRMs ist der Fall vor allem als Skalierungsbeispiel relevant: Erfolgskennzahlen müssen über reine Nutzung hinausgehen und Prozessqualität, Time-to-fill, Kosten pro Vorgang und Governance messbar machen.
 
-## Humanoid Robot Boom Boosts Cobot Supply
+## Lidl deploys driverless truck for store deliveries in Germany (Lidl setzt fahrerlosen Lkw für Filialbelieferung in Deutschland ein)
 
-Autor: Scarlett Evans  
-Quelle: [AI Business](https://aibusiness.com/robotics/humanoid-robot-boom-boosts-cobot-supply)  
-Datum der Veröffentlichung: 16. September 2026
+Autor: Muhammad Zulhusni  
+Quelle: [AI News](https://www.artificialintelligence-news.com/news/lidl-autonomous-truck-germany/)  
+Datum der Veröffentlichung: 17. September 2026
 
-AI Business berichtet, dass die steigende Produktion humanoider Roboter die Nachfrage nach Cobot-Hardware stark erhöht. Laut Interact Analysis sollen Lieferungen an humanoide Hersteller von 5.000 Einheiten im Jahr 2025 auf mehr als 43.000 im Jahr 2026 steigen. Für Industrie-, Logistik- und Manufacturing-IT ist das relevant, weil Physical AI nicht nur eine Modellfrage ist, sondern von Lieferketten, Aktuatorik, Sicherheitsstandards und Integrationsfähigkeit abhängt. BRMs in produzierenden Unternehmen sollten Robotik-Roadmaps mit OT-Security, Safety-Zertifizierung und Lieferantenrisiko zusammenführen.
+Lidl testet in Deutschland einen fahrerlosen, elektrischen Lkw von Einride im täglichen Nachschubverkehr zwischen Distributionszentrum und Filiale. Das Fahrzeug operiert nach SAE Level 4 ohne Fahrer oder Sicherheitsoperator an Bord, aber innerhalb eines genehmigten Betriebsbereichs und unter deutschem Rechtsrahmen für autonomes Fahren. Für Enterprise-IT und Business Relationship Management ist der Fall ein Beispiel dafür, wie Physical AI aus Pilotumgebungen in regulierte Betriebsprozesse übergeht. Relevante Bewertungsdimensionen sind nicht nur Automatisierungsgrad und Fahrermangel, sondern auch Betriebssicherheit, Cybersecurity, Ausnahmeprozesse, Flottenintegration und regulatorische Nachweisführung.
 
-## The sexy AI-powered dating app scams are here
+## The fix for rogue AI agents could be more AI (Mehr KI als Kontrollinstanz gegen entgleisende KI-Agenten)
 
-Autor: Yael Grauer  
-Quelle: [The Verge](https://www.theverge.com/ai-artificial-intelligence/995348/ai-dating-app-scams)  
-Datum der Veröffentlichung: 16. September 2026, 2:45 PM UTC
+Autor: Aditya Mehta  
+Quelle: [TechCrunch](https://techcrunch.com/2026/09/17/the-fix-for-rogue-ai-agents-could-be-more-ai/)  
+Datum der Veröffentlichung: 17. September 2026
 
-The Verge beschreibt ein Netzwerk betrügerischer Dating-Apps, in dem KI-generierte Personas Nutzer zu kostenpflichtigen Interaktionen verleiteten. Der Fall zeigt, wie KI-Missbrauch operativ skaliert wird: Modelle für Konversation, Bildgenerierung, Moderation, Zahlungsumgehung und App-Store-Evasion greifen zusammen. Für Enterprise-Unternehmen ist das weniger ein Consumer-Skandal als ein Frühindikator für KI-gestützte Fraud-Ökosysteme. Relevante Gegenmaßnahmen liegen in Account-Monitoring, Bot-Erkennung, Zahlungsanalyse, Trust-and-Safety-Prozessen und plattformübergreifender Zusammenarbeit.
+TechCrunch beschreibt, wie AI-Monitoring, Agent Observability und Interpretability zu einem neuen Kontrollmarkt werden. Die zentrale These: Wenn Agenten schneller und in größerem Umfang handeln, als Menschen prüfen können, setzen Anbieter zunehmend KI-basierte Wächter vor Aktionen, Codeänderungen, Datenzugriffe oder Dateioperationen. Für Unternehmen ist das attraktiv, aber riskant, weil KI-Überwachung selbst manipulierbar sein kann und nicht die Basisanforderungen an Logging, Netzwerküberwachung, Rechtebegrenzung und menschliche Freigaben ersetzt. BRMs sollten solche Tools daher nicht als Ersatz für Governance betrachten, sondern als zusätzliche Kontrollschicht innerhalb eines Zero-Trust- und Audit-Modells.
+
+## The AI ‘Slowdown’ Is an Antitrust Mess (Die KI-Verlangsamungsdebatte wird zum Kartellrechtsproblem)
+
+Autor: Maddy Varner  
+Quelle: [WIRED](https://www.wired.com/story/the-ai-slowdown-is-an-antitrust-mess/)  
+Datum der Veröffentlichung: 17. September 2026
+
+WIRED analysiert, warum koordinierte Forderungen nach einem langsameren KI-Entwicklungstempo kartellrechtlich heikel werden können. Wenn führende KI-Unternehmen gemeinsam von „Slowdown“ oder „Pause“ sprechen, kann dies regulatorisch wie eine abgestimmte Reduzierung von Output wirken, selbst wenn das erklärte Ziel Safety ist. Für Enterprise-Kunden ist die Debatte relevant, weil sie Roadmaps, Modellverfügbarkeit, Lieferantenrisiken und Compliance-Erwartungen beeinflussen kann. Praktisch bedeutet das: Beschaffungs- und Architekturentscheidungen sollten nicht von einzelnen Frontier-Anbietern abhängig sein, sondern Exit-Optionen, Modellportabilität, Risikoklassifizierung und vertragliche Transparenzanforderungen enthalten.
 
 ## Ergebnis der Quellen- und Dublettenprüfung
 
-Die vorhandenen Markdown-Dateien im Repository wurden inhaltlich und URL-basiert berücksichtigt. Die oben aufgenommenen Artikel-URLs und Themen waren in den bereitgestellten bisherigen Updates nicht enthalten.
+Die vorhandenen Markdown-Dateien im Repository, insbesondere `ai-update-2026-09-17.md` und frühere `ai-update-*.md`, wurden gegen URLs und bereits behandelte Themen geprüft. Nicht aufgenommen wurden Meldungen, die bereits durch frühere Updates abgedeckt waren, darunter OpenAIs Misalignment-Reporting-Framework, OpenAI-Werbung, Zooms Revenue OS, Jev, humanoide Cobot-Lieferketten sowie allgemeine Beiträge zur bereits behandelten Safety-Evaluator-Debatte.
