@@ -1,45 +1,45 @@
-# AI Update vom 21. September 2026
+# AI Update vom 22. September 2026
 
 ## tl;dr
 
-Im geprüften 24-Stunden-Fenster dominieren drei Enterprise-relevante Linien: KI-Governance, operative Resilienz und Skalierung von KI in Partner- und Infrastrukturökosystemen. Huawei positioniert Partnerprogramme und AI-ready Infrastruktur als Hebel, um Unternehmen von Pilotprojekten in skalierte KI-Anwendungen zu bringen. The Verge ordnet ein, dass kritische Energieinfrastrukturen weniger durch autonome „rogue AI“ als durch menschliche Angreifer mit KI-Verstärkung gefährdet sind. Für Enterprise-IT bedeutet das: OT-Security, manuelle Fallbacks, Patch-Prozesse und Netzsegmentierung bleiben wichtiger als reine Modellkontrolle. Parallel gewinnt die politische Governance-Debatte in den USA weiter an Dynamik, nachdem Donald Trump eine „AI Force“ und einen „AI Czar“ angekündigt hat, ohne bislang Mandat oder Zeitplan zu präzisieren. Für IT Business Relationship Manager sind diese Meldungen vor allem als Signale für Beschaffungsstrategie, Risikokommunikation und Governance-Anforderungen relevant. Die Dublettenprüfung gegen bestehende Markdown-Dateien ergab keine bereits verwendeten URLs für die finale Auswahl.
+Die letzten 24 Stunden zeigen vor allem eine Verschiebung von Modellvergleichen hin zu operativer Enterprise-Steuerung: Kosten pro erledigter Aufgabe, Agenten-Governance und kontrollierte Ausführung werden wichtiger als reine Tokenpreise oder Benchmark-Siege. Xiaomi erhöht mit MiMo-V2.6 den Druck auf proprietäre Modelle, weil ein Open-Weight-Modell in mehreren Agenten- und Coding-Szenarien nahe an Frontier-Leistung heranrückt. Grok 4.7 verbessert sich bei Coding-Workloads, zeigt aber zugleich, dass günstige Tokenpreise durch hohen Reasoning-Token-Verbrauch relativiert werden können. Jev verdeutlicht, dass kleine Entscheidungsmodelle in Agentenpipelines zwar Kosten und Latenz senken, aber selbst gegen Prompt Injection abgesichert werden müssen. Für IT Business Relationship Manager bedeutet das: AI-Programme brauchen messbare Outcome-Steuerung, Runtime-Governance, Kostenmetriken pro abgeschlossenem Prozess und klare Freigabegrenzen für autonome Agentenaktionen.
 
-## Huawei Boosts Partner Support to Assist Customer AI Adoption
+## 'Better than DeepSeek': Xiaomi's MiMo-V2.6-Pro debuts as the top open weights model in the world alongside cheaper V2.6-Flash
 
-**Autor:** Diya Joseph  
-**Quelle:** [AI Magazine](https://aimagazine.com/news/huawei-boosts-partner-support-to-assist-customer-ai-adoption)  
-**Veröffentlichungsdatum:** 20. September 2026
+**Autor:** Carl Franzen  
+**Quelle:** [VentureBeat](https://venturebeat.com/technology/better-than-deepseek-xiaomis-mimo-v2-6-pro-debuts-as-the-top-open-weights-model-in-the-world-alongside-cheaper-v2-6-flash)  
+**Datum der Veröffentlichung:** 21. September 2026
 
-Huawei hat auf der HUAWEI CONNECT 2026 sein SCALE-Partnerprogramm vorgestellt, das Partner dabei unterstützen soll, Kunden von einzelnen KI-Piloten zu skalierter Umsetzung zu führen. Das Programm adressiert laut Bericht typische Engpässe in Lösungsentwicklung, Integrationsprüfung, Delivery, Betrieb und systemübergreifender Zusammenarbeit. Besonders relevant für Enterprise-Kunden ist die Kombination aus Referenzarchitekturen für 48 Szenarien, mehr als 100 bereits entwickelten branchenspezifischen Lösungen und neuen AI-ready Infrastrukturangeboten wie SMECE und DCS AI. Für BRM-Rollen ist die Meldung ein Hinweis, dass große Infrastruktur- und Plattformanbieter stärker versuchen, KI-Transformation über Partnerökosysteme, vorkonfigurierte Szenarien und standardisierte Betriebsmodelle zu industrialisieren.
+Xiaomi positioniert MiMo-V2.6-Pro als leistungsstarkes Open-Weight-Modell mit permissiver MIT-Lizenz, multimodalem Input, langem Kontextfenster und sehr niedrigen API-Kosten. Für Enterprise-Teams ist weniger der öffentliche Modellvergleich entscheidend als die Frage, ob sich Teile von Coding-, Research-, Dokumenten- oder Backoffice-Agenten günstiger auf offene Modelle verlagern lassen. Besonders relevant ist MiMo-V2.6-Flash, weil es bei mehreren Agenten-Benchmarks nahe am Pro-Modell bleibt und für Hochvolumen-Workloads deutlich günstiger angeboten wird. Die Veröffentlichung zeigt zudem, dass nicht nur Gewichte, sondern auch Trainingsumgebungen, Reward-Design und Harness-Infrastruktur zum Wettbewerbsfaktor werden.
 
-## Humans, not rogue AI, are still the biggest cybersecurity risk to energy systems
+## Grok 4.7 pairs coding gains with the same affordable pricing — but high token consumption threatens real-world ROI
 
-**Autor:** Justine Calma  
-**Quelle:** [The Verge](https://www.theverge.com/science/997834/ai-cyberattack-energy-critical-infrastructure)  
-**Veröffentlichungsdatum:** 20. September 2026
+**Autor:** Carl Franzen  
+**Quelle:** [VentureBeat](https://venturebeat.com/technology/grok-4-7-pairs-coding-gains-with-the-same-affordable-pricing-but-high-token-consumption-threatens-real-world-roi)  
+**Datum der Veröffentlichung:** 21. September 2026
 
-The Verge analysiert die Risiken von KI für Energie- und Versorgungsinfrastrukturen und kommt zu einer wichtigen Differenzierung: Das unmittelbare Risiko liegt weniger in vollständig autonomen KI-Systemen als in menschlichen Angreifern, deren Fähigkeiten durch generative KI verstärkt werden. Kritische OT-Systeme sind oft alt, schwer patchbar und nicht für moderne Bedrohungsmodelle gebaut. KI kann Angreifern helfen, Schwachstellen schneller zu kombinieren oder fehlendes Spezialwissen zu kompensieren. Für Unternehmen mit Produktions-, Energie- oder Facility-nahen Systemen folgt daraus: KI-Security darf nicht isoliert als Modellrisiko betrachtet werden, sondern muss in OT-Segmentierung, manuelle Notbetriebsfähigkeit, Lieferantenmanagement, Incident Response und Governance für kritische Infrastruktur eingebettet werden.
+SpaceXAI bringt Grok 4.7 mit Verbesserungen für Coding und professionelle Wissensarbeit, ohne die Basistokenpreise gegenüber Grok 4.6 zu erhöhen. Der Artikel ordnet jedoch ein, dass niedrige Listenpreise für Input- und Output-Tokens nicht automatisch niedrigere Gesamtkosten bedeuten, wenn Reasoning-Tokens, Tool Calls, Wiederholungen und menschliche Nacharbeit steigen. Für Unternehmen ist daher Cost-per-successful-task die belastbarere Kennzahl als der reine API-Preis. BRMs sollten bei Modellentscheidungen interne Workload-Benchmarks, Latenz, Abbruchquoten, Korrekturbedarf und Governance-Aufwand gemeinsam betrachten.
 
-## Trump now says he wants to form an ‘AI Force’
+## Companies are putting Jev in charge of AI agent decisions — and prompt injection can influence the verdict
 
-**Autor:** Terrence O’Brien  
-**Quelle:** [The Verge](https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar)  
-**Veröffentlichungsdatum:** 20. September 2026
+**Autor:** Louis Columbus  
+**Quelle:** [VentureBeat](https://venturebeat.com/security/companies-are-putting-jev-in-charge-of-ai-agent-decisions-and-prompt-injection-can-influence-the-verdict)  
+**Datum der Veröffentlichung:** 21. September 2026
 
-The Verge berichtet, dass US-Präsident Donald Trump die Einrichtung einer „AI Force“ und die Ernennung eines „AI Czar“ angekündigt hat. Konkrete Details zu Zuständigkeit, Zeitplan oder organisatorischer Einbindung wurden dabei nicht genannt. Die Ankündigung steht im Kontext einer polarisierten US-Debatte über KI-Sicherheit, Regulierung, Datenzentren und Wettbewerbsfähigkeit. Für Enterprise-Entscheider ist weniger die Rhetorik entscheidend als die mögliche Richtung: Sollte daraus ein formales Regierungsprogramm entstehen, könnten sich Anforderungen an KI-Sicherheitsstandards, öffentliche Beschaffung, Infrastrukturförderung und regulatorische Zuständigkeiten in den USA verändern. Unternehmen mit US-Bezug sollten die Entwicklung daher im Policy- und Compliance-Monitoring behalten.
+Jev von TypeSafe ist ein spezialisiertes Entscheidungsmodell, das in Agentenpipelines strukturierte Entscheidungen wie Tool-Auswahl, Freigabe oder Blockierung treffen soll. Der Artikel warnt, dass solche Modelle durch manipulierte Eingangstexte beeinflusst werden können, wenn sie etwa Tool-Ausgaben oder fremde Inhalte in ihre Entscheidung einbeziehen. Das ist für Enterprise-Architekturen relevant, weil viele Agentensysteme kleinere Klassifikationsmodelle als kostengünstige Kontrollpunkte einsetzen werden. Die Konsequenz: Jev-ähnliche Modelle sollten nur mit streng gefiltertem Kontext, deterministischen Regeln, Audit-Logs und menschlichen Freigaben für risikoreiche Aktionen kombiniert werden.
 
-## It Doesn’t Have To Speak: Jev Shows Value Of Judgment Models
+## Microsoft, AWS and Cognizant’s Role in Frontier AI
 
-**Autor:** John Werner  
-**Quelle:** [Forbes](https://www.forbes.com/sites/johnwerner/2026/09/20/it-doesnt-have-to-speak-jev-shows-value-of-judgment-models/?ss=ai)  
-**Veröffentlichungsdatum:** 20. September 2026
+**Autor:** Tom Chapman  
+**Quelle:** [AI Magazine](https://aimagazine.com/articles/microsoft-aws-and-cognizants-role-in-frontier-ai)  
+**Datum der Veröffentlichung:** 21. September 2026
 
-Forbes ordnet mit Jev eine neue Klasse sogenannter Judgment Models ein, die nicht primär Text generieren, sondern Wahrscheinlichkeiten oder Entscheidungen für eng umrissene Workflow-Schritte liefern. Der Enterprise-Nutzen liegt in niedrigeren Latenzen und geringeren Tokenkosten, weil nicht jede Entscheidung in einem Agentenprozess ein großes generatives Modell erfordert. Für BRM- und Architekturrollen ist das relevant, weil sich KI-Workflows zunehmend modularisieren: Sprachmodelle übernehmen nicht jede Aufgabe, sondern werden durch spezialisierte Entscheidungsmodelle, Router, Evaluatoren und Policy-Komponenten ergänzt. Das verschiebt Beschaffungsfragen von „welches LLM?“ hin zu „welche Modellkombination ist für welchen Prozessschritt wirtschaftlich, erklärbar und kontrollierbar?“
+AI Magazine beschreibt, wie Microsoft, AWS und Cognizant Enterprise-KI zunehmend nicht mehr nur als Plattform- oder Modellgeschäft verstehen, sondern als direkte Umsetzung in Kundenprozessen. Der Fokus verschiebt sich auf eingebettete Engineering-Teams, Outcome-Verantwortung, Change Management, Datenintegration und dauerhaft betreibbare Agentensysteme. Für BRMs ist diese Entwicklung wichtig, weil Anbieterbeziehungen stärker an messbare Geschäftsergebnisse, Governance-Fähigkeiten und Prozessveränderung gekoppelt werden. Der Artikel unterstreicht, dass Differenzierung im Enterprise-Markt weniger über Modellzugang entsteht, sondern über die Fähigkeit, KI sicher in Legacy-Prozesse zu integrieren.
 
-## Deloitte's Geoff Kovesdy on How AI Governance Unlocks Scale
+## Multi-agent AI systems are taking over supply chain execution
 
-**Autor:** Adam Pond  
-**Quelle:** [AI Magazine](https://aimagazine.com/articles/deloittes-geoff-kovesdy-on)  
-**Veröffentlichungsdatum:** 20. September 2026
+**Autor:** Ryan Daws  
+**Quelle:** [AI News](https://www.artificialintelligence-news.com/news/multi-agent-ai-systems-supply-chain-execution/)  
+**Datum der Veröffentlichung:** 21. September 2026
 
-AI Magazine fasst die Sicht von Deloitte auf KI-Governance als Skalierungsfaktor zusammen. Der Kernpunkt: Generative KI kann Risiko-, Kontroll-, Audit- und Compliance-Prozesse modernisieren, wenn Governance, menschliche Beurteilung und weiterentwickelte Kontrollmodelle von Anfang an mitgedacht werden. Für Enterprise-Unternehmen ist das ein vertrautes Muster: Skalierung scheitert selten nur an Modellleistung, sondern an Verantwortlichkeiten, Kontrollnachweisen, Datenzugriffen und Vertrauen in Ergebnisse. Für BRMs ergibt sich daraus ein klarer Auftrag, KI-Initiativen nicht nur als Produktivitätsprojekte zu positionieren, sondern früh mit Risk, Compliance, Internal Audit und Data Governance zu koppeln.
+Der Artikel zeigt, wie Multi-Agenten-Systeme in Lieferketten von reiner Prognoseunterstützung in begrenzte autonome Ausführung übergehen. Beispiele wie Lenovo, Fujitsu/Rohto, Kohler und Belden zeigen Agenten für Fulfillment, Risikoerkennung, Lieferantenkommunikation, Transportplanung und Bestandsanpassung. Der zentrale Enterprise-Punkt liegt in klaren operativen Leitplanken: Kostenobergrenzen, SLA-Grenzen, manuelle Freigaben bei hohen finanziellen Auswirkungen und eingeschränkte Kommunikation mit nicht verifizierten Lieferanten. Für BRMs ist das ein Muster für die Einführung autonomer Agenten in Kernprozessen: klein anfangen, Entscheidungsrechte begrenzen, Wirkung messen und Kontrollpunkte direkt in ERP-, WMS- und TMS-Prozesse einbauen.
