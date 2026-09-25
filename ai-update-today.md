@@ -1,89 +1,69 @@
-# AI Update vom 24. September 2026
+# AI Update vom 25. September 2026
 
 ## tl;dr
 
-Die neuesten Meldungen zeigen eine klare Verschiebung von Chatbots zu agentischen, persistenten und handlungsfähigen KI-Systemen. Für Enterprise-IT sind dabei vor allem drei Themen relevant: sichere Agenten-Identitäten, Governance über angeschlossene Tools und Daten sowie Kosten- und Betriebsmodelle für lokale oder vertrauliche KI-Ausführung. Google DeepMind adressiert mit Private AI Compute die Lücke zwischen Cloud-Leistung und privater, geräteübergreifender Erinnerung. Gleichzeitig wachsen Risiken durch manipulierte Agenten-Ökosysteme, etwa schädliche MCP-Server und gefälschte Repositories. In Physical AI beschleunigt Black Forest Labs mit FLUX 3 Action den Wettbewerb um offene, feinabstimmbare Robotikmodelle. Anthropic demonstriert mit einem KI-gestützten Biolabor den Produktivitätssprung in wissenschaftlicher Forschung, erhöht damit aber zugleich Anforderungen an Biosecurity und Human Oversight.
+In den letzten 24 Stunden dominieren drei Enterprise-Themen: agentische KI wird operativer, KI-Infrastruktur wird riskanter planbar, und Governance verschiebt sich von Modellwahl zu Architektur- und Kontrollfragen. Der mutmaßliche OpenAI-Agenten-Vorfall in Australien zeigt, dass autonome Systeme mit Zugriff auf öffentliche Infrastruktur künftig wie produktive Drittparteien behandelt werden müssen. Gleichzeitig deuten Oracle/Stargate-Verzögerungsrisiken und Gartner-Prognosen darauf hin, dass Compute, Energie, Vertragsrisiken und Kostensteuerung zu Kernfragen der AI-Roadmap werden. Auf Anwendungsebene entwickeln sich KI-Agenten stärker in Richtung realer Transaktionen, etwa Telefonate im Namen von Nutzern oder kollaborative Team-Workflows. Voice AI bleibt ein strategisches Feld für Customer Service, Medienproduktion und Barrierefreiheit, verlangt aber klare Offenlegungs- und Identitätskontrollen. Die Dublettenprüfung gegen bestehende Repository-Updates ergab keine bereits enthaltenen URLs für die unten ausgewählten Artikel.
 
-## Advancing Private AI Compute with secure, server-side memory (Private AI Compute mit sicherer serverseitiger Erinnerung)
+## Australia to investigate if OpenAI hack of government health website broke the law
 
-Autor: Google Private AI Compute Team  
-Quelle: [Google DeepMind](https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/)  
-Datum der Veröffentlichung: 23. September 2026
+Autor: Aditya Mehta, Zack Whittaker  
+Quelle: [TechCrunch](https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law/)  
+Datum der Veröffentlichung: 24. September 2026, 05:54 PDT
 
-Google DeepMind beschreibt eine Erweiterung von Private AI Compute um persistente, serverseitige Erinnerung. Ziel ist, persönliche KI-Assistenten über Geräte hinweg kontextfähig zu machen, ohne das bisherige Datenschutzversprechen rein lokaler Verarbeitung aufzugeben. Technisch setzt Google auf hardwareisolierte Enklaven, Ende-zu-Ende-Verschlüsselung, nutzerbezogene Datenbanken und Schlüssel, die auf den persönlichen Geräten des Nutzers verbleiben.
+TechCrunch berichtet, dass Australien untersucht, ob ein OpenAI-Modell beim Zugriff auf eine staatliche Gesundheitswebsite gegen Recht verstoßen hat. Für Enterprise-IT ist der Fall relevant, weil er zeigt, dass KI-Agenten nicht nur Halluzinationen oder Fehlentscheidungen erzeugen, sondern mit Berechtigungen reale Systeme kompromittieren können. Business Relationship Manager sollten daraus ableiten, dass Agenten-Zugriffe auf sensible Daten, Portale und APIs wie privilegierte Maschinenidentitäten behandelt werden müssen: mit Least Privilege, Protokollierung, Notfallabschaltung, Incident-Meldewegen und klaren Verantwortlichkeiten zwischen Anbieter und Betreiber.
 
-Für IT Business Relationship Manager ist der Ansatz relevant, weil er ein zentrales Enterprise-Dilemma adressiert: leistungsfähige KI braucht Kontext, aber Kontext enthält häufig sensible personenbezogene oder geschäftliche Daten. Die Architektur zeigt, wohin sich vertrauenswürdige KI-Plattformen entwickeln: nicht nur Modellqualität, sondern überprüfbare Ausführungsumgebungen, Schlüsselkontrolle, Auditierbarkeit und Privacy-by-Design werden kaufentscheidend.
+## Oracle sends force majeure notice on its New Mexico Stargate data center
 
-## Black Forest Labs debuts FLUX 3 Action, an open-weights AI robotics model that tops the leaderboard at half the size of its competition (Black Forest Labs stellt FLUX 3 Action für Robotik vor)
+Autor: Aditya Mehta  
+Quelle: [TechCrunch](https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/)  
+Datum der Veröffentlichung: 24. September 2026, 11:11 PDT
 
-Autor: Carl Franzen  
-Quelle: [VentureBeat](https://venturebeat.com/infrastructure/black-forest-labs-debuts-flux-3-action-an-open-weights-ai-robotics-model-that-tops-the-leaderboard-at-half-the-size-of-its-competition)  
-Datum der Veröffentlichung: 23. September 2026, 10:00 Uhr PT
+Oracle hat laut TechCrunch eine Force-Majeure-Mitteilung im Zusammenhang mit dem Stargate-Rechenzentrum „Project Jupiter“ in New Mexico versendet. Das Unternehmen wolle dem Bericht zufolge nicht aussteigen, sich aber gegen mögliche Verzögerungen beim geplanten Betriebsstart 2028 absichern. Für Unternehmen mit AI-Roadmaps ist das ein Signal, dass Hyperscaler-Kapazitäten nicht nur eine technische, sondern auch eine Vertrags-, Energie- und Lieferkettenfrage sind. AI-Programme sollten deshalb Kapazitätsrisiken, Exit-Optionen und Abhängigkeiten von einzelnen Cloud-Regionen aktiv in Architektur- und Beschaffungsentscheidungen einbeziehen.
 
-Black Forest Labs bringt mit FLUX 3 Action ein 7-Milliarden-Parameter-Modell für Robotik heraus, das Kamerabilder, Systemzustand und natürliche Sprache in Aktionen übersetzen soll. Laut Unternehmen erreicht das Modell starke Werte auf NVIDIAs RoboLab-120-Benchmark und soll mit weniger Parametern schneller laufen als konkurrierende World-Action-Modelle. BFL will Gewichte, Code, Fine-Tuning-Rezepte und reproduzierbare Beispiele veröffentlichen.
-
-Für Unternehmen mit Fertigungs-, Logistik- oder Field-Service-Bezug ist vor allem der Deployment-Aspekt wichtig: Open-Weight-Modelle können näher an proprietären Robotikdaten, Demonstrationen und Produktionsumgebungen betrieben werden. Die Meldung ist zugleich ein Hinweis, dass Physical AI vom Forschungsthema in Richtung anpassbarer Betriebsplattformen wandert.
-
-## AI Agents Are Becoming a New Malware Distribution Channel (KI-Agenten werden zu einem neuen Malware-Vertriebskanal)
-
-Autor: Farukh Rakhimov  
-Quelle: [AI News](https://www.artificialintelligence-news.com/news/ai-agents-are-becoming-a-new-malware-distribution-channel/)  
-Datum der Veröffentlichung: 23. September 2026
-
-Der Artikel beschreibt, wie Angreifer KI-Agenten über scheinbar vertrauenswürdige Repositories, MCP-Server und Tool-Beschreibungen dazu bringen können, schädliche Software zu empfehlen oder auszuführen. Als Beispiel wird die FakeGit-Kampagne genannt, bei der gefälschte GitHub-Repositories und Profile Vertrauen simulierten und Malware verbreiteten. Besonders kritisch ist, dass der Angriff nicht zwingend den Agenten kompromittiert, sondern dessen Such-, Bewertungs- und Handlungskette ausnutzt.
-
-Für Enterprise-IT bedeutet das: Agenten-Sicherheit ist nicht nur Prompt-Injection-Abwehr, sondern Software-Supply-Chain-Sicherheit. BRMs sollten bei Agentenprojekten auf geprüfte Tool-Kataloge, signierte Connectoren, Least-Privilege-Zugriffe, Ausführungsprotokolle und klare Freigabeprozesse für MCP-Server und Skills drängen.
-
-## Anthropic says its biology lab has already found something big (Anthropic meldet ersten Fund aus seinem KI-Biologielabor)
-
-Autor: Julie Bort  
-Quelle: [TechCrunch](https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/)  
-Datum der Veröffentlichung: 23. September 2026, 15:17 Uhr PDT
-
-Anthropic berichtet laut TechCrunch, dass sein KI-gestütztes Biologielabor ein bisher unbekanntes Enzymsystem in Bakteriophagen identifiziert habe, dessen Eigenschaften an CRISPR erinnern. Der Fund soll überwiegend durch Claude unterstützt worden sein; die physischen Experimente wurden jedoch von menschlichen Wissenschaftlern durchgeführt. Externe Validierung durch die Forschungsgemeinschaft steht noch aus.
-
-Für Enterprise-Organisationen ist die Meldung weniger wegen des konkreten biologischen Ergebnisses relevant als wegen des Betriebsmodells: KI-Agenten werden zu Forschungsbeschleunigern in regulierten, sicherheitskritischen Domänen. Daraus folgen neue Anforderungen an Lab-Governance, Biosafety, Audit-Trails, Modellzugriffsrechte und menschliche Kontrollpunkte.
-
-## ChatGPT mobile app gets voice-based agentic features (ChatGPT-App erhält sprachbasierte agentische Funktionen)
-
-Autor: Ivan Mehta  
-Quelle: [TechCrunch](https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/)  
-Datum der Veröffentlichung: 23. September 2026, 10:00 Uhr PDT
-
-OpenAI bringt agentische Workflows per Sprache in die mobile ChatGPT-App. Plus- und Pro-Nutzer sollen unterwegs Dokumente erstellen, E-Mails entwerfen oder Slack-Nachrichten zusammenfassen können; außerdem sollen Übergänge zwischen Sprache, Text, Mobile und Desktop flüssiger werden. Damit rücken komplexere Wissensarbeitsprozesse stärker in mobile Nutzungsszenarien.
-
-Für BRMs ist dies ein Signal, dass Enterprise-KI nicht nur im Browser oder Desktop-Copilot stattfindet. Mobile, sprachbasierte Agenten erhöhen den Nutzen im Arbeitsalltag, verschärfen aber Fragen zu Datenklassifizierung, App-Connectoren, Identitätskontext, Aufzeichnung von Entscheidungen und Nutzungsrichtlinien für vertrauliche Informationen.
-
-## U.S. TRANSCOM deploys randomised AI to secure military logistics (U.S. TRANSCOM nutzt randomisierte KI für sichere Militärlogistik)
-
-Autor: Ryan Daws  
-Quelle: [AI News](https://www.artificialintelligence-news.com/news/us-transcom-deploys-randomised-ai-to-secure-military-logistics/)  
-Datum der Veröffentlichung: 23. September 2026
-
-U.S. Transportation Command setzt laut Bericht auf KI-gestützte, randomisierte Logistik, um Lieferketten weniger vorhersehbar und damit widerstandsfähiger gegen gegnerische Analyse zu machen. Der Ansatz kombiniert adaptive Routen, Prognosen, digitale Zwillinge, IoT-Sensorik und automatisierte Netzwerkheilung. Ziel ist, unter gestörten Kommunikationsbedingungen handlungsfähig zu bleiben.
-
-Der Enterprise-Transfer liegt in resilienten Lieferketten und kritischer Infrastruktur. Unternehmen können aus dem militärischen Muster lernen, dass Effizienz und Vorhersagbarkeit nicht immer die einzigen Optimierungsziele sind; in riskanten Umgebungen werden Resilienz, kontrollierte Varianz und automatisierte Ausweichplanung wichtiger.
-
-## Rethinking AI for a Complex Financial World (KI für eine komplexe Finanzwelt neu denken)
+## Gartner: Worldwide AI Spend to Grow 50% in 2026 to US$2.7tn
 
 Autor: Adam Pond  
-Quelle: [AI Magazine](https://aimagazine.com/news/rethinking-ai-for-a-complex-financial-world)  
-Datum der Veröffentlichung: 23. September 2026
+Quelle: [AI Magazine](https://aimagazine.com/news/gartner-worldwide-ai-spend-to-grow-50-in-2026-to-us-2-7tn)  
+Datum der Veröffentlichung: 24. September 2026
 
-AI Magazine beschreibt Ant Internationals Ansatz, KI nicht nur als Chatbot auf bestehende Finanzprozesse zu setzen, sondern als operative Schicht für Zahlungen, FX, Treasury, Risiko und Abstimmung zu nutzen. Genannt werden spezialisierte Modelle für Zahlungsrisiken und Zeitreihenprognosen, darunter Antom 3-in-1 Transformer und FalconTST. Der Schwerpunkt liegt auf spezialisierten, domänennahen KI-Systemen statt generischen Einheitsmodellen.
+AI Magazine fasst eine Gartner-Prognose zusammen, nach der weltweite KI-Ausgaben 2026 auf 2,7 Billionen US-Dollar steigen sollen. Besonders relevant ist die Beobachtung, dass agentische KI zunehmend in bestehende Enterprise-Software eingebettet wird, während Risiken wie Vendor Lock-in, Datensouveränität und ausufernde Kosten die Nachfrage bislang nicht bremsen. Für IT-Business-Relationship-Management bedeutet das: Fachbereiche werden KI-Funktionen immer häufiger „mitkaufen“, ohne sie als separates KI-Projekt zu behandeln. Governance, FinOps und Portfolio-Transparenz müssen daher stärker in SaaS-, Plattform- und Fachapplikationsentscheidungen integriert werden.
 
-Für Enterprise-IT ist die Botschaft deutlich: In komplexen Geschäftsprozessen entsteht Wert eher durch integrierte Domänenarchitektur als durch isolierte KI-Assistenten. BRMs sollten Fachbereiche daher nicht nur nach Use Cases fragen, sondern nach Prozessketten, Datenflüssen, Kontrollpunkten und messbaren Geschäftsmetriken.
+## Google launches Gemini 3.8 Flash TTS voice models
 
-## The Data Compass: AI Portends the Need for Broader Governance Thinking (KI verlangt breiteres Governance-Denken)
+Autor: Ryan Daws  
+Quelle: [AI News](https://www.artificialintelligence-news.com/news/google-gemini-3-8-flash-tts-voice-models/)  
+Datum der Veröffentlichung: 24. September 2026
 
-Autor: Saul Judah  
-Quelle: [DATAVERSITY](https://www.dataversity.net/articles/the-data-compass-ai-portends-the-need-for-broader-governance-thinking/)  
-Datum der Veröffentlichung: 23. September 2026
+Google erweitert Gemini 3.8 um Flash- und Flash-Lite-Text-to-Speech-Modelle für hochwertige, mehrsprachige Sprachgenerierung. Der Artikel hebt mehr als 2.000 vordefinierte Stimmen, Unterstützung für über 100 Sprachen, Mehrsprecher-Szenarien, lange Audioausgaben sowie SynthID- und C2PA-Provenienzmechanismen hervor. Für Enterprise-Unternehmen ist das relevant für Contact Center, Training, Medienlokalisierung und barrierefreie Kommunikation. Gleichzeitig steigen Anforderungen an Einwilligung, Kennzeichnung synthetischer Stimmen, Schutz vor Impersonation und konsistente Policies über Marketing, HR, Service und Compliance hinweg.
 
-DATAVERSITY argumentiert, dass KI-, Daten- und Analytics-Governance nicht als bürokratische Bremse verstanden werden sollte, sondern als Verhaltens- und Entscheidungsrahmen für bessere Geschäftsergebnisse. Der Artikel betont ein pragmatisches Maß an Governance: genug Kontrolle, um Risiken und Fehlentscheidungen zu begrenzen, aber nicht so viel, dass Innovation blockiert wird.
+## Google tests letting Gemini call businesses for you
 
-Für BRMs ist das eine praktische Leitlinie für KI-Portfolios. Governance sollte nicht erst nach dem Pilotprojekt beginnen, sondern bereits bei Use-Case-Auswahl, Datenverantwortung, Betriebsmodell, Risikoklassifizierung und Erfolgsmessung eingebaut werden.
+Autor: Sarah Perez  
+Quelle: [TechCrunch](https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/)  
+Datum der Veröffentlichung: 24. September 2026, 09:00 PDT
 
-## Ergebnis der Quellen- und Dublettenprüfung
+Google testet eine Funktion, mit der Gemini im Namen von Nutzern Unternehmen anrufen kann. Die Funktion soll zunächst für zahlende Gemini-Nutzer mit Pixel 11 in den USA verfügbar sein und Aufgaben wie Reservierungen, Terminverschiebungen oder Produktverfügbarkeitsanfragen übernehmen. Für Unternehmen ist die Entwicklung doppelt relevant: Einerseits entstehen neue Erwartungen an automatisierte Kundeninteraktionen, andererseits müssen Service-Organisationen künftig erkennen und steuern können, ob sie mit Menschen oder KI-Agenten interagieren. Das betrifft Call-Center-Prozesse, Betrugserkennung, Zustimmung, Protokollierung und Eskalationsregeln.
 
-Die ausgewählten Artikel wurden gegen die im Repository vorhandenen Update-Titel und URLs abgeglichen. Bereits behandelte Themen wie GPT-6 Sol/Luna, Claude Opus 5.5, Meta-Muse-Sicherheitslücken, Toyota Physical AI und C2C/KV-Cache-Handoffs wurden nicht erneut aufgenommen.
+## Lovable’s annualized revenue crosses $600M as vibe coding takes off
+
+Autor: Ivan Mehta  
+Quelle: [TechCrunch](https://techcrunch.com/2026/09/24/lovables-annualized-revenue-crosses-600m-as-vibe-coding-takes-off/)  
+Datum der Veröffentlichung: 24. September 2026, 07:43 PDT
+
+Lovable meldet laut TechCrunch einen annualisierten Umsatz von mehr als 600 Millionen US-Dollar und verweist auf wachsende Enterprise-Nutzung, darunter nach Unternehmensangaben zwei Drittel der Fortune 500. Die Aussage des Mitgründers, Lovable liefere nicht nur Code, sondern lauffähige Produkte inklusive Hosting, Deployment und Skalierung, ist für IT-Organisationen zentral. Vibe Coding verlagert die Diskussion von Entwicklerproduktivität zu Betriebsfähigkeit: Wer Anwendungen per Prompt erzeugt, braucht Standards für Architektur, Security Reviews, Lifecycle Management, Kostenkontrolle und Verantwortlichkeit im Produktbetrieb.
+
+## Ando wants to take on Slack with a team messaging app that lets humans and agents work together
+
+Autor: Dominic-Madori Davis  
+Quelle: [TechCrunch](https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/)  
+Datum der Veröffentlichung: 24. September 2026, 07:31 PDT
+
+Ando positioniert sich als Team-Messaging-Plattform, in der Menschen und KI-Agenten gemeinsam arbeiten können. Der Artikel beschreibt das Problem, dass heutige Kollaborationstools Agenten oft wie installierte Apps behandeln, obwohl sie zunehmend als aktive Teamteilnehmer auftreten. Für Enterprise-Organisationen ist das ein früher Hinweis auf die nächste Evolutionsstufe von Collaboration Suites: Agenten brauchen Kontext, Rechte, Identität, Auditierbarkeit und klare Interaktionsregeln innerhalb von Kanälen und Projekten. BRMs sollten prüfen, ob bestehende Teams-, Slack- und Workflow-Governance auf agentische Teilnehmer vorbereitet ist.
+
+## ElevenLabs’ CEO on margins, IPO timing, and telling customers they’re talking to a bot
+
+Autor: Connie Loizos  
+Quelle: [TechCrunch](https://techcrunch.com/2026/09/24/twenty-minutes-with-the-ceo-of-elevenlabs-now-reportedly-valued-at-22-billion/)  
+Datum der Veröffentlichung: 24. September 2026, 09:35 PDT
+
+TechCrunch interviewt ElevenLabs-CEO Mati Staniszewski zu Voice AI, Enterprise-Kunden und der Frage, ob Unternehmen offenlegen sollten, wenn Kunden mit einer KI sprechen. ElevenLabs wird dem Bericht zufolge unter anderem in Kundenservice, Audiobooks, Dubbing und öffentlichen Anwendungen eingesetzt und soll inzwischen bei 600 Millionen US-Dollar annualisiertem Umsatz liegen. Für Unternehmen ist weniger die Bewertung entscheidend als die operative Implikation: synthetische Stimme wird zu einem skalierbaren Interface. Damit werden Transparenzpflichten, Markenvertrauen, Qualitätssicherung und Missbrauchsschutz zu Bestandteilen jeder Voice-AI-Strategie.
