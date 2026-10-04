@@ -1,45 +1,55 @@
-# AI Update vom 2026-10-03
+# AI Update vom 4. Oktober 2026
 
 ## tl;dr
 
-In den letzten 24 Stunden dominierten vier Themen: Agenten-Sicherheit, Enterprise-Kontrollen, neue Frontier-Modelle und effizientere Evaluierung von Coding-Agenten. Apple reagiert auf die wachsenden Risiken lokaler KI-Agenten mit strengeren macOS-Zugriffskontrollen. Meta versucht, seinen Muse-Agenten über Open-Source-Hardwareprojekte aus der reinen App-Logik in Geräte, Sensoren und Unternehmenskontexte zu bringen. VentureBeat berichtet über ein MIT/Sakana-AI-Framework, das die Kosten für Selbstverbesserung von Coding-Agenten durch LLM-gestützte Vorbewertung senken soll. Google positioniert Gemini 4 Argon laut AI Business als verspäteten, aber sicherheitsorientierten Enterprise-Vorstoß mit Fokus auf Cybersecurity und agentische Workflows. Die Dublettenprüfung gegen vorhandene Markdown-Updates ergab keine bereits enthaltenen URLs; thematisch bereits behandelte Meldungen zu Nvidias Agent-Safety-Plattform, OpenAI-Sicherheitsabgängen, Google-Weltraum-Rechenzentren, WikiSkill und Strands Decider wurden ausgeschlossen.
+In den letzten 24 Stunden dominierten drei Enterprise-relevante Themen: KI-Sicherheit, Agenten-Governance und Infrastrukturvertrauen. OpenAI steht nach der Kündigung eines Safety-Mitarbeiters erneut unter Druck, weil interne Kultur, Kontrollmechanismen und externe Sicherheitsanreize infrage gestellt werden. AWS reagiert auf wachsende Skepsis gegenüber KI-Rechenzentren und kündigt an, bei Behördenprojekten keine NDAs mehr zu verwenden. Gleichzeitig verlagert sich Agentic AI weiter in Alltags- und Arbeitskanäle: Textnachrichten, gemeinsame Workspaces und eingebettete Agenten werden zunehmend zu neuen Bedienoberflächen. Für IT Business Relationship Manager bedeutet das: KI-Roadmaps sollten stärker mit Datenschutz, Berechtigungsmodellen, Auditierbarkeit, Energie- und Standortfragen sowie Fachbereichsakzeptanz verknüpft werden. Die Dublettenprüfung gegen vorhandene Markdown-Dateien im Repository wurde berücksichtigt; bereits dokumentierte URLs und inhaltlich behandelte Meldungen wurden nicht erneut aufgenommen.
 
-## New MIT and Sakana AI framework uses an LLM judge to cut evaluation costs for self-improving coding agents
+## OpenAI safety employee resigns, claiming the company’s ‘culture is broken’ (OpenAI-Safety-Mitarbeiter kündigt und kritisiert Unternehmenskultur)
 
-Autor: Ben Dickson  
-Quelle: [VentureBeat](https://venturebeat.com/orchestration/new-mit-and-sakana-ai-framework-uses-an-llm-judge-to-cut-evaluation-costs-for-self-improving-coding-agents)  
-Datum der Veröffentlichung: 2. Oktober 2026, 15:50 PT
+Autor: Anthony Ha  
+Quelle: [TechCrunch](https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/)  
+Datum der Veröffentlichung: 3. Oktober 2026, 9:30 AM PDT
 
-Das Framework SIFT nutzt ein LLM als Bewertungsinstanz, um Varianten von Coding-Agenten vor teuren Benchmark-Läufen gegeneinander zu vergleichen. Für Enterprise-Teams ist daran vor allem der Kosten- und Governance-Aspekt relevant: Selbstverbessernde Agenten können schneller iterieren, ohne jede Änderung vollständig durch teure Testsets schicken zu müssen. Für BRMs bedeutet das, dass Coding-Agenten künftig nicht nur als Developer-Tools, sondern als optimierbare Plattformkomponenten mit eigener Evaluierungsstrategie betrachtet werden sollten.
+David Robinson, der laut Bericht an Safety-Reports zu großen OpenAI-Produktstarts beteiligt war, verlässt das Unternehmen und kritisiert dessen Sicherheitskultur. Für Enterprise-Kunden ist weniger die Personalie selbst entscheidend als der Governance-Kontext: Robinson argumentiert, Frontier-Labs müssten stärker wie sicherheitskritische Industrien arbeiten, mit Redundanz, externer Kontrolle, langsamerer Planung und klareren Eskalationswegen.
 
-## Apple says it’s tightening macOS ‘Full Disk Access’ controls due to new risks from AI agents
+Für IT BRMs ist die Meldung relevant, weil sie zeigt, dass Anbieter-Safety nicht allein über Modellkarten, Guardrails oder Produktversprechen bewertet werden sollte. Bei strategischen KI-Plattformen sollten zusätzlich Lieferantenprozesse, Incident-Transparenz, unabhängige Evaluationen, Echtzeit-Monitoring und Exit-Szenarien in die Risikobewertung einfließen.
 
-Autor: Sarah Perez  
-Quelle: [TechCrunch](https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/)  
-Datum der Veröffentlichung: 2. Oktober 2026, 11:11 PDT
+## Amazon responds to data center backlash, says it no longer uses NDAs (Amazon reagiert auf Rechenzentrumsproteste und verzichtet laut Bericht auf NDAs mit Behörden)
 
-Apple verschärft die Kontrollen rund um macOS „Full Disk Access“, weil lokale KI-Agenten mit weitreichenden Dateisystemrechten neue Datenschutz- und Sicherheitsrisiken schaffen. Aus Enterprise-Sicht ist das ein wichtiger Hinweis für Endpoint-, MDM- und DLP-Strategien: Agentenrechte müssen nicht nur pro App, sondern nach konkretem Zweck, Datenklasse und Ausführungskontext gesteuert werden. Besonders kritisch sind lokale Agenten, die E-Mails, Nachrichten, Browserverlauf und Dateien lesen können.
+Autor: Anthony Ha  
+Quelle: [TechCrunch](https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/)  
+Datum der Veröffentlichung: 3. Oktober 2026, 11:43 AM PDT
 
-## Meta wants your next gadget to be Muse-infused
+AWS-CEO Matt Garman stellt laut TechCrunch klar, dass Amazon bei Rechenzentrumsprojekten mit Behörden keine Geheimhaltungsvereinbarungen mehr nutzt. Hintergrund ist wachsender Widerstand gegen KI-Infrastrukturprojekte, insbesondere wegen Transparenz, Wasserverbrauch, Strompreisen, Emissionen und lokaler Belastung.
 
-Autor: Kirsten Korosec  
-Quelle: [TechCrunch](https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/)  
-Datum der Veröffentlichung: 2. Oktober 2026, 17:45 PDT
+Für Enterprise-Unternehmen ist das ein Signal, dass KI-Infrastruktur nicht mehr nur eine Cloud-Beschaffungsfrage ist. Standortakzeptanz, Energieverträge, Nachhaltigkeitsdaten und regulatorische Genehmigungen werden zu Abhängigkeiten in KI-Programmen. BRMs sollten bei großen KI-Initiativen früh klären, wie Cloud- und Rechenzentrumsrisiken in ESG, Resilienzplanung und Lieferantenkommunikation eingebettet werden.
 
-Meta öffnet seinen Muse-Agenten für Hardwareprojekte und stellt Firmware sowie ein Linux-SDK bereit, damit Entwickler Muse mit Displays, Buttons, Sensoren und Aktoren verbinden können. Das zeigt eine strategische Verschiebung von Chatbots zu eingebetteten Agenten, die physische Umgebungen und Unternehmensgeräte stärker einbeziehen. Für Enterprise-Architekturen erhöht sich damit der Bedarf an Identitäts-, Geräte- und Berechtigungsmodellen für KI-Agenten jenseits klassischer SaaS-Oberflächen.
+## All the AI agents that can live in your text messages (KI-Agenten, die direkt in Textnachrichten leben)
 
-## Circuit Breaker Labs hopes to make AI safer for your kids (and you)
+Autor: Lauren Forristal  
+Quelle: [TechCrunch](https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/)  
+Datum der Veröffentlichung: 3. Oktober 2026, 7:00 AM PDT
 
-Autor: Julie Bort  
-Quelle: [TechCrunch](https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/)  
-Datum der Veröffentlichung: 2. Oktober 2026, 10:00 PDT
+TechCrunch beschreibt eine wachsende Klasse von KI-Agenten, die nicht primär als separate App auftreten, sondern über SMS, iMessage, WhatsApp, Telegram oder ähnliche Kanäle arbeiten. Die Agenten können Kalender, E-Mail, Reisen, Erinnerungen, Einkäufe, Buchungen und Familien- oder Arbeitsorganisation unterstützen.
 
-Circuit Breaker Labs arbeitet an Sicherheitsmechanismen für KI-Interaktionen, insbesondere mit Blick auf psychologische Risiken und kulturell unterschiedliche Sprachkontexte. Auch wenn der Ausgangspunkt Consumer-Safety ist, ist die Relevanz für Unternehmen deutlich: Customer-facing Bots, HR-Assistenten und interne Support-Agenten brauchen Eskalationslogiken, Risikoerkennung und sprachübergreifende Safety-Tests. BRMs sollten solche Anforderungen früh in Produkt- und Vendor-Auswahlprozesse einbringen.
+Enterprise-relevant ist weniger die einzelne Consumer-App als das Muster: Agenten wandern in bestehende Kommunikationskanäle und erhalten Zugriff auf Identität, Kalender, E-Mail, Dateien und Transaktionsfunktionen. Für Unternehmen verschärft das Fragen zu Shadow AI, Datenabfluss, Berechtigungen, Protokollierung und Richtlinien für private versus geschäftliche Assistenten.
 
-## Gemini 4 Argon is late, but Google’s expertise may be an advantage
+## Capcom is preparing for a ‘future where we create games together with AI’ (Capcom bereitet KI-gestützte Spieleentwicklung vor)
 
-Autor: Esther Shittu  
-Quelle: [AI Business](https://aibusiness.com/foundation-models/gemini-4-argon-is-late-but-google-s-expertise)  
-Datum der Veröffentlichung: 2. Oktober 2026
+Autor: Terrence O'Brien  
+Quelle: [The Verge](https://www.theverge.com/games/1004418/capcom-ai-game-development)  
+Datum der Veröffentlichung: 3. Oktober 2026, 4:49 PM UTC
 
-AI Business ordnet Googles Gemini 4 Argon als verspäteten, aber potenziell strategisch starken Enterprise-Vorstoß ein. Der Artikel hebt lange, mehrstufige Aufgaben, multimodale Workflows und Cybersecurity-Fähigkeiten hervor; zugleich verweist er auf Googles Vorteil durch Cloud-, Workspace- und Sicherheitsintegration. Für Enterprise-Kunden bleibt entscheidend, ob Google diese Fähigkeiten zuverlässig in bestehende Betriebs-, Compliance- und Security-Prozesse einbetten kann.
+Capcom will KI laut Bericht stärker in Entwicklungsworkflows integrieren und seine RE Engine schrittweise in Richtung einer „AI-generation game engine“ weiterentwickeln. Das Unternehmen betont zugleich, bisher keine KI-generierten Assets in Spielen verwenden zu wollen, sondern Effizienzgewinne in Entwicklungsprozessen anzustreben.
+
+Für Enterprise-Organisationen ist dies ein gutes Beispiel für einen differenzierten KI-Einsatz: nicht jede KI-Strategie muss sofort auf generative Endprodukte zielen. Hoher Nutzen kann in Werkzeugketten, Prozessautomatisierung, Variantenprüfung, Dokumentation und Entwicklungsbeschleunigung entstehen, sofern IP-, Qualitäts- und Freigabeprozesse klar geregelt sind.
+
+## OpenAI Pioneers Common Workspace Called Space For Humans And Agents (OpenAI etabliert gemeinsamen Workspace für Menschen und Agenten)
+
+Autor: John Werner  
+Quelle: [Forbes](https://www.forbes.com/sites/johnwerner/2026/10/03/openai-pioneers-common-workspace-called-space-for-humans-and-agents/?ss=ai)  
+Datum der Veröffentlichung: 3. Oktober 2026
+
+Forbes ordnet OpenAIs „Space“-Konzept als gemeinsamen Arbeitsbereich ein, in dem Menschen und autonome Agenten zusammen organisieren, bauen und Aufgaben bearbeiten können. Damit verschiebt sich der Fokus von Chatbot-Interaktionen zu kollaborativen Arbeitsumgebungen, in denen Agenten Teil von Teamprozessen werden.
+
+Für IT BRMs ist das strategisch bedeutsam: Agenten werden nicht nur Funktionen in bestehenden Tools, sondern potenziell neue Kollaborationspartner innerhalb digitaler Arbeitsräume. Daraus entstehen Anforderungen an Rollenmodelle, nachvollziehbare Entscheidungen, Verantwortlichkeiten, Freigabeprozesse, Datenklassifizierung und Change Management in Fachbereichen.
