@@ -1,57 +1,69 @@
-# AI Update vom 6. Oktober 2026
+# AI Update vom 7. Oktober 2026
 
 ## tl;dr
 
-Im 24-Stunden-Fenster dominieren drei Enterprise-Themen: agentische KI wird stärker kontrollierbar, Open-Weight-Modelle werden strategischer für souveräne KI, und Regulierung verschiebt sich von Grundsatzdebatten zu technischen Nachweissignalen. OpenAI führt in der EU Text-Watermarking für ChatGPT und Codex ein, betont aber selbst die Grenzen solcher Provenienzsignale. Cohere adressiert mit North 2 zentrale BRM-Fragen rund um Budgetkontrolle, Memory, Governance und Deployment-Optionen für Enterprise-Agenten. Reflection AI positioniert Beam als westliches Open-Weight-Modell für Unternehmen und staatliche Akteure, bleibt aber bei unabhängigen Benchmarks noch beweispflichtig. Neue VentureBeat-Daten zeigen, dass fehlerhafte Agentenantworten häufig auf schlechte interne Datenkontexte zurückgehen. Für IT Business Relationship Manager bedeutet das: KI-Roadmaps sollten weniger modellzentriert und stärker auf Datenqualität, Betriebssteuerung, Auditierbarkeit und Anbieterportabilität ausgerichtet werden.
+In den quellenvalidierten Artikeln der letzten 24 Stunden dominieren drei Enterprise-Themen: agentische Workflows in bestehenden Business-Plattformen, souveräne beziehungsweise offene Modellstrategien und die operative Kontrolle von KI in physischen oder regulierten Umgebungen. OpenAI vertieft seine Enterprise-Integration mit Atlassian und Ironclad, während die Veröffentlichung mathematischer Ergebnisse aus einem internen Frontier-Modell neue Anforderungen an wissenschaftliche Transparenz und Review-Prozesse zeigt. Microsoft beschreibt Physical AI als nächsten Automatisierungsschritt in der Fertigung, betont aber klare Grenzen, Governance und menschliche Freigaben. Mistrals neues Open-Weight-Modell unterstreicht, dass Modellzugang, Kostenkontrolle und geopolitische Abhängigkeiten für Unternehmen zunehmend strategische Architekturfragen werden. VentureBeat und TechCrunch zeigen, dass Agenten mit Gedächtnis, Zahlungsfähigkeit und Aufgabendelegation näher an produktive Kunden- und Consumer-Prozesse rücken, aber Trust, Datenzugriff und Disclosure ungelöst bleiben. Die Dublettenprüfung gegen vorhandene Markdown-Dateien im Repository ergab keine Treffer für die aufgenommenen URLs oder bereits behandelten Kernthemen.
 
-## Our approach to EU text provenance rules
+## Atlassian and OpenAI expand partnership to turn enterprise knowledge into action (Atlassian und OpenAI erweitern Partnerschaft für Enterprise-Wissen und Agenten)
 
 Autor: OpenAI  
-Quelle: [OpenAI](https://openai.com/index/eu-text-provenance/)  
-Datum der Veröffentlichung: 5. Oktober 2026
+Quelle: [OpenAI](https://openai.com/index/atlassian-partnership/)  
+Datum der Veröffentlichung: 6. Oktober 2026
 
-OpenAI kündigt an, in den kommenden Wochen unsichtbare Text-Wasserzeichen für geeignete ChatGPT- und Codex-Ausgaben in der EU einzuführen. API-Kunden können Text-Watermarking global für ausgewählte Modelle aktivieren, standardmäßig bleibt es dort deaktiviert. Für Unternehmen ist die wichtigste Botschaft nicht nur die regulatorische Compliance mit dem EU AI Act, sondern die Einschränkung der Aussagekraft: Ein Wasserzeichen belegt nicht Urheberschaft, Verantwortung, Wahrheit oder den Umfang menschlicher Bearbeitung. BRM-relevant ist daher, Provenienzsignale nicht als vollständigen Governance-Nachweis zu behandeln, sondern mit Freigabeprozessen, Dokumentation, Data Loss Prevention und Content-Risiko-Kontrollen zu kombinieren.
+OpenAI und Atlassian erweitern ihre Partnerschaft, damit GPT-6-Modelle Atlassians Plattform und Rovo-Agenten mit Teamwork-Graph-Kontext unterstützen. Für IT Business Relationship Manager ist vor allem relevant, dass KI-Agenten nicht mehr isoliert als Chat-Interface positioniert werden, sondern direkt in Jira-, Dokumentations-, Projekt- und Entwicklungsdaten eingebettet werden. Der Wert entsteht damit weniger durch das Modell allein, sondern durch berechtigungsgeprüften Organisationskontext, saubere Datenmodelle und Workflows, die von Verständnis zu Aktion führen. Für Enterprise-Roadmaps spricht das für eine stärkere Kopplung von AI Enablement, Plattformstrategie und Identity-/Permission-Governance.
 
-## Cohere's North 2 puts AI agents on a budget and gives them a memory
+## Advancing computer use with Ironclad (Computer Use mit Ironclad weiterentwickeln)
 
-Autor: Sean Michael Kerner  
-Quelle: [VentureBeat](https://venturebeat.com/orchestration/coheres-north-2-puts-ai-agents-on-a-budget-and-gives-them-a-memory)  
-Datum der Veröffentlichung: 5. Oktober 2026, 06:00 PT
+Autor: OpenAI  
+Quelle: [OpenAI](https://openai.com/index/advancing-computer-use-with-ironclad/)  
+Datum der Veröffentlichung: 6. Oktober 2026
 
-Cohere stellt North 2 als Enterprise-Agentenplattform mit Memory, wiederverwendbaren Skills, Shared Libraries, rollenbasierten Admin-Kontrollen, Token- und Budgetlimits sowie Cloud-, On-Premises- und Air-Gapped-Betrieb vor. Für BRMs ist besonders relevant, dass Cohere nicht nur Produktivität verspricht, sondern die Kosten- und Kontrollprobleme adressiert, die bei agentischen Workflows schnell eskalieren. Die Plattform zielt auf Unternehmen, die Agenten über Fachbereiche hinweg skalieren wollen, ohne sich vollständig an ein Modell, eine Cloud oder einen einzelnen Orchestrierungsanbieter zu binden.
+OpenAI arbeitet mit Ironclad daran, KI-Agenten für komplexe Vertrags- und Beschaffungsworkflows zu trainieren und zu evaluieren. Die Aufgaben umfassen unter anderem Genehmigungslogiken, wiederverwendbare Klauseln und mehrstufige Vertragsprozesse, bei denen ein Agent nicht nur Einzelschritte ausführen, sondern Geschäftsregeln durchgängig einhalten muss. OpenAI berichtet für GPT-6 Astra in einer Forschungsbewertung höhere Scores und kürzere simulierte Bearbeitungszeiten gegenüber GPT-5.6 Sol. Für Unternehmen ist die zentrale Botschaft, dass agentische Automatisierung in regulierten Fachprozessen nicht ohne domänenspezifische Tests, Bewertungsrubriken, sichere Testumgebungen und menschliche Kontrolle skalierbar ist.
 
-## Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost
+## Sharing AI progress in mathematics (OpenAI veröffentlicht KI-generierte mathematische Ergebnisse)
 
-Autor: Rebecca Bellan  
-Quelle: [TechCrunch](https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/)  
-Datum der Veröffentlichung: 5. Oktober 2026, 12:33 PDT
+Autor: OpenAI  
+Quelle: [OpenAI](https://openai.com/index/sharing-ai-progress-in-mathematics/)  
+Datum der Veröffentlichung: 6. Oktober 2026
 
-Reflection AI präsentiert Beam als textbasiertes Open-Weight-Modell mit 501 Milliarden Parametern, 23 Milliarden aktiven Parametern und einem Kontextfenster von einer Million Token. Das Unternehmen positioniert Beam als westliche Alternative zu chinesischen Open-Weight-Modellen und als Grundlage für kundenspezifische „AI Factories“ bei Unternehmen und staatlichen Akteuren. Die Leistungsversprechen sind noch nicht unabhängig bestätigt, aber strategisch ist die Richtung klar: Open-Weight-Modelle werden zunehmend Teil von Souveränitäts-, Kosten- und Lock-in-Diskussionen in Enterprise-Architekturen.
+OpenAI veröffentlicht mathematische Ergebnisse eines internen Frontier-Modells inklusive GitHub-Repository, Zitier- und Revisionsprotokollen sowie teilweise formalen Lean-Verifikationen. Für Enterprise-Kontexte ist weniger die Mathematik selbst entscheidend als das Muster: Wenn KI-Systeme zunehmend komplexe Fachresultate erzeugen, braucht es belastbare Verfahren für Nachvollziehbarkeit, Review, Versionierung und Community-Validierung. Das ist direkt übertragbar auf interne Wissensarbeit, etwa bei Engineering-Analysen, Risk Assessments oder Data-Science-Ergebnissen, die künftig von Agenten vorbereitet werden.
 
-## Agentic context layers: 64% of enterprises traced a confidently wrong AI agent answer to problems in their own company data in the past six months
+## Physical AI in manufacturing: From intelligent machines to coordinated operations (Physical AI in der Fertigung)
 
-Autor: VB Staff  
-Quelle: [VentureBeat](https://venturebeat.com/resources/agentic-context-layers-64-of-enterprises-traced-a-confidently-wrong-ai-agent-answer-to-problems-in-their-own-company-data-in-the-past-six-months)  
-Datum der Veröffentlichung: 5. Oktober 2026, 10:40 PT
+Autor: Dayan Rodriguez  
+Quelle: [Microsoft Cloud Blog](https://www.microsoft.com/en-us/microsoft-cloud/blog/manufacturing/2026/10/06/physical-ai-in-manufacturing-from-intelligent-machines-to-coordinated-operations/)  
+Datum der Veröffentlichung: 6. Oktober 2026
 
-Eine VentureBeat-Intelligence-Erhebung zeigt, dass 64 Prozent der befragten Unternehmen mindestens eine überzeugend falsche Agentenantwort auf fehlenden oder inkonsistenten Geschäftskontext zurückgeführt haben. Das verschiebt die Diskussion von „Welches Modell ist am besten?“ zu „Welche Daten, Definitionen und Verantwortlichkeiten bekommt der Agent?“. Für BRMs ist das ein starkes Argument, AI-Initiativen eng mit Daten-Governance, Semantik, Prozessverantwortung und Fachbereichsdefinitionen zu koppeln, bevor Agenten produktionsnahe Entscheidungen unterstützen.
+Microsoft beschreibt Physical AI als Übergang von vorprogrammierten Maschinen zu Systemen, die wahrnehmen, kontextbezogen entscheiden und innerhalb definierter Grenzen handeln. Beispiele wie KUKA, Krones, ARUM und ABB zeigen den Nutzen in Programmierung, Simulation, Wartung und Optimierung. Für Enterprise-Unternehmen liegt die Herausforderung in der Skalierung vom einzelnen Use Case zur wiederholbaren Betriebsfähigkeit über Werke, Linien und Flotten hinweg. Besonders relevant sind dabei OT-Security, Identitäten, Observability, Fallbacks, Freigaben und Governance über Cloud- und Edge-Umgebungen.
 
-## Physical AI moves beyond traditional robotics
+## Mistral Says Its New AI Model ‘Le Chonk’ Is the Best Open-Weight Offering Outside of China (Mistral positioniert Le Chonk als starkes Open-Weight-Modell außerhalb Chinas)
 
-Autor: Kinza Yasar  
-Quelle: [AI Business](https://aibusiness.com/latest-news)  
-Datum der Veröffentlichung: 5. Oktober 2026
+Autor: Joel Khalili  
+Quelle: [WIRED](https://www.wired.com/story/mistral-new-model-le-chonk-open-source-china-us-frontier/)  
+Datum der Veröffentlichung: 6. Oktober 2026
 
-AI Business ordnet Physical AI als Entwicklung ein, die über klassische Robotik hinausgeht und stärker in reale Unternehmensaufgaben hineinwächst. Der Bericht betont aber auch Integrations- und Skalierungsprobleme, insbesondere wenn Roboter, Sensorik, Modelle, Datenpipelines und operative Prozesse zusammengeführt werden müssen. Für Enterprise-BRMs entsteht damit ein neues Schnittstellenthema zwischen IT, OT, Einkauf, Safety, Cybersecurity und Fachbereichen wie Produktion, Logistik oder Facility Operations.
+Mistral stellt Mistral Large 4, intern „Le Chonk“ genannt, als ein frei nutzbares 1-Billion-Parameter-Modell vor, das besonders für Coding, Cyberdefense, Fertigung, Finanzwesen und technische Domänen optimiert sein soll. Der Artikel ordnet die Veröffentlichung in die Debatte um souveräne KI, Modellzugang und Abhängigkeit von US- oder chinesischen Anbietern ein. Für IT-Strategien ist das relevant, weil Open-Weight-Modelle nicht nur Kosten- und Anpassungsvorteile versprechen, sondern auch als Resilienzoption gegen regulatorische oder geopolitische Zugriffsbeschränkungen betrachtet werden.
 
-## 17 countries set out AI priorities for government science research
+## Shouldn’t customer service AI remember you? Siena to expand 'Agent of Record' combining purchase history with support and social (Siena baut Kundenservice-Agent mit Gedächtnis über Support, Kaufhistorie und Social aus)
 
-Autor: Ryan Daws  
-Quelle: [AI News](https://www.artificialintelligence-news.com/news/17-countries-ai-priorities-for-government-science-research/)  
-Datum der Veröffentlichung: 5. Oktober 2026
+Autor: Carl Franzen  
+Quelle: [VentureBeat](https://venturebeat.com/data/shouldnt-customer-service-ai-remember-you-siena-to-expand-agent-of-record-combining-purchase-history-with-support-and-social)  
+Datum der Veröffentlichung: 6. Oktober 2026
 
-Siebzehn Länder haben in Kyoto eine Agenda für KI-gestützte staatliche Wissenschaftsforschung unterstützt, mit Schwerpunkten auf wissenschaftlichen Daten, Compute-Infrastruktur, Forschungsintegrität und technischer Ausbildung. Für Unternehmen ist das mittelbar relevant, weil öffentliche Forschungsprogramme häufig Standards, Datenräume, Talentmärkte und Infrastrukturprioritäten prägen. BRMs sollten diese Entwicklung als Signal lesen, dass KI-Kompetenz, verlässliche Forschungsdaten und Compute-Zugang zunehmend als strategische Standort- und Innovationsfaktoren behandelt werden.
+Siena erweitert seinen Ansatz eines „Agent of Record“, der Kundenservice, Kaufhistorie, Social-Interaktionen und Präferenzen zu einem persistenten Kundenkontext verbinden soll. Das Startup meldet eine Series-A-Finanzierung von 17 Millionen US-Dollar und adressiert vor allem mittelgroße bis große Consumer Brands. Für BRMs ist die Architekturfrage zentral: Ein solcher Agent ersetzt nicht ERP-, Order-Management- oder CRM-Systeme, sondern aggregiert Kontext aus ihnen. Erfolgreiche Einführung hängt daher von Integrationen, Datenqualität, Zugriffskontrollen und klaren Verantwortlichkeiten zwischen AI-Agent, Mitarbeitenden und führenden Systemen ab.
 
-## Ergebnis der Quellen- und Dublettenprüfung
+## Vinod Khosla believes ex-DeepMind engineer’s Wajo will win agent market on trust (Wajo setzt bei persönlichen KI-Agenten auf Trust)
 
-Vor der Auswahl wurden vorhandene Markdown-Updates im Repository, insbesondere `ai-update-2026-10-05.md` und frühere `ai-update-*.md`, gegen die gefundenen URLs und Themen geprüft. Bereits behandelte Meldungen, ältere Artikel sowie Artikel ohne belastbares Veröffentlichungsdatum im relevanten Zeitfenster wurden nicht aufgenommen.
+Autor: Ivan Mehta  
+Quelle: [TechCrunch](https://techcrunch.com/2026/10/06/vinod-khosla-believes-ex-deepmind-engineers-wajo-will-win-agent-market-on-trust/)  
+Datum der Veröffentlichung: 6. Oktober 2026
+
+TechCrunch porträtiert Wajo, einen persönlichen KI-Agenten der früheren Google- und DeepMind-Ingenieurin Shivani Poddar. Der Agent kann über Messaging-Kanäle und Web-Oberflächen Aufgaben übernehmen, Unternehmen anrufen, virtuelle Karten nutzen und bei Bedarf Menschen zur Aufgabenerledigung einbeziehen. Für Enterprise-IT ist der Artikel ein Frühindikator: Die Funktionen, die im Consumer-Markt entstehen, werden Erwartungen an Unternehmensagenten prägen. Gleichzeitig zeigen Zahlungsfähigkeit, Anruffunktionen, persönliche Daten und Delegation an Dritte, dass Trust-by-Design, Disclosure, Auditierbarkeit und Grenzen für agentisches Handeln geschäftskritisch werden.
+
+## Supercomputing researchers document evolution of AI hardware (MIT dokumentiert Entwicklung von KI-Hardware)
+
+Autor: Haley Wahl  
+Quelle: [MIT News](https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006)  
+Datum der Veröffentlichung: 6. Oktober 2026
+
+MIT Lincoln Laboratory beschreibt die fortlaufende Lincoln AI Computing Survey, die kommerzielle KI-Beschleuniger nach Leistung, Strombedarf und Architekturmerkmalen vergleicht. Die aktuelle Erhebung umfasst mehr als 120 Beschleuniger und adressiert GPUs, CPUs, ASICs, FPGAs und Dataflow-Architekturen. Für Unternehmen mit wachsendem AI-Workload ist der Beitrag relevant, weil Hardwareauswahl zunehmend Workload-spezifisch wird: Inferenz, Simulation, Training, Energieeffizienz und Beschaffungsrisiken müssen gemeinsam bewertet werden. Die Studie stützt damit eine nüchterne Make-or-Buy- und Cloud-vs.-On-Prem-Diskussion für KI-Infrastruktur.
